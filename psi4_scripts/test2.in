@@ -1,0 +1,11 @@
+memory 2 gb
+
+molecule h20 {
+O
+H 1 0.96
+H 1 0.96 2 104.5
+}
+
+set basis cc-pVDZ
+e, wfn = energy('ccsd', return_wfn=True)
+
