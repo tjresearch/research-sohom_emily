@@ -1,7 +1,7 @@
 # Multitask Graph Convolutional Networks for Molecular Property Prediction
 
 **Overview**
-Our project seeks to combine multitask learning with graph convolutional networks to try to build a network capable of predicting molecular properties with high speed and acccuracy. Our project builds upon the Spektral library and uses Psi4 for as a baseline for speed comparisons.
+Our project seeks to combine multitask learning with graph convolutional networks to build a network capable of predicting molecular properties with high speed and accuracy. It builds upon the Spektral library and uses Psi4 for as a baseline for speed comparisons.
 
 **Required Packages and Installation Instructions**
 1. Spektral - Spektral is a library, built on top of Keras with a Tensorflow backend, including packages for graph learning and molecular datasets. The documetation is found at [https://danielegrattarola.github.io/spektral/] and it may be installed by running `pip install spektral`. The complete installation instructions are found at [https://pypi.org/project/spektral/]
