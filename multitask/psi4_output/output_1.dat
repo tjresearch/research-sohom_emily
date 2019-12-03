@@ -3,7 +3,7 @@
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:37:39 2019
+*** at Tue Dec  3 09:01:51 2019
 
    => Loading Basis Set <=
 
@@ -287,18 +287,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0000      Z:    -0.0000     Total:     0.0000
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:37:48 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:02:33 2019
 Module time:
-	user time   =       8.14 seconds =       0.14 minutes
-	system time =       0.35 seconds =       0.01 minutes
-	total time  =          9 seconds =       0.15 minutes
+	user time   =      12.45 seconds =       0.21 minutes
+	system time =       0.47 seconds =       0.01 minutes
+	total time  =         42 seconds =       0.70 minutes
 Total time:
-	user time   =      21.55 seconds =       0.36 minutes
-	system time =       0.92 seconds =       0.02 minutes
-	total time  =       1049 seconds =      17.48 minutes
+	user time   =      12.45 seconds =       0.21 minutes
+	system time =       0.47 seconds =       0.01 minutes
+	total time  =         42 seconds =       0.70 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:37:48 2019
+*** at Tue Dec  3 09:02:33 2019
 
 
          ------------------------------------------------------------
@@ -411,15 +411,15 @@ Total time:
        5       -0.001327624464     0.000915637114     0.002334390001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:37:52 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:02:50 2019
 Module time:
-	user time   =       3.41 seconds =       0.06 minutes
-	system time =       0.26 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.33 seconds =       0.09 minutes
+	system time =       0.44 seconds =       0.01 minutes
+	total time  =         17 seconds =       0.28 minutes
 Total time:
-	user time   =      24.96 seconds =       0.42 minutes
-	system time =       1.18 seconds =       0.02 minutes
-	total time  =       1053 seconds =      17.55 minutes
+	user time   =      17.78 seconds =       0.30 minutes
+	system time =       0.91 seconds =       0.02 minutes
+	total time  =         59 seconds =       0.98 minutes
 
   Based on options and gradient (rms=1.47E-03), recommend projecting translations and projecting rotations.
 hessian() will perform frequency computation by finite difference of analytic gradients.
@@ -448,7 +448,7 @@ hessian() will perform frequency computation by finite difference of analytic gr
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:37:52 2019
+*** at Tue Dec  3 09:02:50 2019
 
    => Loading Basis Set <=
 
@@ -613,14 +613,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45030558716200   -4.04503e+01   9.93925e-03 
-   @DF-RKS iter   1:   -40.47388653573007   -2.35809e-02   2.07663e-03 
-   @DF-RKS iter   2:   -40.45043195300804    2.34546e-02   2.36302e-03 DIIS
-   @DF-RKS iter   3:   -40.54136723493875   -9.09353e-02   7.00310e-05 DIIS
-   @DF-RKS iter   4:   -40.54145311742881   -8.58825e-05   1.62960e-05 DIIS
-   @DF-RKS iter   5:   -40.54145818625510   -5.06883e-06   2.50310e-06 DIIS
-   @DF-RKS iter   6:   -40.54145827772368   -9.14686e-08   1.58804e-07 DIIS
-   @DF-RKS iter   7:   -40.54145827823115   -5.07477e-10   1.03473e-08 DIIS
-   @DF-RKS iter   8:   -40.54145827823321   -2.05347e-12   1.33440e-09 DIIS
+   @DF-RKS iter   1:   -40.47388653573010   -2.35809e-02   2.07663e-03 
+   @DF-RKS iter   2:   -40.45043195300812    2.34546e-02   2.36302e-03 DIIS
+   @DF-RKS iter   3:   -40.54136723493867   -9.09353e-02   7.00310e-05 DIIS
+   @DF-RKS iter   4:   -40.54145311742884   -8.58825e-05   1.62960e-05 DIIS
+   @DF-RKS iter   5:   -40.54145818625506   -5.06883e-06   2.50310e-06 DIIS
+   @DF-RKS iter   6:   -40.54145827772376   -9.14687e-08   1.58804e-07 DIIS
+   @DF-RKS iter   7:   -40.54145827823127   -5.07512e-10   1.03473e-08 DIIS
+   @DF-RKS iter   8:   -40.54145827823309   -1.82609e-12   1.33440e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -698,17 +698,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54145827823321
+  @DF-RKS Final Energy:   -40.54145827823309
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114005038224775
-    One-Electron Energy =                 -79.8094692634691967
-    Two-Electron Energy =                  31.4502948366681601
-    DFT Exchange-Correlation Energy =      -5.5936843552546502
+    One-Electron Energy =                 -79.8094692634688698
+    Two-Electron Energy =                  31.4502948366679469
+    DFT Exchange-Correlation Energy =      -5.5936843552546485
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414582782332076
+    Total Energy =                        -40.5414582782330939
 
 
 
@@ -729,18 +729,18 @@ Properties computed using the SCF density matrix
      X:    -0.0001      Y:    -0.0000      Z:    -0.0000     Total:     0.0001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:00 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:03:26 2019
 Module time:
-	user time   =       7.95 seconds =       0.13 minutes
-	system time =       0.47 seconds =       0.01 minutes
-	total time  =          8 seconds =       0.13 minutes
+	user time   =      12.83 seconds =       0.21 minutes
+	system time =       0.31 seconds =       0.01 minutes
+	total time  =         36 seconds =       0.60 minutes
 Total time:
-	user time   =      32.91 seconds =       0.55 minutes
-	system time =       1.65 seconds =       0.03 minutes
-	total time  =       1061 seconds =      17.68 minutes
+	user time   =      30.61 seconds =       0.51 minutes
+	system time =       1.22 seconds =       0.02 minutes
+	total time  =         95 seconds =       1.58 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:00 2019
+*** at Tue Dec  3 09:03:26 2019
 
 
          ------------------------------------------------------------
@@ -846,22 +846,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.001530814296     0.000008653663    -0.000001828592
-       2        0.000174309301    -0.002850057746    -0.000016501566
-       3        0.003454299682     0.001221224746    -0.000024284599
-       4       -0.001064459715     0.000818666918    -0.002003332743
-       5       -0.001030673660     0.000802080158     0.002044790103
+       1       -0.001530814271     0.000008653662    -0.000001828623
+       2        0.000174309297    -0.002850057615    -0.000016501564
+       3        0.003454299545     0.001221224697    -0.000024284597
+       4       -0.001064459648     0.000818666871    -0.002003332622
+       5       -0.001030673611     0.000802080124     0.002044790010
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:04 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:03:41 2019
 Module time:
-	user time   =       3.30 seconds =       0.06 minutes
-	system time =       0.17 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.62 seconds =       0.09 minutes
+	system time =       0.30 seconds =       0.01 minutes
+	total time  =         15 seconds =       0.25 minutes
 Total time:
-	user time   =      36.21 seconds =       0.60 minutes
-	system time =       1.82 seconds =       0.03 minutes
-	total time  =       1065 seconds =      17.75 minutes
+	user time   =      36.23 seconds =       0.60 minutes
+	system time =       1.52 seconds =       0.03 minutes
+	total time  =        110 seconds =       1.83 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 2 of 19   //
@@ -869,7 +869,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:04 2019
+*** at Tue Dec  3 09:03:42 2019
 
    => Loading Basis Set <=
 
@@ -1150,18 +1150,18 @@ Properties computed using the SCF density matrix
      X:     0.0001      Y:    -0.0000      Z:    -0.0000     Total:     0.0001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:12 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:04:15 2019
 Module time:
-	user time   =       8.05 seconds =       0.13 minutes
-	system time =       0.40 seconds =       0.01 minutes
-	total time  =          8 seconds =       0.13 minutes
+	user time   =      12.73 seconds =       0.21 minutes
+	system time =       0.36 seconds =       0.01 minutes
+	total time  =         33 seconds =       0.55 minutes
 Total time:
-	user time   =      44.27 seconds =       0.74 minutes
-	system time =       2.22 seconds =       0.04 minutes
-	total time  =       1073 seconds =      17.88 minutes
+	user time   =      48.98 seconds =       0.82 minutes
+	system time =       1.88 seconds =       0.03 minutes
+	total time  =        144 seconds =       2.40 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:12 2019
+*** at Tue Dec  3 09:04:15 2019
 
 
          ------------------------------------------------------------
@@ -1274,15 +1274,15 @@ Total time:
        5       -0.001624693508     0.001028616473     0.002622776956
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:16 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:04:30 2019
 Module time:
-	user time   =       3.19 seconds =       0.05 minutes
-	system time =       0.23 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.35 seconds =       0.09 minutes
+	system time =       0.26 seconds =       0.00 minutes
+	total time  =         15 seconds =       0.25 minutes
 Total time:
-	user time   =      47.46 seconds =       0.79 minutes
-	system time =       2.45 seconds =       0.04 minutes
-	total time  =       1077 seconds =      17.95 minutes
+	user time   =      54.33 seconds =       0.91 minutes
+	system time =       2.14 seconds =       0.04 minutes
+	total time  =        159 seconds =       2.65 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 3 of 19   //
@@ -1290,7 +1290,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:16 2019
+*** at Tue Dec  3 09:04:30 2019
 
    => Loading Basis Set <=
 
@@ -1455,14 +1455,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45037375325354   -4.04504e+01   9.94096e-03 
-   @DF-RKS iter   1:   -40.47457326403744   -2.41995e-02   2.06915e-03 
-   @DF-RKS iter   2:   -40.45057306141936    2.40002e-02   2.36167e-03 DIIS
-   @DF-RKS iter   3:   -40.54138332075408   -9.08103e-02   6.34319e-05 DIIS
-   @DF-RKS iter   4:   -40.54145386951706   -7.05488e-05   1.45558e-05 DIIS
-   @DF-RKS iter   5:   -40.54145791864315   -4.04913e-06   2.37251e-06 DIIS
-   @DF-RKS iter   6:   -40.54145800424488   -8.56017e-08   1.54135e-07 DIIS
-   @DF-RKS iter   7:   -40.54145800469444   -4.49560e-10   1.04939e-08 DIIS
-   @DF-RKS iter   8:   -40.54145800469632   -1.87583e-12   1.27383e-09 DIIS
+   @DF-RKS iter   1:   -40.47457326403743   -2.41995e-02   2.06915e-03 
+   @DF-RKS iter   2:   -40.45057306141952    2.40002e-02   2.36167e-03 DIIS
+   @DF-RKS iter   3:   -40.54138332075409   -9.08103e-02   6.34319e-05 DIIS
+   @DF-RKS iter   4:   -40.54145386951704   -7.05488e-05   1.45558e-05 DIIS
+   @DF-RKS iter   5:   -40.54145791864325   -4.04913e-06   2.37251e-06 DIIS
+   @DF-RKS iter   6:   -40.54145800424489   -8.56016e-08   1.54135e-07 DIIS
+   @DF-RKS iter   7:   -40.54145800469450   -4.49610e-10   1.04939e-08 DIIS
+   @DF-RKS iter   8:   -40.54145800469635   -1.84741e-12   1.27383e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -1540,17 +1540,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54145800469632
+  @DF-RKS Final Energy:   -40.54145800469635
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114007401807545
-    One-Electron Energy =                 -79.8094696757115685
-    Two-Electron Energy =                  31.4502951603334573
-    DFT Exchange-Correlation Energy =      -5.5936842294989653
+    One-Electron Energy =                 -79.8094696757119948
+    Two-Electron Energy =                  31.4502951603338730
+    DFT Exchange-Correlation Energy =      -5.5936842294989804
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414580046963238
+    Total Energy =                        -40.5414580046963522
 
 
 
@@ -1571,18 +1571,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0001      Z:     0.0000     Total:     0.0001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:25 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:05:05 2019
 Module time:
-	user time   =       8.28 seconds =       0.14 minutes
-	system time =       0.33 seconds =       0.01 minutes
-	total time  =          9 seconds =       0.15 minutes
+	user time   =      12.73 seconds =       0.21 minutes
+	system time =       0.36 seconds =       0.01 minutes
+	total time  =         35 seconds =       0.58 minutes
 Total time:
-	user time   =      55.75 seconds =       0.93 minutes
-	system time =       2.78 seconds =       0.05 minutes
-	total time  =       1086 seconds =      18.10 minutes
+	user time   =      67.09 seconds =       1.12 minutes
+	system time =       2.50 seconds =       0.04 minutes
+	total time  =        194 seconds =       3.23 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:25 2019
+*** at Tue Dec  3 09:05:05 2019
 
 
          ------------------------------------------------------------
@@ -1688,22 +1688,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000006309501    -0.001532203948    -0.000000526283
-       2        0.000031652911    -0.001952102489    -0.000012406317
-       3        0.002907984107     0.001202332540    -0.000020960348
-       4       -0.001492672275     0.001154296550    -0.002499333655
-       5       -0.001441155903     0.001126367434     0.002533374827
+       1       -0.000006309524    -0.001532203931    -0.000000526278
+       2        0.000031652910    -0.001952102399    -0.000012406316
+       3        0.002907984015     0.001202332508    -0.000020960348
+       4       -0.001492672217     0.001154296513    -0.002499333563
+       5       -0.001441155845     0.001126367397     0.002533374730
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:28 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:05:21 2019
 Module time:
-	user time   =       3.39 seconds =       0.06 minutes
-	system time =       0.20 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       5.41 seconds =       0.09 minutes
+	system time =       0.17 seconds =       0.00 minutes
+	total time  =         16 seconds =       0.27 minutes
 Total time:
-	user time   =      59.14 seconds =       0.99 minutes
-	system time =       2.98 seconds =       0.05 minutes
-	total time  =       1089 seconds =      18.15 minutes
+	user time   =      72.50 seconds =       1.21 minutes
+	system time =       2.67 seconds =       0.04 minutes
+	total time  =        210 seconds =       3.50 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 4 of 19   //
@@ -1711,7 +1711,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:28 2019
+*** at Tue Dec  3 09:05:21 2019
 
    => Loading Basis Set <=
 
@@ -1876,14 +1876,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45076671061245   -4.04508e+01   9.93959e-03 
-   @DF-RKS iter   1:   -40.47401861097980   -2.32519e-02   2.07517e-03 
-   @DF-RKS iter   2:   -40.45052646812967    2.34921e-02   2.36198e-03 DIIS
-   @DF-RKS iter   3:   -40.54136847840508   -9.08420e-02   6.93995e-05 DIIS
-   @DF-RKS iter   4:   -40.54145291505335   -8.44366e-05   1.61705e-05 DIIS
-   @DF-RKS iter   5:   -40.54145791165606   -4.99660e-06   2.48668e-06 DIIS
-   @DF-RKS iter   6:   -40.54145800213013   -9.04741e-08   1.58237e-07 DIIS
-   @DF-RKS iter   7:   -40.54145800263167   -5.01544e-10   1.03498e-08 DIIS
-   @DF-RKS iter   8:   -40.54145800263363   -1.95399e-12   1.31628e-09 DIIS
+   @DF-RKS iter   1:   -40.47401861097977   -2.32519e-02   2.07517e-03 
+   @DF-RKS iter   2:   -40.45052646812963    2.34921e-02   2.36198e-03 DIIS
+   @DF-RKS iter   3:   -40.54136847840511   -9.08420e-02   6.93995e-05 DIIS
+   @DF-RKS iter   4:   -40.54145291505336   -8.44366e-05   1.61705e-05 DIIS
+   @DF-RKS iter   5:   -40.54145791165609   -4.99660e-06   2.48668e-06 DIIS
+   @DF-RKS iter   6:   -40.54145800213011   -9.04740e-08   1.58237e-07 DIIS
+   @DF-RKS iter   7:   -40.54145800263179   -5.01679e-10   1.03498e-08 DIIS
+   @DF-RKS iter   8:   -40.54145800263364   -1.84741e-12   1.31628e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -1961,17 +1961,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54145800263363
+  @DF-RKS Final Energy:   -40.54145800263364
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114005264265295
-    One-Electron Energy =                 -79.8094691657589124
-    Two-Electron Energy =                  31.4502948433817835
-    DFT Exchange-Correlation Energy =      -5.5936842066830303
+    One-Electron Energy =                 -79.8094691657584434
+    Two-Electron Energy =                  31.4502948433812648
+    DFT Exchange-Correlation Energy =      -5.5936842066829913
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414580026336253
+    Total Energy =                        -40.5414580026336395
 
 
 
@@ -1992,18 +1992,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0001      Z:     0.0000     Total:     0.0001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:37 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:05:58 2019
 Module time:
-	user time   =       8.46 seconds =       0.14 minutes
-	system time =       0.25 seconds =       0.00 minutes
-	total time  =          9 seconds =       0.15 minutes
+	user time   =      12.45 seconds =       0.21 minutes
+	system time =       0.44 seconds =       0.01 minutes
+	total time  =         37 seconds =       0.62 minutes
 Total time:
-	user time   =      67.60 seconds =       1.13 minutes
-	system time =       3.23 seconds =       0.05 minutes
-	total time  =       1098 seconds =      18.30 minutes
+	user time   =      84.95 seconds =       1.42 minutes
+	system time =       3.11 seconds =       0.05 minutes
+	total time  =        247 seconds =       4.12 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:37 2019
+*** at Tue Dec  3 09:05:58 2019
 
 
          ------------------------------------------------------------
@@ -2109,22 +2109,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000006275640     0.001529858643    -0.000000503859
-       2        0.000052074712    -0.003717774500    -0.000020695300
-       3        0.002420650447     0.000757364173    -0.000017274543
-       4       -0.001252216973     0.000724395210    -0.002096546201
-       5       -0.001214613118     0.000705098556     0.002135171398
+       1       -0.000006275635     0.001529858663    -0.000000503877
+       2        0.000052074711    -0.003717774462    -0.000020695300
+       3        0.002420650393     0.000757364152    -0.000017274542
+       4       -0.001252216942     0.000724395187    -0.002096546147
+       5       -0.001214613098     0.000705098542     0.002135171361
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:41 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:06:11 2019
 Module time:
-	user time   =       3.39 seconds =       0.06 minutes
-	system time =       0.16 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.23 seconds =       0.09 minutes
+	system time =       0.30 seconds =       0.00 minutes
+	total time  =         13 seconds =       0.22 minutes
 Total time:
-	user time   =      70.99 seconds =       1.18 minutes
-	system time =       3.39 seconds =       0.06 minutes
-	total time  =       1102 seconds =      18.37 minutes
+	user time   =      90.20 seconds =       1.50 minutes
+	system time =       3.41 seconds =       0.06 minutes
+	total time  =        260 seconds =       4.33 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 5 of 19   //
@@ -2132,7 +2132,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:41 2019
+*** at Tue Dec  3 09:06:12 2019
 
    => Loading Basis Set <=
 
@@ -2297,14 +2297,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45014142851164   -4.04501e+01   9.94089e-03 
-   @DF-RKS iter   1:   -40.47454282456289   -2.44014e-02   2.06948e-03 
-   @DF-RKS iter   2:   -40.45053300705550    2.40098e-02   2.36212e-03 DIIS
+   @DF-RKS iter   1:   -40.47454282456292   -2.44014e-02   2.06948e-03 
+   @DF-RKS iter   2:   -40.45053300705549    2.40098e-02   2.36212e-03 DIIS
    @DF-RKS iter   3:   -40.54138367712473   -9.08507e-02   6.34097e-05 DIIS
-   @DF-RKS iter   4:   -40.54145415565773   -7.04785e-05   1.45413e-05 DIIS
-   @DF-RKS iter   5:   -40.54145819665063   -4.04099e-06   2.37590e-06 DIIS
-   @DF-RKS iter   6:   -40.54145828254687   -8.58962e-08   1.54399e-07 DIIS
-   @DF-RKS iter   7:   -40.54145828299716   -4.50292e-10   1.05066e-08 DIIS
-   @DF-RKS iter   8:   -40.54145828299923   -2.06768e-12   1.28724e-09 DIIS
+   @DF-RKS iter   4:   -40.54145415565771   -7.04785e-05   1.45413e-05 DIIS
+   @DF-RKS iter   5:   -40.54145819665062   -4.04099e-06   2.37590e-06 DIIS
+   @DF-RKS iter   6:   -40.54145828254692   -8.58963e-08   1.54399e-07 DIIS
+   @DF-RKS iter   7:   -40.54145828299719   -4.50271e-10   1.05066e-08 DIIS
+   @DF-RKS iter   8:   -40.54145828299948   -2.28795e-12   1.28724e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -2382,17 +2382,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54145828299923
+  @DF-RKS Final Energy:   -40.54145828299948
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114006345346350
-    One-Electron Energy =                 -79.8094698907315205
-    Two-Electron Energy =                  31.4502953970583619
-    DFT Exchange-Correlation Energy =      -5.5936844238607017
+    One-Electron Energy =                 -79.8094698907323448
+    Two-Electron Energy =                  31.4502953970590120
+    DFT Exchange-Correlation Energy =      -5.5936844238607710
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414582829992298
+    Total Energy =                        -40.5414582829994785
 
 
 
@@ -2413,18 +2413,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0000      Z:    -0.0001     Total:     0.0001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:49 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:06:52 2019
 Module time:
-	user time   =       8.57 seconds =       0.14 minutes
-	system time =       0.23 seconds =       0.00 minutes
-	total time  =          8 seconds =       0.13 minutes
+	user time   =      13.25 seconds =       0.22 minutes
+	system time =       0.41 seconds =       0.01 minutes
+	total time  =         40 seconds =       0.67 minutes
 Total time:
-	user time   =      79.57 seconds =       1.33 minutes
-	system time =       3.62 seconds =       0.06 minutes
-	total time  =       1110 seconds =      18.50 minutes
+	user time   =     103.47 seconds =       1.72 minutes
+	system time =       3.83 seconds =       0.06 minutes
+	total time  =        301 seconds =       5.02 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:49 2019
+*** at Tue Dec  3 09:06:52 2019
 
 
          ------------------------------------------------------------
@@ -2530,22 +2530,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000009819140     0.000008430230    -0.001532157322
-       2        0.000041849575    -0.002835815295     0.000116404855
-       3        0.002660264525     0.000977505714     0.000113022189
-       4       -0.001077044681     0.000736280427    -0.001671016571
-       5       -0.001614904927     0.001113763602     0.002972937985
+       1       -0.000009819159     0.000008430224    -0.001532157315
+       2        0.000041849575    -0.002835815292     0.000116404855
+       3        0.002660264540     0.000977505721     0.000113022189
+       4       -0.001077044680     0.000736280426    -0.001671016571
+       5       -0.001614904923     0.001113763599     0.002972937978
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:38:53 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:07:08 2019
 Module time:
-	user time   =       3.18 seconds =       0.05 minutes
-	system time =       0.19 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.56 seconds =       0.09 minutes
+	system time =       0.26 seconds =       0.00 minutes
+	total time  =         16 seconds =       0.27 minutes
 Total time:
-	user time   =      82.75 seconds =       1.38 minutes
-	system time =       3.81 seconds =       0.06 minutes
-	total time  =       1114 seconds =      18.57 minutes
+	user time   =     109.03 seconds =       1.82 minutes
+	system time =       4.09 seconds =       0.07 minutes
+	total time  =        317 seconds =       5.28 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 6 of 19   //
@@ -2553,7 +2553,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:38:53 2019
+*** at Tue Dec  3 09:07:09 2019
 
    => Loading Basis Set <=
 
@@ -2718,14 +2718,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45021716301274   -4.04502e+01   9.94005e-03 
-   @DF-RKS iter   1:   -40.47420177935255   -2.39846e-02   2.07321e-03 
-   @DF-RKS iter   2:   -40.45047789379021    2.37239e-02   2.36262e-03 DIIS
-   @DF-RKS iter   3:   -40.54137518415612   -9.08973e-02   6.69017e-05 DIIS
-   @DF-RKS iter   4:   -40.54145359369184   -7.84095e-05   1.55113e-05 DIIS
+   @DF-RKS iter   1:   -40.47420177935263   -2.39846e-02   2.07321e-03 
+   @DF-RKS iter   2:   -40.45047789379016    2.37239e-02   2.36262e-03 DIIS
+   @DF-RKS iter   3:   -40.54137518415600   -9.08973e-02   6.69017e-05 DIIS
+   @DF-RKS iter   4:   -40.54145359369179   -7.84095e-05   1.55113e-05 DIIS
    @DF-RKS iter   5:   -40.54145819105194   -4.59736e-06   2.44373e-06 DIIS
    @DF-RKS iter   6:   -40.54145827981746   -8.87655e-08   1.56872e-07 DIIS
-   @DF-RKS iter   7:   -40.54145828029957   -4.82110e-10   1.04142e-08 DIIS
-   @DF-RKS iter   8:   -40.54145828030147   -1.89715e-12   1.31385e-09 DIIS
+   @DF-RKS iter   7:   -40.54145828029964   -4.82181e-10   1.04142e-08 DIIS
+   @DF-RKS iter   8:   -40.54145828030153   -1.89004e-12   1.31385e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -2803,17 +2803,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54145828030147
+  @DF-RKS Final Energy:   -40.54145828030153
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114006328860782
-    One-Electron Energy =                 -79.8094698692751479
-    Two-Electron Energy =                  31.4502953759380830
-    DFT Exchange-Correlation Energy =      -5.5936844198504865
+    One-Electron Energy =                 -79.8094698692752900
+    Two-Electron Energy =                  31.4502953759381612
+    DFT Exchange-Correlation Energy =      -5.5936844198504909
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414582803014696
+    Total Energy =                        -40.5414582803015335
 
 
 
@@ -2834,18 +2834,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0000      Z:     0.0001     Total:     0.0001
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:02 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:07:46 2019
 Module time:
-	user time   =       8.80 seconds =       0.15 minutes
-	system time =       0.30 seconds =       0.00 minutes
-	total time  =          9 seconds =       0.15 minutes
+	user time   =      12.79 seconds =       0.21 minutes
+	system time =       0.52 seconds =       0.01 minutes
+	total time  =         37 seconds =       0.62 minutes
 Total time:
-	user time   =      91.57 seconds =       1.53 minutes
-	system time =       4.11 seconds =       0.07 minutes
-	total time  =       1123 seconds =      18.72 minutes
+	user time   =     121.84 seconds =       2.03 minutes
+	system time =       4.61 seconds =       0.08 minutes
+	total time  =        355 seconds =       5.92 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:02 2019
+*** at Tue Dec  3 09:07:46 2019
 
 
          ------------------------------------------------------------
@@ -2951,22 +2951,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000009697875     0.000008537540     0.001530236177
-       2        0.000041968273    -0.002844087255    -0.000148825233
-       3        0.002670228210     0.000981184074    -0.000152235404
-       4       -0.001665109012     0.001139081404    -0.002921313260
-       5       -0.001036917940     0.000715586628     0.001691788218
+       1       -0.000009697871     0.000008537532     0.001530236182
+       2        0.000041968271    -0.002844087278    -0.000148825234
+       3        0.002670228233     0.000981184085    -0.000152235405
+       4       -0.001665109026     0.001139081414    -0.002921313284
+       5       -0.001036917953     0.000715586637     0.001691788239
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:06 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:08:01 2019
 Module time:
-	user time   =       3.46 seconds =       0.06 minutes
-	system time =       0.17 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.47 seconds =       0.09 minutes
+	system time =       0.27 seconds =       0.00 minutes
+	total time  =         15 seconds =       0.25 minutes
 Total time:
-	user time   =      95.03 seconds =       1.58 minutes
-	system time =       4.28 seconds =       0.07 minutes
-	total time  =       1127 seconds =      18.78 minutes
+	user time   =     127.31 seconds =       2.12 minutes
+	system time =       4.88 seconds =       0.08 minutes
+	total time  =        370 seconds =       6.17 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 7 of 19   //
@@ -2974,7 +2974,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:06 2019
+*** at Tue Dec  3 09:08:01 2019
 
    => Loading Basis Set <=
 
@@ -3139,14 +3139,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45014147481537   -4.04501e+01   9.94524e-03 
-   @DF-RKS iter   1:   -40.47590936403913   -2.57679e-02   2.05574e-03 
-   @DF-RKS iter   2:   -40.45068252683225    2.52268e-02   2.36096e-03 DIIS
-   @DF-RKS iter   3:   -40.54141767736536   -9.07352e-02   4.85193e-05 DIIS
-   @DF-RKS iter   4:   -40.54146008167829   -4.24043e-05   8.33270e-06 DIIS
-   @DF-RKS iter   5:   -40.54146137289047   -1.29121e-06   2.15526e-06 DIIS
-   @DF-RKS iter   6:   -40.54146145313067   -8.02402e-08   1.30878e-07 DIIS
-   @DF-RKS iter   7:   -40.54146145338985   -2.59178e-10   1.07184e-08 DIIS
-   @DF-RKS iter   8:   -40.54146145339195   -2.09610e-12   1.05843e-09 DIIS
+   @DF-RKS iter   1:   -40.47590936403916   -2.57679e-02   2.05574e-03 
+   @DF-RKS iter   2:   -40.45068252683215    2.52268e-02   2.36096e-03 DIIS
+   @DF-RKS iter   3:   -40.54141767736554   -9.07352e-02   4.85193e-05 DIIS
+   @DF-RKS iter   4:   -40.54146008167812   -4.24043e-05   8.33270e-06 DIIS
+   @DF-RKS iter   5:   -40.54146137289048   -1.29121e-06   2.15526e-06 DIIS
+   @DF-RKS iter   6:   -40.54146145313059   -8.02401e-08   1.30878e-07 DIIS
+   @DF-RKS iter   7:   -40.54146145338986   -2.59270e-10   1.07184e-08 DIIS
+   @DF-RKS iter   8:   -40.54146145339206   -2.19558e-12   1.05843e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -3224,17 +3224,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54146145339195
+  @DF-RKS Final Energy:   -40.54146145339206
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4115773764948205
-    One-Electron Energy =                 -79.8098035113859794
-    Two-Electron Energy =                  31.4504668367238125
-    DFT Exchange-Correlation Energy =      -5.5937021552245998
+    One-Electron Energy =                 -79.8098035113863915
+    Two-Electron Energy =                  31.4504668367241429
+    DFT Exchange-Correlation Energy =      -5.5937021552246282
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414614533919462
+    Total Energy =                        -40.5414614533920528
 
 
 
@@ -3255,18 +3255,18 @@ Properties computed using the SCF density matrix
      X:    -0.0014      Y:    -0.0001      Z:    -0.0000     Total:     0.0014
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:15 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:08:38 2019
 Module time:
-	user time   =       8.72 seconds =       0.15 minutes
-	system time =       0.31 seconds =       0.01 minutes
-	total time  =          9 seconds =       0.15 minutes
+	user time   =      12.97 seconds =       0.22 minutes
+	system time =       0.44 seconds =       0.01 minutes
+	total time  =         37 seconds =       0.62 minutes
 Total time:
-	user time   =     103.77 seconds =       1.73 minutes
-	system time =       4.59 seconds =       0.08 minutes
-	total time  =       1136 seconds =      18.93 minutes
+	user time   =     140.28 seconds =       2.34 minutes
+	system time =       5.33 seconds =       0.09 minutes
+	total time  =        407 seconds =       6.78 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:15 2019
+*** at Tue Dec  3 09:08:38 2019
 
 
          ------------------------------------------------------------
@@ -3372,22 +3372,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000708253070    -0.000020118405    -0.000001585558
-       2       -0.000230359146    -0.002814976506    -0.000016348126
-       3        0.003202344627     0.001407092846    -0.000021056903
-       4       -0.001148987610     0.000722659907    -0.002103464943
-       5       -0.001111571909     0.000708196928     0.002141746105
+       1       -0.000708253073    -0.000020118393    -0.000001585550
+       2       -0.000230359147    -0.002814976504    -0.000016348127
+       3        0.003202344615     0.001407092843    -0.000021056903
+       4       -0.001148987604     0.000722659903    -0.002103464938
+       5       -0.001111571899     0.000708196922     0.002141746092
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:19 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:08:54 2019
 Module time:
-	user time   =       3.59 seconds =       0.06 minutes
-	system time =       0.17 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       5.36 seconds =       0.09 minutes
+	system time =       0.28 seconds =       0.00 minutes
+	total time  =         16 seconds =       0.27 minutes
 Total time:
-	user time   =     107.36 seconds =       1.79 minutes
-	system time =       4.76 seconds =       0.08 minutes
-	total time  =       1140 seconds =      19.00 minutes
+	user time   =     145.64 seconds =       2.43 minutes
+	system time =       5.61 seconds =       0.09 minutes
+	total time  =        423 seconds =       7.05 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 8 of 19   //
@@ -3395,7 +3395,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:19 2019
+*** at Tue Dec  3 09:08:54 2019
 
    => Loading Basis Set <=
 
@@ -3676,18 +3676,18 @@ Properties computed using the SCF density matrix
      X:     0.0014      Y:     0.0001      Z:     0.0000     Total:     0.0014
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:28 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:09:33 2019
 Module time:
-	user time   =       8.67 seconds =       0.14 minutes
-	system time =       0.27 seconds =       0.00 minutes
-	total time  =          9 seconds =       0.15 minutes
+	user time   =      13.05 seconds =       0.22 minutes
+	system time =       0.45 seconds =       0.01 minutes
+	total time  =         39 seconds =       0.65 minutes
 Total time:
-	user time   =     116.05 seconds =       1.93 minutes
-	system time =       5.03 seconds =       0.08 minutes
-	total time  =       1149 seconds =      19.15 minutes
+	user time   =     158.69 seconds =       2.64 minutes
+	system time =       6.06 seconds =       0.10 minutes
+	total time  =        462 seconds =       7.70 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:28 2019
+*** at Tue Dec  3 09:09:33 2019
 
 
          ------------------------------------------------------------
@@ -3800,15 +3800,15 @@ Total time:
        5       -0.001544054461     0.001123003757     0.002526410377
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:31 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:09:48 2019
 Module time:
-	user time   =       3.28 seconds =       0.05 minutes
-	system time =       0.17 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       5.47 seconds =       0.09 minutes
+	system time =       0.21 seconds =       0.00 minutes
+	total time  =         15 seconds =       0.25 minutes
 Total time:
-	user time   =     119.33 seconds =       1.99 minutes
-	system time =       5.20 seconds =       0.09 minutes
-	total time  =       1152 seconds =      19.20 minutes
+	user time   =     164.16 seconds =       2.74 minutes
+	system time =       6.27 seconds =       0.10 minutes
+	total time  =        477 seconds =       7.95 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 9 of 19   //
@@ -3816,7 +3816,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:31 2019
+*** at Tue Dec  3 09:09:49 2019
 
    => Loading Basis Set <=
 
@@ -3981,14 +3981,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.44890322701634   -4.04489e+01   9.92435e-03 
-   @DF-RKS iter   1:   -40.47468271554283   -2.57795e-02   2.06628e-03 
-   @DF-RKS iter   2:   -40.45060614574805    2.40766e-02   2.36039e-03 DIIS
-   @DF-RKS iter   3:   -40.54136686844671   -9.07607e-02   6.34272e-05 DIIS
-   @DF-RKS iter   4:   -40.54143737559488   -7.05071e-05   1.46034e-05 DIIS
-   @DF-RKS iter   5:   -40.54144145404781   -4.07845e-06   2.37191e-06 DIIS
-   @DF-RKS iter   6:   -40.54144153966607   -8.56183e-08   1.54666e-07 DIIS
-   @DF-RKS iter   7:   -40.54144154011878   -4.52708e-10   1.05062e-08 DIIS
-   @DF-RKS iter   8:   -40.54144154012084   -2.06057e-12   1.28322e-09 DIIS
+   @DF-RKS iter   1:   -40.47468271554280   -2.57795e-02   2.06628e-03 
+   @DF-RKS iter   2:   -40.45060614574815    2.40766e-02   2.36039e-03 DIIS
+   @DF-RKS iter   3:   -40.54136686844674   -9.07607e-02   6.34272e-05 DIIS
+   @DF-RKS iter   4:   -40.54143737559484   -7.05071e-05   1.46034e-05 DIIS
+   @DF-RKS iter   5:   -40.54144145404793   -4.07845e-06   2.37191e-06 DIIS
+   @DF-RKS iter   6:   -40.54144153966600   -8.56181e-08   1.54666e-07 DIIS
+   @DF-RKS iter   7:   -40.54144154011871   -4.52708e-10   1.05062e-08 DIIS
+   @DF-RKS iter   8:   -40.54144154012088   -2.16716e-12   1.28322e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -4066,17 +4066,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54144154012084
+  @DF-RKS Final Energy:   -40.54144154012088
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4020705071935300
-    One-Electron Energy =                 -79.7919540712980790
-    Two-Electron Energy =                  31.4412450348072312
-    DFT Exchange-Correlation Energy =      -5.5928030108235198
+    One-Electron Energy =                 -79.7919540712984343
+    Two-Electron Energy =                  31.4412450348075900
+    DFT Exchange-Correlation Energy =      -5.5928030108235598
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414415401208430
+    Total Energy =                        -40.5414415401208714
 
 
 
@@ -4097,18 +4097,18 @@ Properties computed using the SCF density matrix
      X:    -0.0000      Y:     0.0020      Z:     0.0000     Total:     0.0020
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:42 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:10:19 2019
 Module time:
-	user time   =       9.26 seconds =       0.15 minutes
-	system time =       0.20 seconds =       0.00 minutes
-	total time  =         11 seconds =       0.18 minutes
+	user time   =      12.50 seconds =       0.21 minutes
+	system time =       0.42 seconds =       0.01 minutes
+	total time  =         30 seconds =       0.50 minutes
 Total time:
-	user time   =     128.61 seconds =       2.14 minutes
-	system time =       5.40 seconds =       0.09 minutes
-	total time  =       1163 seconds =      19.38 minutes
+	user time   =     176.66 seconds =       2.94 minutes
+	system time =       6.69 seconds =       0.11 minutes
+	total time  =        508 seconds =       8.47 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:42 2019
+*** at Tue Dec  3 09:10:19 2019
 
 
          ------------------------------------------------------------
@@ -4214,22 +4214,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000032794297     0.000994587464     0.000006855989
-       2        0.000056521463    -0.004306433505    -0.000023068613
-       3        0.002788370661     0.001148221446    -0.000019857541
-       4       -0.001430045582     0.001095020121    -0.002394626164
-       5       -0.001381710962     0.001068672759     0.002429962228
+       1       -0.000032794307     0.000994587479     0.000006855965
+       2        0.000056521463    -0.004306433475    -0.000023068612
+       3        0.002788370634     0.001148221433    -0.000019857540
+       4       -0.001430045556     0.001095020101    -0.002394626118
+       5       -0.001381710949     0.001068672748     0.002429962203
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:39:58 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:10:33 2019
 Module time:
-	user time   =       5.35 seconds =       0.09 minutes
-	system time =       0.28 seconds =       0.00 minutes
-	total time  =         16 seconds =       0.27 minutes
+	user time   =       5.32 seconds =       0.09 minutes
+	system time =       0.36 seconds =       0.01 minutes
+	total time  =         14 seconds =       0.23 minutes
 Total time:
-	user time   =     133.96 seconds =       2.23 minutes
-	system time =       5.68 seconds =       0.09 minutes
-	total time  =       1179 seconds =      19.65 minutes
+	user time   =     181.98 seconds =       3.03 minutes
+	system time =       7.05 seconds =       0.12 minutes
+	total time  =        522 seconds =       8.70 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 10 of 19   //
@@ -4237,7 +4237,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:39:59 2019
+*** at Tue Dec  3 09:10:34 2019
 
    => Loading Basis Set <=
 
@@ -4402,14 +4402,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45088858844602   -4.04509e+01   9.96082e-03 
-   @DF-RKS iter   1:   -40.47548725044116   -2.45987e-02   2.06184e-03 
+   @DF-RKS iter   1:   -40.47548725044117   -2.45987e-02   2.06184e-03 
    @DF-RKS iter   2:   -40.45049084020985    2.49964e-02   2.36390e-03 DIIS
-   @DF-RKS iter   3:   -40.54142563459816   -9.09348e-02   5.10864e-05 DIIS
-   @DF-RKS iter   4:   -40.54147225914323   -4.66245e-05   9.82877e-06 DIIS
-   @DF-RKS iter   5:   -40.54147407620677   -1.81706e-06   2.19019e-06 DIIS
-   @DF-RKS iter   6:   -40.54147415664187   -8.04351e-08   1.36183e-07 DIIS
-   @DF-RKS iter   7:   -40.54147415693777   -2.95906e-10   1.07398e-08 DIIS
-   @DF-RKS iter   8:   -40.54147415693989   -2.11742e-12   1.08999e-09 DIIS
+   @DF-RKS iter   3:   -40.54142563459838   -9.09348e-02   5.10864e-05 DIIS
+   @DF-RKS iter   4:   -40.54147225914331   -4.66245e-05   9.82877e-06 DIIS
+   @DF-RKS iter   5:   -40.54147407620666   -1.81706e-06   2.19019e-06 DIIS
+   @DF-RKS iter   6:   -40.54147415664190   -8.04352e-08   1.36183e-07 DIIS
+   @DF-RKS iter   7:   -40.54147415693786   -2.95955e-10   1.07398e-08 DIIS
+   @DF-RKS iter   8:   -40.54147415693981   -1.94689e-12   1.08999e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -4487,17 +4487,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54147415693989
+  @DF-RKS Final Energy:   -40.54147415693981
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4207559271876242
-    One-Electron Energy =                 -79.8270296412088669
-    Two-Electron Energy =                  31.4593685144732760
-    DFT Exchange-Correlation Energy =      -5.5945689573919255
+    One-Electron Energy =                 -79.8270296412085827
+    Two-Electron Energy =                  31.4593685144730451
+    DFT Exchange-Correlation Energy =      -5.5945689573918935
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414741569398913
+    Total Energy =                        -40.5414741569398061
 
 
 
@@ -4518,18 +4518,18 @@ Properties computed using the SCF density matrix
      X:     0.0001      Y:    -0.0020      Z:    -0.0000     Total:     0.0020
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:40:36 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:11:11 2019
 Module time:
-	user time   =      12.97 seconds =       0.22 minutes
-	system time =       0.43 seconds =       0.01 minutes
+	user time   =      13.00 seconds =       0.22 minutes
+	system time =       0.48 seconds =       0.01 minutes
 	total time  =         37 seconds =       0.62 minutes
 Total time:
-	user time   =     146.94 seconds =       2.45 minutes
-	system time =       6.11 seconds =       0.10 minutes
-	total time  =       1217 seconds =      20.28 minutes
+	user time   =     195.00 seconds =       3.25 minutes
+	system time =       7.53 seconds =       0.13 minutes
+	total time  =        560 seconds =       9.33 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:40:36 2019
+*** at Tue Dec  3 09:11:11 2019
 
 
          ------------------------------------------------------------
@@ -4635,22 +4635,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000019774930    -0.001003689559    -0.000008367116
-       2        0.000027055261    -0.001353464027    -0.000009015911
-       3        0.002540793498     0.000810696363    -0.000018545880
-       4       -0.001315179673     0.000782676987    -0.002201627246
-       5       -0.001273777287     0.000763468882     0.002238123399
+       1        0.000019774934    -0.001003689540    -0.000008367134
+       2        0.000027055260    -0.001353463991    -0.000009015911
+       3        0.002540793445     0.000810696343    -0.000018545879
+       4       -0.001315179642     0.000782676966    -0.002201627194
+       5       -0.001273777267     0.000763468868     0.002238123363
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:40:52 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:11:28 2019
 Module time:
-	user time   =       5.53 seconds =       0.09 minutes
-	system time =       0.25 seconds =       0.00 minutes
-	total time  =         16 seconds =       0.27 minutes
+	user time   =       5.70 seconds =       0.10 minutes
+	system time =       0.27 seconds =       0.00 minutes
+	total time  =         17 seconds =       0.28 minutes
 Total time:
-	user time   =     152.47 seconds =       2.54 minutes
-	system time =       6.36 seconds =       0.11 minutes
-	total time  =       1233 seconds =      20.55 minutes
+	user time   =     200.70 seconds =       3.35 minutes
+	system time =       7.80 seconds =       0.13 minutes
+	total time  =        577 seconds =       9.62 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 11 of 19   //
@@ -4658,7 +4658,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:40:52 2019
+*** at Tue Dec  3 09:11:28 2019
 
    => Loading Basis Set <=
 
@@ -4823,14 +4823,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45023964713074   -4.04502e+01   9.93953e-03 
-   @DF-RKS iter   1:   -40.47402717248298   -2.37875e-02   2.07512e-03 
-   @DF-RKS iter   2:   -40.45045231444789    2.35749e-02   2.36286e-03 DIIS
-   @DF-RKS iter   3:   -40.54137269963145   -9.09204e-02   6.86556e-05 DIIS
-   @DF-RKS iter   4:   -40.54145525513739   -8.25555e-05   1.59604e-05 DIIS
-   @DF-RKS iter   5:   -40.54146012007655   -4.86494e-06   2.47734e-06 DIIS
-   @DF-RKS iter   6:   -40.54146021035471   -9.02782e-08   1.58003e-07 DIIS
-   @DF-RKS iter   7:   -40.54146021085165   -4.96939e-10   1.03791e-08 DIIS
-   @DF-RKS iter   8:   -40.54146021085347   -1.81188e-12   1.33937e-09 DIIS
+   @DF-RKS iter   1:   -40.47402717248295   -2.37875e-02   2.07512e-03 
+   @DF-RKS iter   2:   -40.45045231444798    2.35749e-02   2.36286e-03 DIIS
+   @DF-RKS iter   3:   -40.54137269963147   -9.09204e-02   6.86556e-05 DIIS
+   @DF-RKS iter   4:   -40.54145525513750   -8.25555e-05   1.59604e-05 DIIS
+   @DF-RKS iter   5:   -40.54146012007657   -4.86494e-06   2.47734e-06 DIIS
+   @DF-RKS iter   6:   -40.54146021035499   -9.02784e-08   1.58003e-07 DIIS
+   @DF-RKS iter   7:   -40.54146021085161   -4.96620e-10   1.03791e-08 DIIS
+   @DF-RKS iter   8:   -40.54146021085362   -2.01084e-12   1.33937e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -4908,17 +4908,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54146021085347
+  @DF-RKS Final Energy:   -40.54146021085362
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4113613619292558
-    One-Electron Energy =                 -79.8093979304933043
-    Two-Electron Energy =                  31.4502577095168832
-    DFT Exchange-Correlation Energy =      -5.5936813518062980
+    One-Electron Energy =                 -79.8093979304937591
+    Two-Electron Energy =                  31.4502577095172491
+    DFT Exchange-Correlation Energy =      -5.5936813518063557
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414602108534652
+    Total Energy =                        -40.5414602108536144
 
 
 
@@ -4939,18 +4939,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:    -0.0014     Total:     0.0014
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:41:28 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:12:04 2019
 Module time:
-	user time   =      12.69 seconds =       0.21 minutes
+	user time   =      12.76 seconds =       0.21 minutes
 	system time =       0.39 seconds =       0.01 minutes
 	total time  =         36 seconds =       0.60 minutes
 Total time:
-	user time   =     165.18 seconds =       2.75 minutes
-	system time =       6.75 seconds =       0.11 minutes
-	total time  =       1269 seconds =      21.15 minutes
+	user time   =     213.48 seconds =       3.56 minutes
+	system time =       8.20 seconds =       0.14 minutes
+	total time  =        613 seconds =      10.22 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:41:28 2019
+*** at Tue Dec  3 09:12:04 2019
 
 
          ------------------------------------------------------------
@@ -5056,22 +5056,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000008565340     0.000011926537    -0.000705996105
-       2        0.000042233264    -0.002844016193    -0.000289094965
-       3        0.002661169669     0.000975449623     0.000086255651
-       4       -0.001173505446     0.000574513400    -0.001866242416
-       5       -0.001521711968     0.001279779758     0.002776186354
+       1       -0.000008565352     0.000011926515    -0.000705996089
+       2        0.000042233265    -0.002844016176    -0.000289094964
+       3        0.002661169681     0.000975449628     0.000086255648
+       4       -0.001173505448     0.000574513405    -0.001866242423
+       5       -0.001521711966     0.001279779754     0.002776186347
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:41:44 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:12:19 2019
 Module time:
-	user time   =       5.42 seconds =       0.09 minutes
-	system time =       0.26 seconds =       0.00 minutes
-	total time  =         16 seconds =       0.27 minutes
+	user time   =       5.44 seconds =       0.09 minutes
+	system time =       0.32 seconds =       0.01 minutes
+	total time  =         15 seconds =       0.25 minutes
 Total time:
-	user time   =     170.60 seconds =       2.84 minutes
-	system time =       7.01 seconds =       0.12 minutes
-	total time  =       1285 seconds =      21.42 minutes
+	user time   =     218.92 seconds =       3.65 minutes
+	system time =       8.52 seconds =       0.14 minutes
+	total time  =        628 seconds =      10.47 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 12 of 19   //
@@ -5079,7 +5079,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:41:44 2019
+*** at Tue Dec  3 09:12:19 2019
 
    => Loading Basis Set <=
 
@@ -5244,14 +5244,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45034151838823   -4.04503e+01   9.93939e-03 
-   @DF-RKS iter   1:   -40.47391872999749   -2.35772e-02   2.07633e-03 
-   @DF-RKS iter   2:   -40.45043766670305    2.34811e-02   2.36300e-03 DIIS
-   @DF-RKS iter   3:   -40.54137011852240   -9.09325e-02   6.97362e-05 DIIS
-   @DF-RKS iter   4:   -40.54145528366060   -8.51651e-05   1.62249e-05 DIIS
-   @DF-RKS iter   5:   -40.54146030911495   -5.02545e-06   2.49785e-06 DIIS
-   @DF-RKS iter   6:   -40.54146040033748   -9.12225e-08   1.58553e-07 DIIS
-   @DF-RKS iter   7:   -40.54146040084245   -5.04961e-10   1.03672e-08 DIIS
-   @DF-RKS iter   8:   -40.54146040084448   -2.03215e-12   1.36500e-09 DIIS
+   @DF-RKS iter   1:   -40.47391872999754   -2.35772e-02   2.07633e-03 
+   @DF-RKS iter   2:   -40.45043766670295    2.34811e-02   2.36300e-03 DIIS
+   @DF-RKS iter   3:   -40.54137011852249   -9.09325e-02   6.97362e-05 DIIS
+   @DF-RKS iter   4:   -40.54145528366077   -8.51651e-05   1.62249e-05 DIIS
+   @DF-RKS iter   5:   -40.54146030911502   -5.02545e-06   2.49785e-06 DIIS
+   @DF-RKS iter   6:   -40.54146040033739   -9.12224e-08   1.58553e-07 DIIS
+   @DF-RKS iter   7:   -40.54146040084228   -5.04890e-10   1.03672e-08 DIIS
+   @DF-RKS iter   8:   -40.54146040084447   -2.19558e-12   1.36500e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -5329,17 +5329,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54146040084448
+  @DF-RKS Final Energy:   -40.54146040084447
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114342588415774
-    One-Electron Energy =                 -79.8095347780582074
-    Two-Electron Energy =                  31.4503283854451503
-    DFT Exchange-Correlation Energy =      -5.5936882670729986
+    One-Electron Energy =                 -79.8095347780578521
+    Two-Electron Energy =                  31.4503283854447702
+    DFT Exchange-Correlation Energy =      -5.5936882670729702
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414604008444783
+    Total Energy =                        -40.5414604008444712
 
 
 
@@ -5360,18 +5360,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0000      Z:     0.0014     Total:     0.0014
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:42:23 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:12:57 2019
 Module time:
-	user time   =      13.17 seconds =       0.22 minutes
-	system time =       0.37 seconds =       0.01 minutes
-	total time  =         39 seconds =       0.65 minutes
+	user time   =      12.98 seconds =       0.22 minutes
+	system time =       0.45 seconds =       0.01 minutes
+	total time  =         38 seconds =       0.63 minutes
 Total time:
-	user time   =     183.80 seconds =       3.06 minutes
-	system time =       7.40 seconds =       0.12 minutes
-	total time  =       1324 seconds =      22.07 minutes
+	user time   =     231.92 seconds =       3.87 minutes
+	system time =       8.97 seconds =       0.15 minutes
+	total time  =        666 seconds =      11.10 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:42:23 2019
+*** at Tue Dec  3 09:12:57 2019
 
 
          ------------------------------------------------------------
@@ -5477,22 +5477,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000008877922    -0.000003734644     0.000706338332
-       2        0.000042053297    -0.002835518823     0.000256286738
-       3        0.002668545891     0.000983437469    -0.000124707523
-       4       -0.001570076049     0.001302606443    -0.002728070637
-       5       -0.001132556556     0.000550739947     0.001890250973
+       1       -0.000008877893    -0.000003734613     0.000706338334
+       2        0.000042053297    -0.002835518820     0.000256286740
+       3        0.002668545842     0.000983437451    -0.000124707525
+       4       -0.001570076038     0.001302606438    -0.002728070618
+       5       -0.001132556548     0.000550739938     0.001890250952
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:42:37 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:13:13 2019
 Module time:
-	user time   =       5.34 seconds =       0.09 minutes
-	system time =       0.22 seconds =       0.00 minutes
-	total time  =         14 seconds =       0.23 minutes
+	user time   =       5.39 seconds =       0.09 minutes
+	system time =       0.19 seconds =       0.00 minutes
+	total time  =         16 seconds =       0.27 minutes
 Total time:
-	user time   =     189.14 seconds =       3.15 minutes
-	system time =       7.62 seconds =       0.13 minutes
-	total time  =       1338 seconds =      22.30 minutes
+	user time   =     237.31 seconds =       3.96 minutes
+	system time =       9.16 seconds =       0.15 minutes
+	total time  =        682 seconds =      11.37 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 13 of 19   //
@@ -5500,7 +5500,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:42:37 2019
+*** at Tue Dec  3 09:13:13 2019
 
    => Loading Basis Set <=
 
@@ -5665,14 +5665,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45121350052154   -4.04512e+01   9.95744e-03 
-   @DF-RKS iter   1:   -40.47438099312622   -2.31675e-02   2.07291e-03 
-   @DF-RKS iter   2:   -40.45043415051476    2.39468e-02   2.36414e-03 DIIS
-   @DF-RKS iter   3:   -40.54139990663630   -9.09658e-02   6.34100e-05 DIIS
-   @DF-RKS iter   4:   -40.54147038700045   -7.04804e-05   1.44787e-05 DIIS
-   @DF-RKS iter   5:   -40.54147438889415   -4.00189e-06   2.37941e-06 DIIS
-   @DF-RKS iter   6:   -40.54147447503643   -8.61423e-08   1.54380e-07 DIIS
-   @DF-RKS iter   7:   -40.54147447548542   -4.48985e-10   1.05071e-08 DIIS
-   @DF-RKS iter   8:   -40.54147447548748   -2.06057e-12   1.28489e-09 DIIS
+   @DF-RKS iter   1:   -40.47438099312624   -2.31675e-02   2.07291e-03 
+   @DF-RKS iter   2:   -40.45043415051471    2.39468e-02   2.36414e-03 DIIS
+   @DF-RKS iter   3:   -40.54139990663631   -9.09658e-02   6.34100e-05 DIIS
+   @DF-RKS iter   4:   -40.54147038700050   -7.04804e-05   1.44787e-05 DIIS
+   @DF-RKS iter   5:   -40.54147438889409   -4.00189e-06   2.37941e-06 DIIS
+   @DF-RKS iter   6:   -40.54147447503642   -8.61423e-08   1.54380e-07 DIIS
+   @DF-RKS iter   7:   -40.54147447548531   -4.48892e-10   1.05071e-08 DIIS
+   @DF-RKS iter   8:   -40.54147447548751   -2.20268e-12   1.28489e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -5750,17 +5750,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54147447548748
+  @DF-RKS Final Energy:   -40.54147447548751
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4207546448910335
-    One-Electron Energy =                 -79.8270285889964555
-    Two-Electron Energy =                  31.4593682998662771
-    DFT Exchange-Correlation Energy =      -5.5945688312483304
+    One-Electron Energy =                 -79.8270285889962850
+    Two-Electron Energy =                  31.4593682998660533
+    DFT Exchange-Correlation Energy =      -5.5945688312483082
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414744754874761
+    Total Energy =                        -40.5414744754875045
 
 
 
@@ -5781,18 +5781,18 @@ Properties computed using the SCF density matrix
      X:     0.0014      Y:     0.0010      Z:    -0.0000     Total:     0.0017
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:43:18 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:13:50 2019
 Module time:
-	user time   =      13.44 seconds =       0.22 minutes
-	system time =       0.35 seconds =       0.01 minutes
-	total time  =         41 seconds =       0.68 minutes
+	user time   =      12.93 seconds =       0.22 minutes
+	system time =       0.34 seconds =       0.01 minutes
+	total time  =         37 seconds =       0.62 minutes
 Total time:
-	user time   =     202.60 seconds =       3.38 minutes
-	system time =       7.97 seconds =       0.13 minutes
-	total time  =       1379 seconds =      22.98 minutes
+	user time   =     250.27 seconds =       4.17 minutes
+	system time =       9.50 seconds =       0.16 minutes
+	total time  =        719 seconds =      11.98 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:43:18 2019
+*** at Tue Dec  3 09:13:50 2019
 
 
          ------------------------------------------------------------
@@ -5898,22 +5898,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000700614561     0.000516257646    -0.000011928104
-       2        0.000031630013    -0.002842232836    -0.000016875559
-       3        0.001383964673     0.000637361946    -0.000010301725
-       4       -0.001074920179     0.000853072332    -0.002101007510
-       5       -0.001041279219     0.000833184920     0.002139211982
+       1        0.000700614571     0.000516257631    -0.000011928074
+       2        0.000031630014    -0.002842232790    -0.000016875559
+       3        0.001383964638     0.000637361932    -0.000010301726
+       4       -0.001074920175     0.000853072329    -0.002101007498
+       5       -0.001041279199     0.000833184907     0.002139211942
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:43:32 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:14:05 2019
 Module time:
-	user time   =       5.53 seconds =       0.09 minutes
-	system time =       0.28 seconds =       0.00 minutes
-	total time  =         14 seconds =       0.23 minutes
+	user time   =       5.35 seconds =       0.09 minutes
+	system time =       0.25 seconds =       0.00 minutes
+	total time  =         15 seconds =       0.25 minutes
 Total time:
-	user time   =     208.13 seconds =       3.47 minutes
-	system time =       8.25 seconds =       0.14 minutes
-	total time  =       1393 seconds =      23.22 minutes
+	user time   =     255.62 seconds =       4.26 minutes
+	system time =       9.75 seconds =       0.16 minutes
+	total time  =        734 seconds =      12.23 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 14 of 19   //
@@ -5921,7 +5921,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:43:32 2019
+*** at Tue Dec  3 09:14:05 2019
 
    => Loading Basis Set <=
 
@@ -6086,14 +6086,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.44835344561662   -4.04484e+01   9.92906e-03 
-   @DF-RKS iter   1:   -40.47635733496507   -2.80039e-02   2.04897e-03 
+   @DF-RKS iter   1:   -40.47635733496515   -2.80039e-02   2.04897e-03 
    @DF-RKS iter   2:   -40.45087837336649    2.54790e-02   2.35782e-03 DIIS
-   @DF-RKS iter   3:   -40.54140380452758   -9.05254e-02   4.54147e-05 DIIS
-   @DF-RKS iter   4:   -40.54144140503920   -3.76005e-05   6.06937e-06 DIIS
-   @DF-RKS iter   5:   -40.54144206041215   -6.55373e-07   1.99916e-06 DIIS
+   @DF-RKS iter   3:   -40.54140380452768   -9.05254e-02   4.54147e-05 DIIS
+   @DF-RKS iter   4:   -40.54144140503907   -3.76005e-05   6.06937e-06 DIIS
+   @DF-RKS iter   5:   -40.54144206041216   -6.55373e-07   1.99916e-06 DIIS
    @DF-RKS iter   6:   -40.54144213220391   -7.17918e-08   1.24981e-07 DIIS
-   @DF-RKS iter   7:   -40.54144213243016   -2.26251e-10   1.02086e-08 DIIS
-   @DF-RKS iter   8:   -40.54144213243215   -1.98952e-12   1.02443e-09 DIIS
+   @DF-RKS iter   7:   -40.54144213243019   -2.26279e-10   1.02086e-08 DIIS
+   @DF-RKS iter   8:   -40.54144213243205   -1.85452e-12   1.02443e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -6171,17 +6171,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54144213243215
+  @DF-RKS Final Energy:   -40.54144213243205
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4020658305112619
-    One-Electron Energy =                 -79.7919459473458090
-    Two-Electron Energy =                  31.4412405819725755
-    DFT Exchange-Correlation Energy =      -5.5928025975701825
+    One-Electron Energy =                 -79.7919459473453685
+    Two-Electron Energy =                  31.4412405819721990
+    DFT Exchange-Correlation Energy =      -5.5928025975701399
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414421324321523
+    Total Energy =                        -40.5414421324320529
 
 
 
@@ -6202,18 +6202,18 @@ Properties computed using the SCF density matrix
      X:    -0.0014      Y:    -0.0010      Z:     0.0000     Total:     0.0017
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:44:11 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:14:41 2019
 Module time:
-	user time   =      13.12 seconds =       0.22 minutes
-	system time =       0.40 seconds =       0.01 minutes
-	total time  =         39 seconds =       0.65 minutes
+	user time   =      12.83 seconds =       0.21 minutes
+	system time =       0.42 seconds =       0.01 minutes
+	total time  =         36 seconds =       0.60 minutes
 Total time:
-	user time   =     221.25 seconds =       3.69 minutes
-	system time =       8.65 seconds =       0.14 minutes
-	total time  =       1432 seconds =      23.87 minutes
+	user time   =     268.45 seconds =       4.47 minutes
+	system time =      10.17 seconds =       0.17 minutes
+	total time  =        770 seconds =      12.83 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:44:11 2019
+*** at Tue Dec  3 09:14:41 2019
 
 
          ------------------------------------------------------------
@@ -6319,22 +6319,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000698653342    -0.000502314324     0.000009110495
-       2        0.000053445058    -0.002836971526    -0.000017290110
-       3        0.003931257983     0.001316284835    -0.000027574236
-       4       -0.001670137209     0.001024970299    -0.002494188277
-       5       -0.001615379157     0.000995940865     0.002528656700
+       1       -0.000698653382    -0.000502314325     0.000009110475
+       2        0.000053445056    -0.002836971533    -0.000017290109
+       3        0.003931258016     0.001316284850    -0.000027574236
+       4       -0.001670137199     0.001024970291    -0.002494188266
+       5       -0.001615379158     0.000995940866     0.002528656708
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:44:26 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:14:55 2019
 Module time:
-	user time   =       5.46 seconds =       0.09 minutes
+	user time   =       5.50 seconds =       0.09 minutes
 	system time =       0.22 seconds =       0.00 minutes
-	total time  =         15 seconds =       0.25 minutes
+	total time  =         14 seconds =       0.23 minutes
 Total time:
-	user time   =     226.71 seconds =       3.78 minutes
-	system time =       8.87 seconds =       0.15 minutes
-	total time  =       1447 seconds =      24.12 minutes
+	user time   =     273.95 seconds =       4.57 minutes
+	system time =      10.39 seconds =       0.17 minutes
+	total time  =        784 seconds =      13.07 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 15 of 19   //
@@ -6342,7 +6342,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:44:26 2019
+*** at Tue Dec  3 09:14:55 2019
 
    => Loading Basis Set <=
 
@@ -6507,14 +6507,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45022276827624   -4.04502e+01   9.94108e-03 
-   @DF-RKS iter   1:   -40.47455931531903   -2.43365e-02   2.06938e-03 
-   @DF-RKS iter   2:   -40.45055067862777    2.40086e-02   2.36194e-03 DIIS
-   @DF-RKS iter   3:   -40.54138557816261   -9.08349e-02   6.34422e-05 DIIS
-   @DF-RKS iter   4:   -40.54145619514039   -7.06170e-05   1.45345e-05 DIIS
-   @DF-RKS iter   5:   -40.54146023726317   -4.04212e-06   2.38486e-06 DIIS
-   @DF-RKS iter   6:   -40.54146032367643   -8.64133e-08   1.54583e-07 DIIS
-   @DF-RKS iter   7:   -40.54146032412873   -4.52303e-10   1.05021e-08 DIIS
-   @DF-RKS iter   8:   -40.54146032413063   -1.90425e-12   1.29587e-09 DIIS
+   @DF-RKS iter   1:   -40.47455931531897   -2.43365e-02   2.06938e-03 
+   @DF-RKS iter   2:   -40.45055067862783    2.40086e-02   2.36194e-03 DIIS
+   @DF-RKS iter   3:   -40.54138557816257   -9.08349e-02   6.34422e-05 DIIS
+   @DF-RKS iter   4:   -40.54145619514029   -7.06170e-05   1.45345e-05 DIIS
+   @DF-RKS iter   5:   -40.54146023726325   -4.04212e-06   2.38486e-06 DIIS
+   @DF-RKS iter   6:   -40.54146032367638   -8.64131e-08   1.54583e-07 DIIS
+   @DF-RKS iter   7:   -40.54146032412878   -4.52403e-10   1.05021e-08 DIIS
+   @DF-RKS iter   8:   -40.54146032413070   -1.92557e-12   1.29587e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -6592,17 +6592,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54146032413063
+  @DF-RKS Final Energy:   -40.54146032413070
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114667426855974
-    One-Electron Energy =                 -79.8095928254578553
-    Two-Electron Energy =                  31.4503572281221508
-    DFT Exchange-Correlation Energy =      -5.5936914694805315
+    One-Electron Energy =                 -79.8095928254579263
+    Two-Electron Energy =                  31.4503572281221402
+    DFT Exchange-Correlation Energy =      -5.5936914694804996
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414603241306324
+    Total Energy =                        -40.5414603241306892
 
 
 
@@ -6623,18 +6623,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0000      Z:     0.0020     Total:     0.0020
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:45:08 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:15:33 2019
 Module time:
-	user time   =      13.15 seconds =       0.22 minutes
-	system time =       0.42 seconds =       0.01 minutes
-	total time  =         42 seconds =       0.70 minutes
+	user time   =      13.09 seconds =       0.22 minutes
+	system time =       0.34 seconds =       0.01 minutes
+	total time  =         38 seconds =       0.63 minutes
 Total time:
-	user time   =     239.86 seconds =       4.00 minutes
-	system time =       9.29 seconds =       0.15 minutes
-	total time  =       1489 seconds =      24.82 minutes
+	user time   =     287.06 seconds =       4.78 minutes
+	system time =      10.73 seconds =       0.18 minutes
+	total time  =        822 seconds =      13.70 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:45:08 2019
+*** at Tue Dec  3 09:15:33 2019
 
 
          ------------------------------------------------------------
@@ -6740,22 +6740,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000005021478     0.000005115860     0.000999372875
-       2        0.000042111019    -0.002839288532    -0.000031950503
-       3        0.002658309635     0.000976078462     0.000232746480
-       4       -0.001880163785     0.001125132157    -0.002906770372
-       5       -0.000825726917     0.000732331087     0.001707120718
+       1        0.000005021473     0.000005115865     0.000999372873
+       2        0.000042111020    -0.002839288571    -0.000031950505
+       3        0.002658309674     0.000976078474     0.000232746481
+       4       -0.001880163803     0.001125132166    -0.002906770398
+       5       -0.000825726935     0.000732331100     0.001707120747
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:45:22 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:15:50 2019
 Module time:
-	user time   =       5.76 seconds =       0.10 minutes
-	system time =       0.27 seconds =       0.00 minutes
-	total time  =         14 seconds =       0.23 minutes
+	user time   =       5.67 seconds =       0.09 minutes
+	system time =       0.25 seconds =       0.00 minutes
+	total time  =         17 seconds =       0.28 minutes
 Total time:
-	user time   =     245.64 seconds =       4.09 minutes
-	system time =       9.56 seconds =       0.16 minutes
-	total time  =       1503 seconds =      25.05 minutes
+	user time   =     292.73 seconds =       4.88 minutes
+	system time =      10.98 seconds =       0.18 minutes
+	total time  =        839 seconds =      13.98 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 16 of 19   //
@@ -6763,7 +6763,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:45:22 2019
+*** at Tue Dec  3 09:15:51 2019
 
    => Loading Basis Set <=
 
@@ -6928,14 +6928,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45011747263899   -4.04501e+01   9.94078e-03 
-   @DF-RKS iter   1:   -40.47454590684311   -2.44284e-02   2.06945e-03 
-   @DF-RKS iter   2:   -40.45053436489963    2.40115e-02   2.36212e-03 DIIS
-   @DF-RKS iter   3:   -40.54138557653003   -9.08512e-02   6.33924e-05 DIIS
-   @DF-RKS iter   4:   -40.54145601451489   -7.04380e-05   1.45340e-05 DIIS
-   @DF-RKS iter   5:   -40.54146005136982   -4.03685e-06   2.37598e-06 DIIS
-   @DF-RKS iter   6:   -40.54146013728685   -8.59170e-08   1.54398e-07 DIIS
+   @DF-RKS iter   1:   -40.47454590684309   -2.44284e-02   2.06945e-03 
+   @DF-RKS iter   2:   -40.45053436489968    2.40115e-02   2.36212e-03 DIIS
+   @DF-RKS iter   3:   -40.54138557652998   -9.08512e-02   6.33924e-05 DIIS
+   @DF-RKS iter   4:   -40.54145601451492   -7.04380e-05   1.45340e-05 DIIS
+   @DF-RKS iter   5:   -40.54146005136978   -4.03685e-06   2.37598e-06 DIIS
+   @DF-RKS iter   6:   -40.54146013728685   -8.59171e-08   1.54398e-07 DIIS
    @DF-RKS iter   7:   -40.54146013773716   -4.50306e-10   1.05101e-08 DIIS
-   @DF-RKS iter   8:   -40.54146013773902   -1.86162e-12   1.29205e-09 DIIS
+   @DF-RKS iter   8:   -40.54146013773914   -1.98241e-12   1.29205e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -7013,17 +7013,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54146013773902
+  @DF-RKS Final Energy:   -40.54146013773914
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4113408201293502
-    One-Electron Energy =                 -79.8093563769526213
-    Two-Electron Energy =                  31.4502349950942346
-    DFT Exchange-Correlation Energy =      -5.5936795760099915
+    One-Electron Energy =                 -79.8093563769527634
+    Two-Electron Energy =                  31.4502349950942950
+    DFT Exchange-Correlation Energy =      -5.5936795760100235
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414601377390227
+    Total Energy =                        -40.5414601377391435
 
 
 
@@ -7044,18 +7044,18 @@ Properties computed using the SCF density matrix
      X:    -0.0000      Y:    -0.0000      Z:    -0.0020     Total:     0.0020
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:45:59 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:16:24 2019
 Module time:
-	user time   =      13.00 seconds =       0.22 minutes
-	system time =       0.41 seconds =       0.01 minutes
-	total time  =         37 seconds =       0.62 minutes
+	user time   =      12.61 seconds =       0.21 minutes
+	system time =       0.46 seconds =       0.01 minutes
+	total time  =         33 seconds =       0.55 minutes
 Total time:
-	user time   =     258.68 seconds =       4.31 minutes
-	system time =       9.97 seconds =       0.17 minutes
-	total time  =       1540 seconds =      25.67 minutes
+	user time   =     305.34 seconds =       5.09 minutes
+	system time =      11.44 seconds =       0.19 minutes
+	total time  =        873 seconds =      14.55 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:45:59 2019
+*** at Tue Dec  3 09:16:24 2019
 
 
          ------------------------------------------------------------
@@ -7161,22 +7161,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000023696210     0.000008766388    -0.001000429990
-       2        0.000042506729    -0.002839417681    -0.000000911799
-       3        0.002670677904     0.000983320193    -0.000271244259
-       4       -0.000862610369     0.000750205269    -0.001685166715
-       5       -0.001827578256     0.001096247703     0.002957215266
+       1       -0.000023696220     0.000008766404    -0.001000429994
+       2        0.000042506730    -0.002839417711    -0.000000911796
+       3        0.002670677928     0.000983320199    -0.000271244261
+       4       -0.000862610374     0.000750205275    -0.001685166723
+       5       -0.001827578267     0.001096247705     0.002957215279
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:46:15 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:16:35 2019
 Module time:
-	user time   =       5.57 seconds =       0.09 minutes
+	user time   =       5.16 seconds =       0.09 minutes
 	system time =       0.25 seconds =       0.00 minutes
-	total time  =         16 seconds =       0.27 minutes
+	total time  =         11 seconds =       0.18 minutes
 Total time:
-	user time   =     264.25 seconds =       4.40 minutes
-	system time =      10.22 seconds =       0.17 minutes
-	total time  =       1556 seconds =      25.93 minutes
+	user time   =     310.50 seconds =       5.17 minutes
+	system time =      11.69 seconds =       0.19 minutes
+	total time  =        884 seconds =      14.73 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 17 of 19   //
@@ -7184,7 +7184,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:46:15 2019
+*** at Tue Dec  3 09:16:35 2019
 
    => Loading Basis Set <=
 
@@ -7349,14 +7349,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.44896082493133   -4.04490e+01   9.92441e-03 
-   @DF-RKS iter   1:   -40.47478458530916   -2.58238e-02   2.06497e-03 
-   @DF-RKS iter   2:   -40.45073777037682    2.40468e-02   2.35886e-03 DIIS
-   @DF-RKS iter   3:   -40.54136675966638   -9.06290e-02   6.32941e-05 DIIS
-   @DF-RKS iter   4:   -40.54143704325290   -7.02836e-05   1.44625e-05 DIIS
+   @DF-RKS iter   1:   -40.47478458530910   -2.58238e-02   2.06497e-03 
+   @DF-RKS iter   2:   -40.45073777037688    2.40468e-02   2.35886e-03 DIIS
+   @DF-RKS iter   3:   -40.54136675966636   -9.06290e-02   6.32941e-05 DIIS
+   @DF-RKS iter   4:   -40.54143704325286   -7.02836e-05   1.44625e-05 DIIS
    @DF-RKS iter   5:   -40.54144104747907   -4.00423e-06   2.38179e-06 DIIS
-   @DF-RKS iter   6:   -40.54144113383795   -8.63589e-08   1.54664e-07 DIIS
-   @DF-RKS iter   7:   -40.54144113429025   -4.52303e-10   1.04705e-08 DIIS
-   @DF-RKS iter   8:   -40.54144113429214   -1.89004e-12   1.25625e-09 DIIS
+   @DF-RKS iter   6:   -40.54144113383802   -8.63590e-08   1.54664e-07 DIIS
+   @DF-RKS iter   7:   -40.54144113429025   -4.52232e-10   1.04705e-08 DIIS
+   @DF-RKS iter   8:   -40.54144113429209   -1.83320e-12   1.25625e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -7434,17 +7434,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54144113429214
+  @DF-RKS Final Energy:   -40.54144113429209
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4020655990247430
-    One-Electron Energy =                 -79.7919446282443801
-    Two-Electron Energy =                  31.4412399969307437
-    DFT Exchange-Correlation Energy =      -5.5928021020032395
+    One-Electron Energy =                 -79.7919446282435274
+    Two-Electron Energy =                  31.4412399969298662
+    DFT Exchange-Correlation Energy =      -5.5928021020031613
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414411342921355
+    Total Energy =                        -40.5414411342920857
 
 
 
@@ -7465,18 +7465,18 @@ Properties computed using the SCF density matrix
      X:     0.0014      Y:    -0.0010      Z:    -0.0000     Total:     0.0017
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:46:52 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:17:09 2019
 Module time:
-	user time   =      12.72 seconds =       0.21 minutes
-	system time =       0.48 seconds =       0.01 minutes
-	total time  =         37 seconds =       0.62 minutes
+	user time   =      12.59 seconds =       0.21 minutes
+	system time =       0.28 seconds =       0.00 minutes
+	total time  =         34 seconds =       0.57 minutes
 Total time:
-	user time   =     276.97 seconds =       4.62 minutes
-	system time =      10.70 seconds =       0.18 minutes
-	total time  =       1593 seconds =      26.55 minutes
+	user time   =     323.09 seconds =       5.38 minutes
+	system time =      11.97 seconds =       0.20 minutes
+	total time  =        918 seconds =      15.30 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:46:52 2019
+*** at Tue Dec  3 09:17:09 2019
 
 
          ------------------------------------------------------------
@@ -7582,22 +7582,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000702896057    -0.000481473084    -0.000010026257
-       2        0.000031112266    -0.002837038634    -0.000016331236
-       3        0.002658629922     0.000988539732    -0.000019128081
-       4       -0.001727296479     0.001181612122    -0.003196138492
-       5       -0.001665287885     0.001148446975     0.003241613551
+       1        0.000702896088    -0.000481473104    -0.000010026243
+       2        0.000031112261    -0.002837038686    -0.000016331236
+       3        0.002658629969     0.000988539755    -0.000019128081
+       4       -0.001727296519     0.001181612150    -0.003196138562
+       5       -0.001665287917     0.001148446997     0.003241613608
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:47:09 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:17:25 2019
 Module time:
-	user time   =       5.81 seconds =       0.10 minutes
-	system time =       0.30 seconds =       0.00 minutes
-	total time  =         17 seconds =       0.28 minutes
+	user time   =       5.50 seconds =       0.09 minutes
+	system time =       0.28 seconds =       0.00 minutes
+	total time  =         16 seconds =       0.27 minutes
 Total time:
-	user time   =     282.80 seconds =       4.71 minutes
-	system time =      11.00 seconds =       0.18 minutes
-	total time  =       1610 seconds =      26.83 minutes
+	user time   =     328.59 seconds =       5.48 minutes
+	system time =      12.25 seconds =       0.20 minutes
+	total time  =        934 seconds =      15.57 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 18 of 19   //
@@ -7605,7 +7605,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:47:09 2019
+*** at Tue Dec  3 09:17:25 2019
 
    => Loading Basis Set <=
 
@@ -7886,18 +7886,18 @@ Properties computed using the SCF density matrix
      X:    -0.0014      Y:     0.0010      Z:     0.0000     Total:     0.0017
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:47:52 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:18:03 2019
 Module time:
-	user time   =      13.46 seconds =       0.22 minutes
-	system time =       0.46 seconds =       0.01 minutes
-	total time  =         43 seconds =       0.72 minutes
+	user time   =      12.87 seconds =       0.21 minutes
+	system time =       0.41 seconds =       0.01 minutes
+	total time  =         38 seconds =       0.63 minutes
 Total time:
-	user time   =     296.28 seconds =       4.94 minutes
-	system time =      11.47 seconds =       0.19 minutes
-	total time  =       1653 seconds =      27.55 minutes
+	user time   =     341.48 seconds =       5.69 minutes
+	system time =      12.66 seconds =       0.21 minutes
+	total time  =        972 seconds =      16.20 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:47:52 2019
+*** at Tue Dec  3 09:18:03 2019
 
 
          ------------------------------------------------------------
@@ -8010,15 +8010,15 @@ Total time:
        5       -0.000986075834     0.000679820685     0.001420347655
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:48:07 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:18:19 2019
 Module time:
-	user time   =       5.86 seconds =       0.10 minutes
-	system time =       0.21 seconds =       0.00 minutes
-	total time  =         15 seconds =       0.25 minutes
+	user time   =       5.61 seconds =       0.09 minutes
+	system time =       0.26 seconds =       0.00 minutes
+	total time  =         16 seconds =       0.27 minutes
 Total time:
-	user time   =     302.14 seconds =       5.04 minutes
-	system time =      11.68 seconds =       0.19 minutes
-	total time  =       1668 seconds =      27.80 minutes
+	user time   =     347.09 seconds =       5.78 minutes
+	system time =      12.92 seconds =       0.22 minutes
+	total time  =        988 seconds =      16.47 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //   Loading displacement 19 of 19   //
@@ -8026,7 +8026,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:48:07 2019
+*** at Tue Dec  3 09:18:19 2019
 
    => Loading Basis Set <=
 
@@ -8191,14 +8191,14 @@ gradient() will perform analytic gradient computation.
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -40.45012559703623   -4.04501e+01   9.94086e-03 
-   @DF-RKS iter   1:   -40.47453344967587   -2.44079e-02   2.06960e-03 
-   @DF-RKS iter   2:   -40.45053092440811    2.40025e-02   2.36216e-03 DIIS
-   @DF-RKS iter   3:   -40.54138536733839   -9.08544e-02   6.35036e-05 DIIS
-   @DF-RKS iter   4:   -40.54145605104817   -7.06837e-05   1.45673e-05 DIIS
-   @DF-RKS iter   5:   -40.54146010636830   -4.05532e-06   2.37802e-06 DIIS
-   @DF-RKS iter   6:   -40.54146019235991   -8.59916e-08   1.54461e-07 DIIS
-   @DF-RKS iter   7:   -40.54146019281118   -4.51266e-10   1.04914e-08 DIIS
-   @DF-RKS iter   8:   -40.54146019281320   -2.02505e-12   1.26165e-09 DIIS
+   @DF-RKS iter   1:   -40.47453344967592   -2.44079e-02   2.06960e-03 
+   @DF-RKS iter   2:   -40.45053092440807    2.40025e-02   2.36216e-03 DIIS
+   @DF-RKS iter   3:   -40.54138536733844   -9.08544e-02   6.35036e-05 DIIS
+   @DF-RKS iter   4:   -40.54145605104826   -7.06837e-05   1.45673e-05 DIIS
+   @DF-RKS iter   5:   -40.54146010636823   -4.05532e-06   2.37802e-06 DIIS
+   @DF-RKS iter   6:   -40.54146019235993   -8.59917e-08   1.54461e-07 DIIS
+   @DF-RKS iter   7:   -40.54146019281123   -4.51301e-10   1.04914e-08 DIIS
+   @DF-RKS iter   8:   -40.54146019281329   -2.06057e-12   1.26165e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -8276,17 +8276,17 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -40.54146019281320
+  @DF-RKS Final Energy:   -40.54146019281329
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             13.4114006335475882
-    One-Electron Energy =                 -79.8094753834566291
-    Two-Electron Energy =                  31.4502990248813639
-    DFT Exchange-Correlation Energy =      -5.5936844677855211
+    One-Electron Energy =                 -79.8094753834561743
+    Two-Electron Energy =                  31.4502990248807670
+    DFT Exchange-Correlation Energy =      -5.5936844677854722
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -40.5414601928132043
+    Total Energy =                        -40.5414601928132967
 
 
 
@@ -8307,18 +8307,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:    -0.0000      Z:    -0.0000     Total:     0.0000
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:48:44 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:18:56 2019
 Module time:
-	user time   =      13.25 seconds =       0.22 minutes
-	system time =       0.36 seconds =       0.01 minutes
+	user time   =      13.05 seconds =       0.22 minutes
+	system time =       0.41 seconds =       0.01 minutes
 	total time  =         37 seconds =       0.62 minutes
 Total time:
-	user time   =     315.41 seconds =       5.26 minutes
-	system time =      12.04 seconds =       0.20 minutes
-	total time  =       1705 seconds =      28.42 minutes
+	user time   =     360.17 seconds =       6.00 minutes
+	system time =      13.33 seconds =       0.22 minutes
+	total time  =       1025 seconds =      17.08 minutes
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Thu Nov 21 09:48:44 2019
+*** at Tue Dec  3 09:18:56 2019
 
 
          ------------------------------------------------------------
@@ -8424,22 +8424,22 @@ Total time:
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000005569474     0.000005893681    -0.000001062932
-       2        0.000041759347    -0.002839344326    -0.000016398936
-       3        0.002664636906     0.000979316529    -0.000019354294
-       4       -0.001372572078     0.000939014136    -0.002298057631
-       5       -0.001327624382     0.000915637055     0.002334389862
+       1       -0.000005569467     0.000005893663    -0.000001062931
+       2        0.000041759345    -0.002839344327    -0.000016398934
+       3        0.002664636917     0.000979316536    -0.000019354295
+       4       -0.001372572085     0.000939014143    -0.002298057644
+       5       -0.001327624390     0.000915637059     0.002334389873
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Thu Nov 21 09:48:59 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec  3 09:19:13 2019
 Module time:
-	user time   =       5.52 seconds =       0.09 minutes
-	system time =       0.28 seconds =       0.00 minutes
-	total time  =         15 seconds =       0.25 minutes
+	user time   =       5.81 seconds =       0.10 minutes
+	system time =       0.23 seconds =       0.00 minutes
+	total time  =         17 seconds =       0.28 minutes
 Total time:
-	user time   =     320.93 seconds =       5.35 minutes
-	system time =      12.32 seconds =       0.21 minutes
-	total time  =       1720 seconds =      28.67 minutes
+	user time   =     365.98 seconds =       6.10 minutes
+	system time =      13.56 seconds =       0.23 minutes
+	total time  =       1042 seconds =      17.37 minutes
 
 -------------------------------------------------------------
 
@@ -8462,46 +8462,46 @@ Total time:
   pre-proj  low-frequency mode:    0.0000i [cm^-1]
   pre-proj  low-frequency mode:    0.0000i [cm^-1]
   pre-proj  low-frequency mode:    0.0000i [cm^-1]
-  pre-proj  low-frequency mode:    0.0000i [cm^-1]
   pre-proj  low-frequency mode:    0.0000  [cm^-1]
   pre-proj  low-frequency mode:    0.0000  [cm^-1]
-  pre-proj  all modes:['0.0001i' '0.0000i' '0.0000i' '0.0000i' '0.0000' '0.0000' '1349.7343'
- '1349.9163' '1350.0116' '1561.3255' '1561.4132' '2991.2129' '3090.1625'
+  pre-proj  low-frequency mode:    0.0000  [cm^-1]
+  pre-proj  all modes:['0.0000i' '0.0000i' '0.0000i' '0.0000' '0.0000' '0.0000' '1349.7343'
+ '1349.9162' '1350.0116' '1561.3255' '1561.4132' '2991.2130' '3090.1625'
  '3090.2270' '3090.2986']
   projected mass-weighted Hessian: Symmetric? True   Hermitian? True   Lin Dep Dim?  6 (6)
+  post-proj low-frequency mode:    0.0001i [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
   post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
   post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
   post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
-  post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
-  post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
-  post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
-  post-proj  all modes:['0.0000i' '0.0000i' '0.0000' '0.0000' '0.0000' '0.0000' '1349.7343'
- '1349.9163' '1350.0116' '1561.3255' '1561.4132' '2991.2129' '3090.1625'
+  post-proj  all modes:['0.0001i' '0.0000i' '0.0000i' '0.0000i' '0.0000i' '0.0000' '1349.7343'
+ '1349.9162' '1350.0116' '1561.3255' '1561.4132' '2991.2130' '3090.1625'
  '3090.2270' '3090.2986']
 
   Vibration                       7                   8                   9           
-  Freq [cm^-1]                1349.7343           1349.9163           1350.0116       
+  Freq [cm^-1]                1349.7343           1349.9162           1350.0116       
   Irrep                           A                   A                   A           
   Reduced mass [u]              1.1799              1.1799              1.1799        
   Force const [mDyne/A]         1.2664              1.2668              1.2670        
   Turning point v=0 [a0]        0.2750              0.2749              0.2749        
   RMS dev v=0 [a0 u^1/2]        0.2112              0.2112              0.2112        
-  Char temp [K]               1941.9643           1942.2260           1942.3632       
+  Char temp [K]               1941.9642           1942.2260           1942.3631       
   ----------------------------------------------------------------------------------
       1   C               -0.10 -0.07  0.02    0.07 -0.08  0.07    0.02 -0.07 -0.10   
       2   H                0.50 -0.04 -0.10   -0.32 -0.06 -0.33   -0.11 -0.05  0.50   
-      3   H               -0.13  0.10 -0.09   -0.14  0.46 -0.33   -0.11  0.32  0.50   
+      3   H               -0.13  0.10 -0.09   -0.14  0.46 -0.32   -0.11  0.32  0.50   
       4   H                0.47  0.35 -0.14   -0.02  0.18  0.19   -0.25  0.41  0.27   
       5   H                0.39  0.41  0.10   -0.32  0.39 -0.34    0.19  0.10 -0.04   
 
   Vibration                       10                  11                  12          
-  Freq [cm^-1]                1561.3255           1561.4132           2991.2129       
+  Freq [cm^-1]                1561.3255           1561.4132           2991.2130       
   Irrep                           A                   A                   A           
   Reduced mass [u]              1.0078              1.0078              1.0078        
   Force const [mDyne/A]         1.4475              1.4477              5.3129        
   Turning point v=0 [a0]        0.2766              0.2766              0.1998        
   RMS dev v=0 [a0 u^1/2]        0.1964              0.1964              0.1419        
-  Char temp [K]               2246.3963           2246.5226           4303.6828       
+  Char temp [K]               2246.3964           2246.5226           4303.6829       
   ----------------------------------------------------------------------------------
       1   C               -0.00 -0.00 -0.00    0.00 -0.00  0.00    0.00  0.00 -0.00   
       2   H                0.11 -0.00  0.49    0.49  0.01 -0.11   -0.01  0.50  0.00   
