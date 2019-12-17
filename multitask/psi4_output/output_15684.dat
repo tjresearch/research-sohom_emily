@@ -1,0 +1,196 @@
+
+  Memory set to   1.863 GiB by Python driver.
+gradient() will perform analytic gradient computation.
+
+*** tstart() called on LAPTOP-UD8U1GLI
+*** at Tue Dec 17 09:11:46 2019
+
+   => Loading Basis Set <=
+
+    Name: CC-PVQZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-3, 5-7 entry C          line   239 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 4, 8     entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 9-18     entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+
+    There are an even number of electrons - assuming singlet.
+    Specify the multiplicity in the molecule input block.
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, Andy Simmonett
+                             and Daniel Smith
+                              RKS Reference
+                        1 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C           -0.912496984636     2.501954052424     1.026606222885    12.000000000000
+         C           -0.833370264636     0.975063216424     1.061180429985    12.000000000000
+         C           -0.415650806136     0.379510476424    -0.291562920015    12.000000000000
+         O            0.879390487264     0.795353233424    -0.711648716015    15.994914619560
+         C            1.828507678264    -0.221011509976    -0.372722254315    12.000000000000
+         C            1.086646968464    -1.547066201776    -0.549865052115    12.000000000000
+         C           -0.356728716436    -1.152602368176    -0.236053599015    12.000000000000
+         O           -1.275729903736    -1.881975014776     0.027389620885    15.994914619560
+         H            0.046981611964     2.929147339624     0.722500574685     1.007825032070
+         H           -1.671457567836     2.841138083424     0.312869923085     1.007825032070
+         H           -1.172807676736     2.904881642724     2.009811928285     1.007825032070
+         H           -0.120419834236     0.653207842124     1.831145063585     1.007825032070
+         H           -1.800633588236     0.534301340724     1.327867268385     1.007825032070
+         H           -1.132230274536     0.691462118924    -1.062546886415     1.007825032070
+         H            2.687525421564    -0.097855055576    -1.035631427915     1.007825032070
+         H            2.176060326464    -0.101784558576     0.664724531985     1.007825032070
+         H            1.125820465864    -1.887379439376    -1.591484579015     1.007825032070
+         H            1.425441202164    -2.364620927276     0.088842499985     1.007825032070
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.10268  B =      0.05841  C =      0.04117 [cm^-1]
+  Rotational constants: A =   3078.12349  B =   1751.20189  C =   1234.29191 [MHz]
+  Nuclear repulsion =  390.413093180518615
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 62
+  Nalpha       = 31
+  Nbeta        = 31
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVQZ
+    Blend: CC-PVQZ
+    Number of shells: 220
+    Number of basis function: 740
+    Number of Cartesian functions: 910
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  ==> DFT Potential <==
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => Molecular Quadrature <=
+
+    Radial Scheme       =       TREUTLER
+    Pruning Scheme      =           FLAT
+    Nuclear Scheme      =       TREUTLER
+
+    BS radius alpha     =              1
+    Pruning alpha       =              1
+    Radial Points       =             75
+    Spherical Points    =            302
+    Total Points        =         404120
+    Total Blocks        =           2971
+    Max Points          =            256
+    Max Functions       =            617
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVQZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-3, 5-7 entry C          line   137 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 4, 8     entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 9-18     entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A        740     740       0       0       0       0
+   -------------------------------------------------------
+    Total     740     740      31      31      31       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DiskDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    OpenMP threads:              1
+    Integrals threads:           1
+    Memory (MB):              1430
+    Algorithm:                Disk
+    Integral Cache:           NONE
+    Schwarz Cutoff:          1E-12
+    Fitting Condition:       1E-12
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVQZ AUX)
+    Blend: CC-PVQZ-JKFIT
+    Number of shells: 354
+    Number of basis function: 1358
+    Number of Cartesian functions: 1796
+    Spherical Harmonics?: true
+    Max angular momentum: 5
+
+  Minimum eigenvalue in the overlap matrix is 4.0308495528E-05.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter   0:  -386.33418118378518   -3.86334e+02   6.51661e-03 
+   @DF-RKS iter   1:  -384.97496789287590    1.35921e+00   1.08290e-03 
+   @DF-RKS iter   2:  -384.72292454132156    2.52043e-01   1.53285e-03 DIIS
+   @DF-RKS iter   3:  -385.23849617619351   -5.15572e-01   3.82200e-04 DIIS
+   @DF-RKS iter   4:  -385.26605810577365   -2.75619e-02   1.12594e-04 DIIS
+   @DF-RKS iter   5:  -385.26883505810224   -2.77695e-03   2.63482e-05 DIIS
+   @DF-RKS iter   6:  -385.26896047382587   -1.25416e-04   1.30427e-05 DIIS
+   @DF-RKS iter   7:  -385.26899321878420   -3.27450e-05   2.25274e-06 DIIS
+   @DF-RKS iter   8:  -385.26899408867843   -8.69894e-07   8.99021e-07 DIIS
+   @DF-RKS iter   9:  -385.26899427819768   -1.89519e-07   1.81445e-07 DIIS
