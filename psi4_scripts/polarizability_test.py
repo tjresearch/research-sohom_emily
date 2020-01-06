@@ -10,3 +10,4 @@ H   1   0.96    2   104.5
 """)
 
 psi4.properties("ccsd/cc-pvdz", properties=['polarizability'])
+
