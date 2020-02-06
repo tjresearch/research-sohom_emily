@@ -1,0 +1,300 @@
+
+  Memory set to   1.863 GiB by Python driver.
+
+*** tstart() called on Es-MacBook-Pro.local
+*** at Thu Dec 19 11:06:44 2019
+
+   => Loading Basis Set <=
+
+    Name: CC-PVQZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry C          line   239 file /Users/em/anaconda3/envs/venv/share/psi4/basis/cc-pvqz.gbs 
+    atoms 3-4 entry H          line    22 file /Users/em/anaconda3/envs/venv/share/psi4/basis/cc-pvqz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        1 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: d2h
+    Full point group: D_inf_h
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C            0.599539491800     0.000000000000     0.000000000000    12.000000000000
+         C           -0.599539491800    -0.000000000000     0.000000000000    12.000000000000
+         H           -1.661638586100    -0.000000000000     0.000000000000     1.007825032230
+         H            1.661638586100     0.000000000000     0.000000000000     1.007825032230
+
+  Running in d2h symmetry.
+
+  Rotational constants: A = ************  B =      1.18782  C =      1.18782 [cm^-1]
+  Rotational constants: A = ************  B =  35610.03641  C =  35610.03641 [MHz]
+  Nuclear repulsion =   24.833915970621273
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 14
+  Nalpha       = 7
+  Nbeta        = 7
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVQZ
+    Blend: CC-PVQZ
+    Number of shells: 50
+    Number of basis function: 170
+    Number of Cartesian functions: 210
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  ==> DFT Potential <==
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
+
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          88848
+    Total Blocks           =            736
+    Max Points             =            254
+    Max Functions          =            169
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVQZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-2 entry C          line   137 file /Users/em/anaconda3/envs/venv/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 3-4 entry H          line    51 file /Users/em/anaconda3/envs/venv/share/psi4/basis/cc-pvqz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     Ag        35      35       0       0       0       0
+     B1g       20      20       0       0       0       0
+     B2g       20      20       0       0       0       0
+     B3g       10      10       0       0       0       0
+     Au        10      10       0       0       0       0
+     B1u       20      20       0       0       0       0
+     B2u       20      20       0       0       0       0
+     B3u       35      35       0       0       0       0
+   -------------------------------------------------------
+    Total     170     170       7       7       7       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.075 GiB; user supplied 1.030 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:              1054
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       1.1557
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVQZ AUX)
+    Blend: CC-PVQZ-JKFIT
+    Number of shells: 82
+    Number of basis function: 314
+    Number of Cartesian functions: 416
+    Spherical Harmonics?: true
+    Max angular momentum: 5
+
+  Cached 100.0% of DFT collocation blocks in 0.367 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 1.5303784701E-05.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter SAD:   -76.71926917605005   -7.67193e+01   0.00000e+00 
+   @DF-RKS iter   1:   -77.14806322999958   -4.28794e-01   1.02174e-02 DIIS
+   @DF-RKS iter   2:   -77.09852340405050    4.95398e-02   1.07212e-02 DIIS
+   @DF-RKS iter   3:   -77.36852097780221   -2.69998e-01   5.57131e-04 DIIS
+   @DF-RKS iter   4:   -77.36930559074797   -7.84613e-04   4.05308e-05 DIIS
+   @DF-RKS iter   5:   -77.36930958053696   -3.98979e-06   5.56765e-06 DIIS
+   @DF-RKS iter   6:   -77.36930963264564   -5.21087e-08   7.56702e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1Ag   -10.182478     1B3u  -10.179918     2Ag    -0.758856  
+       2B3u   -0.573802     3Ag    -0.504453     1B2u   -0.300516  
+       1B1u   -0.300516  
+
+    Virtual:                                                              
+
+       1B2g    0.019869     1B1g    0.019869     3B3u    0.047202  
+       4Ag     0.058595     5Ag     0.121743     2B2u    0.205095  
+       2B1u    0.205095     4B3u    0.224010     5B3u    0.274347  
+       2B2g    0.288117     2B1g    0.288117     6Ag     0.349688  
+       7Ag     0.426966     1B3g    0.426966     3B2u    0.481151  
+       3B1u    0.481151     8Ag     0.512626     6B3u    0.614045  
+       1Au     0.655541     7B3u    0.655541     9Ag     0.669295  
+       3B2g    0.683267     3B1g    0.683267     8B3u    0.715669  
+       4B2g    0.954381     4B1g    0.954381     9B3u    0.983476  
+      10Ag     0.993735     4B1u    0.999698     4B2u    0.999698  
+      10B3u    1.238800     5B2u    1.261216     5B1u    1.261216  
+      11B3u    1.412031    11Ag     1.423153     6B2u    1.566362  
+       6B1u    1.566362    12Ag     1.597034     2B3g    1.597034  
+       5B2g    1.657086     5B1g    1.657086    13Ag     1.671002  
+       7B2u    1.696095     7B1u    1.696095     3B3g    1.746957  
+      14Ag     1.746957     6B2g    1.842676     6B1g    1.842676  
+       2Au     1.889561    12B3u    1.889561     7B1g    1.937185  
+       7B2g    1.937185    15Ag     1.966271    13B3u    2.055637  
+       3Au     2.105359    14B3u    2.105359     8B2u    2.151886  
+       8B1u    2.151886    15B3u    2.408378    16Ag     2.410733  
+       8B2g    2.464292     8B1g    2.464292     4B3g    2.505777  
+      17Ag     2.505777    16B3u    2.527262     9B1u    2.805305  
+       9B2u    2.805305     4Au     3.058130    17B3u    3.058130  
+      18Ag     3.077547    18B3u    3.357348     9B2g    3.401523  
+       9B1g    3.401523    19Ag     3.621769    10B2g    3.656175  
+      10B1g    3.656175    19B3u    3.998276    10B2u    4.167021  
+      10B1u    4.167021    20B3u    4.195613    20Ag     4.360572  
+      11B1u    4.422007    11B2u    4.422007     5B3g    4.642484  
+      21Ag     4.642485     5Au     5.023795    21B3u    5.023796  
+       6B3g    5.097932    22Ag     5.097934    12B2u    5.104385  
+      12B1u    5.104385    23Ag     5.148978    11B2g    5.317018  
+      11B1g    5.317018    13B2u    5.338233    13B1u    5.338233  
+       6Au     5.529029    22B3u    5.529032     7B3g    5.554317  
+      24Ag     5.554318    14B2u    5.612611    14B1u    5.612611  
+      12B1g    5.687189    12B2g    5.687189    25Ag     5.764951  
+      15B2u    5.806703    15B1u    5.806703    13B1g    5.888998  
+      13B2g    5.888998    23B3u    5.889107     8B3g    5.962027  
+      26Ag     5.962030    14B1g    6.021093    14B2g    6.021093  
+      16B2u    6.065107    16B1u    6.065107     7Au     6.193579  
+      24B3u    6.193583    15B2g    6.461085    15B1g    6.461085  
+      27Ag     6.744685    25B3u    6.935108    16B2g    6.937034  
+      16B1g    6.937034     8Au     6.954321    26B3u    6.954322  
+      27B3u    7.201162    28Ag     7.434709    17B2g    7.582448  
+      17B1g    7.582448    17B1u    7.591180    17B2u    7.591180  
+       9B3g    7.695607    29Ag     7.695613    18B1u    7.788161  
+      18B2u    7.788161     9Au     7.889107    28B3u    7.889115  
+      30Ag     8.005969    10B3g    8.075729    31Ag     8.075733  
+      29B3u    8.112999    30B3u    8.425344    18B2g    8.474742  
+      18B1g    8.474742    10Au     8.981934    31B3u    8.981937  
+      19B2u    9.067419    19B1u    9.067419    32B3u    9.073178  
+      32Ag     9.084234    19B2g    9.833861    19B1g    9.833861  
+      33B3u   10.342573    20B1g   11.271146    20B2g   11.271146  
+      33Ag    11.335830    20B2u   11.413345    20B1u   11.413345  
+      34Ag    11.851522    34B3u   13.731741    35Ag    23.190626  
+      35B3u   26.438610  
+
+    Final Occupation by Irrep:
+             Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u 
+    DOCC [     3,    0,    0,    0,    0,    1,    1,    2 ]
+
+  @DF-RKS Final Energy:   -77.36930963264564
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             24.8339159706212733
+    One-Electron Energy =                -152.0974626868009523
+    Two-Electron Energy =                  59.2088701581620498
+    DFT Exchange-Correlation Energy =      -9.3146330746280110
+    Empirical Dispersion Energy =           0.0000000000000000
+    VV10 Nonlocal Energy =                  0.0000000000000000
+    Total Energy =                        -77.3693096326456384
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.0000
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.0000
+
+  Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.0000     Total:     0.0000
+
+  Dipole Moment: [D]
+     X:     0.0000      Y:     0.0000      Z:     0.0000     Total:     0.0000
+
+
+*** tstop() called on Es-MacBook-Pro.local at Thu Dec 19 11:06:48 2019
+Module time:
+	user time   =       3.51 seconds =       0.06 minutes
+	system time =       0.20 seconds =       0.00 minutes
+	total time  =          4 seconds =       0.07 minutes
+Total time:
+	user time   =       6.70 seconds =       0.11 minutes
+	system time =       0.39 seconds =       0.01 minutes
+	total time  =         31 seconds =       0.52 minutes
