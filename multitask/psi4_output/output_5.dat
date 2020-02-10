@@ -2,7 +2,7 @@
   Memory set to   1.863 GiB by Python driver.
 
 *** tstart() called on LAPTOP-UD8U1GLI
-*** at Tue Dec 17 09:35:16 2019
+*** at Mon Feb  3 23:43:32 2020
 
    => Loading Basis Set <=
 
@@ -173,13 +173,13 @@
                            Total Energy        Delta E     RMS |[F,P]|
 
    @DF-RKS iter   0:   -93.77028489749806   -9.37703e+01   2.99923e-02 
-   @DF-RKS iter   1:   -93.43011837145424    3.40167e-01   3.59464e-03 
-   @DF-RKS iter   2:   -93.34069795739616    8.94204e-02   6.94936e-03 DIIS
-   @DF-RKS iter   3:   -93.46267845925692   -1.21981e-01   1.52669e-03 DIIS
-   @DF-RKS iter   4:   -93.46841333198995   -5.73487e-03   2.06320e-04 DIIS
-   @DF-RKS iter   5:   -93.46852538970900   -1.12058e-04   1.40336e-05 DIIS
-   @DF-RKS iter   6:   -93.46852631894882   -9.29240e-07   3.12571e-06 DIIS
-   @DF-RKS iter   7:   -93.46852636524545   -4.62966e-08   2.04953e-07 DIIS
+   @DF-RKS iter   1:   -93.43011837145427    3.40167e-01   3.59464e-03 
+   @DF-RKS iter   2:   -93.34069795739626    8.94204e-02   6.94936e-03 DIIS
+   @DF-RKS iter   3:   -93.46267845925695   -1.21981e-01   1.52669e-03 DIIS
+   @DF-RKS iter   4:   -93.46841333198991   -5.73487e-03   2.06320e-04 DIIS
+   @DF-RKS iter   5:   -93.46852538970896   -1.12058e-04   1.40336e-05 DIIS
+   @DF-RKS iter   6:   -93.46852631894905   -9.29240e-07   3.12571e-06 DIIS
+   @DF-RKS iter   7:   -93.46852636524551   -4.62965e-08   2.04953e-07 DIIS
 
   ==> Post-Iterations <==
 
@@ -246,17 +246,17 @@
 
   Energy converged.
 
-  @DF-RKS Final Energy:   -93.46852636524545
+  @DF-RKS Final Energy:   -93.46852636524551
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             23.9437758891774948
-    One-Electron Energy =                -172.9631891946014832
-    Two-Electron Energy =                  65.7526403152646708
-    DFT Exchange-Correlation Energy =     -10.2017533750861258
+    One-Electron Energy =                -172.9631891946015116
+    Two-Electron Energy =                  65.7526403152646139
+    DFT Exchange-Correlation Energy =     -10.2017533750861222
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -93.4685263652454523
+    Total Energy =                        -93.4685263652455376
 
 
 
@@ -277,12 +277,12 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     3.0189     Total:     3.0189
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Tue Dec 17 09:35:19 2019
+*** tstop() called on LAPTOP-UD8U1GLI at Mon Feb  3 23:43:36 2020
 Module time:
-	user time   =       3.25 seconds =       0.05 minutes
-	system time =       0.15 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       3.66 seconds =       0.06 minutes
+	system time =       0.14 seconds =       0.00 minutes
+	total time  =          4 seconds =       0.07 minutes
 Total time:
-	user time   =     105.08 seconds =       1.75 minutes
-	system time =       5.23 seconds =       0.09 minutes
-	total time  =        952 seconds =      15.87 minutes
+	user time   =    1133.97 seconds =      18.90 minutes
+	system time =      41.28 seconds =       0.69 minutes
+	total time  =       1906 seconds =      31.77 minutes
