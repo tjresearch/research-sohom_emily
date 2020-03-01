@@ -9,11 +9,13 @@
 
 # %%
 import math
+print "imported math"
 
 # %%
 import deepchem as dc
 from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem
+print "imported deepchem, rdkit"
 
 # %%
 import torch
@@ -21,29 +23,35 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.optim as optim
 import torch.nn.functional as F
+print "imported torch"
 
 # %%
 from sklearn.metrics import r2_score
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import preprocessing
 import numpy as np
+print "imported sklearn"
 
 # %%
 import random
 from collections import OrderedDict
 from scipy.stats import pearsonr
+print "imported random, collections, scipy.stats"
 
 # %%
 import donkey
+print "imported donkey"
 
 # %%
 random.seed(2)
 torch.manual_seed(2)
 np.random.seed(2)
+print "seeded random functions"
 
 # %%
 DATASET = 'az_ppb.csv'
 print(DATASET)
+print "loaded dataset"
 
 # %%
 T = 3
@@ -51,12 +59,14 @@ BATCH_SIZE = 48
 MAXITER = 40000
 LIMIT = 0
 LR = 5e-4
+print "set hyperparameters"
 
 # %%
 R = nn.Linear(150, 128)
 U = {0: nn.Linear(156, 75), 1: nn.Linear(156, 75), 2: nn.Linear(156, 75)}
 V = {0: nn.Linear(75, 75), 1: nn.Linear(75, 75), 2: nn.Linear(75, 75)}
 E = nn.Linear(6, 6)
+print "set layers"
 
 # %%
 def adjust_learning_rate(optimizer, epoch):
@@ -65,6 +75,7 @@ def adjust_learning_rate(optimizer, epoch):
   print('new lr [%.5f]' % lr)
   for param_group in optimizer.param_groups:
     param_group['lr'] = lr
+print "defined adjust_learning_rate"
 
 # %%
 def load_dataset():
@@ -78,6 +89,7 @@ def load_dataset():
   val_labels = Variable(torch.FloatTensor(val_labels), requires_grad=False)
   
   return train_features, train_labels, val_features, val_labels
+print "defined load_dataset"
 
 # %%
 def readout(h, h2):
@@ -87,6 +99,7 @@ def readout(h, h2):
   for read in activated_reads:
     readout = readout + read
   return F.tanh( readout )
+print "defined readout"
 
 # %%
 def message_pass(g, h, k):
@@ -100,6 +113,7 @@ def message_pass(g, h, k):
       m_e_vw = E(e_vw)
       reshaped = torch.cat( (h[v], m_w, m_e_vw), 1)
       h[v] = F.selu(U[k](reshaped))
+print "defined message_pass"
 
 # %%
 def construct_multigraph(smile):
@@ -121,9 +135,11 @@ def construct_multigraph(smile):
         g[i].append( (e_ij, j) )
 
   return g, h
+print "defined construct_multigraph"
 
 # %%
 train_smiles, train_labels, val_smiles, val_labels = load_dataset()
+print "loaded dataset"
 
 # %%
 linear = nn.Linear(128, 1)
@@ -136,8 +152,10 @@ params = [{'params': R.parameters()},
          {'params': V[1].parameters()},
          {'params': V[2].parameters()},
          {'params': linear.parameters()}]
+print "set up linear model"
 
 # %%
+print "starting to train"
 num_epoch = 0
 optimizer = optim.Adam(params, lr=LR, weight_decay=1e-4)
 for i in xrange(0, MAXITER):
