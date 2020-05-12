@@ -4,15 +4,17 @@ import argparse
 
 import psi4
 
+# QM9 data available for download at 
+# https://figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904
 # Each of the xyz files are labeled with a number from 1 to 133885
 
+# By default, we assume that the data folder is in a sibling directory to this repository
 QM9_DATA_DIR = os.path.join(os.getcwd(), '..', '..', 'qm9_data')
 FUNCTIONAL = 'b3lyp'
 BASIS_SET = 'cc-pvqz'
 
 
 def get_molecule_from_file(filenum):
-    # Assumes dataset is in sibling directory
     f = open(os.path.join(QM9_DATA_DIR,
                           "dsgdb9nsd_" + str(filenum).zfill(6) + ".xyz"), "r")
     lines = f.readlines()
@@ -117,8 +119,15 @@ def batch_process(start_num, end_num, thermochemical=False):
         f.write(output)
     f.close()
 
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Computes quantum chemical properties given xyz data")
+    parser.add_argument('--data', type=str, dest='data_path')
+    return parser.parse_args()
 
 start = time.time()
+args = parse_arguments()
+if args.data_path:
+    QM9_DATA_DIR = args.data_path
 batch_process(1, 3, thermochemical=True)
 end = time.time()
 print("Time elapsed (s): ", end-start)
