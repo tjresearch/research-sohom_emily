@@ -1,12 +1,20 @@
-import psi4
 import os
 import time
+import argparse
+
+import psi4
 
 # Each of the xyz files are labeled with a number from 1 to 133885
 
+QM9_DATA_DIR = os.path.join(os.getcwd(), '..', '..', 'qm9_data')
+FUNCTIONAL = 'b3lyp'
+BASIS_SET = 'cc-pvqz'
+
+
 def get_molecule_from_file(filenum):
     # Assumes dataset is in sibling directory
-    f = open(os.path.join(os.getcwd(), "..", "dsgdb9nsd", "dsgdb9nsd_" + str(filenum).zfill(6) + ".xyz"), "r")
+    f = open(os.path.join(QM9_DATA_DIR,
+                          "dsgdb9nsd_" + str(filenum).zfill(6) + ".xyz"), "r")
     lines = f.readlines()
     f.close()
     num_atoms = int(lines[0])
@@ -15,68 +23,75 @@ def get_molecule_from_file(filenum):
         atom_list[i] = atom_list[i][:atom_list[i].rfind("\t")] + "\n"
     return psi4.geometry("".join(atom_list))
 
+
 def generate_output_file_path(filenum):
     return os.path.join(os.getcwd(), "output", 'output_' + str(filenum) + '.dat')
+
+
+def get_output_file_lines(filenum):
+    f = open(generate_output_file_path(filenum), 'r')
+    lines = f.readlines()
+    f.close()
+    return lines
+
+
+def tokenize_output_file_line_with_targets(filenum, *target_list):
+    lines = get_output_file_lines(filenum)
+    for i in range(len(lines)):
+        if all([lines[i].find(target) > -1 for target in target_list]):
+            return lines[i].split()
+
 
 def process_molecule(filenum, thermochemical=False):
     psi4.core.set_output_file(generate_output_file_path(filenum), False)
     psi4.set_memory("2 GB")
     molecule = get_molecule_from_file(filenum)
+    computational_method = FUNCTIONAL + '/' + BASIS_SET
     if thermochemical:
-        e, wfn = psi4.freq('b3lyp/cc-pvqz', molecule=molecule, return_wfn=True)
+        e, wfn = psi4.freq(computational_method,
+                           molecule=molecule, return_wfn=True)
     else:
-        e, wfn = psi4.energy('b3lyp/cc-pvqz', molecule=molecule, return_wfn=True)
+        e, wfn = psi4.energy(
+            computational_method, molecule=molecule, return_wfn=True)
     return wfn
 
+
 def extract_rotational_constants(filenum, wfn):
-    f = open(generate_output_file_path(filenum), 'r')
-    lines = f.readlines()
-    f.close()
-    for i in range(len(lines)):
-        if lines[i].find("Rotational constants:") > -1 and lines[i].find("[MHz]") > -1:
-            words = lines[i].split()
-            return float(words[4])/1000, float(words[7])/1000, float(words[10])/1000
+    tokens = tokenize_output_file_line_with_targets(
+        filenum, "Rotational constants:", "[MHz]")
+    return float(tokens[4])/1000, float(tokens[7])/1000, float(tokens[10])/1000
+
 
 def extract_dipole_moment(filenum, wfn):
-    f = open(generate_output_file_path(filenum), 'r')
-    lines = f.readlines()
-    f.close()
+    lines = get_output_file_lines(filenum)
     for i in range(len(lines)):
         if lines[i].find("Dipole Moment: [D]") > -1:
             return float(lines[i+1][lines[i+1].find("Total:") + 6:])
-    
+
+
 def extract_homo_lumo(filenum, wfn):
     homo = wfn.epsilon_a_subset("AO", "ALL").get(wfn.nalpha())
     lumo = wfn.epsilon_a_subset("AO", "ALL").get(wfn.nalpha() + 1)
     return homo, lumo
 
+
 def extract_zpve(filenum, wfn):
-    f = open(generate_output_file_path(filenum), 'r')
-    lines = f.readlines()
-    f.close()
-    for i in range(len(lines)):
-        if lines[i].find("Total ZPE, Electronic energy at 0 [K]") > -1:
-            words = lines[i].split()
-            return float(words[-2])
+    tokens = tokenize_output_file_line_with_targets(
+        filenum, "Total ZPE, Electronic energy at 0 [K]")
+    return float(tokens[-2])
+
 
 def extract_enthalpy(filenum, wfn):
-    f = open(generate_output_file_path(filenum), 'r')
-    lines = f.readlines()
-    f.close()
-    for i in range(len(lines)):
-        if lines[i].find("Total H, Enthalpy at  298.15 [K]") > -1:
-            words = lines[i].split()
-            return float(words[-2])
+    tokens = tokenize_output_file_line_with_targets(
+        filenum, "Total H, Enthalpy at  298.15 [K]")
+    return float(tokens[-2])
+
 
 def extract_gibbs_free_energy(filenum, wfn):
-    f = open(generate_output_file_path(filenum), 'r')
-    lines = f.readline()
-    f.close()
-    for i in range(len(lines)):
-        if lines[i].find("Total G, Free enthalpy at  298.15 [K]") > -1:
-            print(lines[i])
-            words = lines[i].split()
-            return float(words[-2])
+    tokens = tokenize_output_file_line_with_targets(
+        filenum, "Total G, Free enthalpy at  298.15 [K]")
+    return float(tokens[-2])
+
 
 def batch_process(start_num, end_num, thermochemical=False):
     f = open("output.csv", "w")
@@ -90,17 +105,20 @@ def batch_process(start_num, end_num, thermochemical=False):
         a, b, c = extract_rotational_constants(filenum, wfn)
         dipole = extract_dipole_moment(filenum, wfn)
         homo, lumo = extract_homo_lumo(filenum, wfn)
-        output = str(filenum) + "," + str(a) + "," + str(b) + "," + str(c) + "," + str(dipole) + "," + str(homo) + "," + str(lumo)
+        output = str(filenum) + "," + str(a) + "," + str(b) + "," + \
+            str(c) + "," + str(dipole) + "," + str(homo) + "," + str(lumo)
         if thermochemical:
             zpve = extract_zpve(filenum, wfn)
             enthalpy = extract_enthalpy(filenum, wfn)
             gibbs_free_energy = extract_gibbs_free_energy(filenum, wfn)
-            output += "," + str(zpve) + "," + str(enthalpy) + "," + str(gibbs_free_energy)
-        output += "\n" 
+            output += "," + str(zpve) + "," + str(enthalpy) + \
+                "," + str(gibbs_free_energy)
+        output += "\n"
         f.write(output)
     f.close()
+
 
 start = time.time()
 batch_process(1, 3, thermochemical=True)
 end = time.time()
-print(end-start)
+print("Time elapsed (s): ", end-start)

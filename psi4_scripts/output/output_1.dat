@@ -1,2 +1,136 @@
 
   Memory set to   1.863 GiB by Python driver.
+gradient() will perform analytic gradient computation.
+
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 15:13:52 2020
+
+   => Loading Basis Set <=
+
+    Name: CC-PVQZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry C          line   239 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-5 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        1 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C           -0.000002835223     0.000002359295    -0.000000144026    12.000000000000
+         H            0.014845716677    -1.091833116105    -0.006025019426     1.007825032230
+         H            1.024426143977     0.377949363295    -0.007724565026     1.007825032230
+         H           -0.528119768323     0.361724815295    -0.884644855026     1.007825032230
+         H           -0.511118333823     0.352130845795     0.898396154374     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      5.26070  B =      5.26064  C =      5.26054 [cm^-1]
+  Rotational constants: A = 157711.80020  B = 157709.97060  C = 157706.99566 [MHz]
+  Nuclear repulsion =   13.411400686262844
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVQZ
+    Blend: CC-PVQZ
+    Number of shells: 55
+    Number of basis function: 175
+    Number of Cartesian functions: 210
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  ==> DFT Potential <==
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
+
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =         112259
+    Total Blocks           =            905
+    Max Points             =            256
+    Max Functions          =            175
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVQZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry C          line   137 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-5 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A        175     175       0       0       0       0
+   -------------------------------------------------------
+    Total     175     175       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
