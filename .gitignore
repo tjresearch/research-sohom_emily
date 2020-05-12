@@ -1,4 +1,6 @@
 .vs/
 .vscode/
-multitask/.ipynb_checkpoints
-fingerprinting/.ipynb_checkpoints
+**/.ipynb_checkpoints
+**/timer.dat
+**/psi.*.clean
+**/logs
