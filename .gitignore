@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+**/.ipynb_checkpoints
+**/timer.dat
+**/psi.*.clean
+**/logs

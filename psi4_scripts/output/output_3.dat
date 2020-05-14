@@ -2,25 +2,22 @@
   Memory set to   1.863 GiB by Python driver.
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:09 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:06:41 2020
 
    => Loading Basis Set <=
 
     Name: CC-PVQZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-
-    There are an even number of electrons - assuming singlet.
-    Specify the multiplicity in the molecule input block.
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
 
 
          ---------------------------------------------------------
                                    SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
                               RKS Reference
                         1 Threads,   1907 MiB Core
          ---------------------------------------------------------
@@ -34,15 +31,15 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.756678932716     0.527709800861     1.007825032070
-         H            0.000000000000    -0.756678932716     0.527709800861     1.007825032070
+         O            0.000000000000    -0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.756678932716     0.527709800852     1.007825032230
+         H            0.000000000000    -0.756678932716     0.527709800852     1.007825032230
 
   Running in c2v symmetry.
 
   Rotational constants: A =     26.67139  B =     14.60690  C =      9.43804 [cm^-1]
-  Rotational constants: A = 799588.12524  B = 437903.86072  C = 282945.45015 [MHz]
-  Nuclear repulsion =    9.149977923353870
+  Rotational constants: A = 799588.13122  B = 437903.86399  C = 282945.45227 [MHz]
+  Nuclear repulsion =    9.149977959319049
 
   Charge       = 0
   Multiplicity = 1
@@ -102,26 +99,26 @@ gradient() will perform analytic gradient computation.
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            569
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            569
+    Max Points             =            256
+    Max Functions          =            115
 
    => Loading Basis Set <=
 
     Name: (CC-PVQZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -138,17 +135,19 @@ gradient() will perform analytic gradient computation.
 
   ==> Integral Setup <==
 
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
     J tasked:                   Yes
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               1430
+    Memory [MiB]:              1223
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
+    Fitting Condition:        1E-10
 
    => Auxiliary Basis Set <=
 
@@ -160,7 +159,9 @@ gradient() will perform analytic gradient computation.
     Spherical Harmonics?: true
     Max angular momentum: 5
 
-  Minimum eigenvalue in the overlap matrix is 4.2835265811E-04.
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.2835265055E-04.
   Using Symmetric Orthogonalization.
 
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
@@ -169,15 +170,17 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:   -76.42356708274890   -7.64236e+01   2.69185e-02 
-   @DF-RKS iter   1:   -76.39800087142505    2.55662e-02   7.41502e-03 
-   @DF-RKS iter   2:   -76.28021719027264    1.17784e-01   1.21736e-02 DIIS
-   @DF-RKS iter   3:   -76.46955475327390   -1.89338e-01   2.06567e-04 DIIS
-   @DF-RKS iter   4:   -76.46960905347171   -5.43002e-05   6.31103e-05 DIIS
-   @DF-RKS iter   5:   -76.46961308111715   -4.02765e-06   8.73612e-06 DIIS
-   @DF-RKS iter   6:   -76.46961318278740   -1.01670e-07   3.28183e-07 DIIS
-   @DF-RKS iter   7:   -76.46961318297357   -1.86176e-10   2.15768e-08 DIIS
-   @DF-RKS iter   8:   -76.46961318297473   -1.15108e-12   2.21817e-09 DIIS
+   @DF-RKS iter SAD:   -76.09475931030254   -7.60948e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28721600328116   -1.92457e-01   1.21363e-02 DIIS
+   @DF-RKS iter   2:   -75.95748595567680    3.29730e-01   1.94445e-02 DIIS
+   @DF-RKS iter   3:   -76.46897713143066   -5.11491e-01   6.22836e-04 DIIS
+   @DF-RKS iter   4:   -76.46960451532807   -6.27384e-04   8.12955e-05 DIIS
+   @DF-RKS iter   5:   -76.46961296246397   -8.44714e-06   1.39871e-05 DIIS
+   @DF-RKS iter   6:   -76.46961318245810   -2.19994e-07   7.51498e-07 DIIS
+   @DF-RKS iter   7:   -76.46961318296782   -5.09715e-10   8.30104e-08 DIIS
+   @DF-RKS iter   8:   -76.46961318297919   -1.13687e-11   3.39267e-09 DIIS
+  Energy and wave function converged.
+
 
   ==> Post-Iterations <==
 
@@ -233,20 +236,19 @@ gradient() will perform analytic gradient computation.
              A1    A2    B1    B2 
     DOCC [     3,    0,    1,    1 ]
 
-  Energy converged.
-
-  @DF-RKS Final Energy:   -76.46961318297473
+  @DF-RKS Final Energy:   -76.46961318297919
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              9.1499779233538696
-    One-Electron Energy =                -123.0444321230193339
-    Two-Electron Energy =                  44.9808393902760884
-    DFT Exchange-Correlation Energy =      -7.5559983735853544
+    Nuclear Repulsion Energy =              9.1499779593190489
+    One-Electron Energy =                -123.0444326924079235
+    Two-Electron Energy =                  44.9808399617342829
+    DFT Exchange-Correlation Energy =      -7.5559984116245920
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -76.4696131829747259
+    Total Energy =                        -76.4696131829791739
 
+Computation Completed
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -266,18 +268,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     1.9148     Total:     1.9148
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:13 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:06:46 2020
 Module time:
-	user time   =       2.81 seconds =       0.05 minutes
+	user time   =       4.62 seconds =       0.08 minutes
 	system time =       0.17 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =     306.28 seconds =       5.10 minutes
-	system time =      12.41 seconds =       0.21 minutes
-	total time  =        325 seconds =       5.42 minutes
+	user time   =     487.07 seconds =       8.12 minutes
+	system time =      13.81 seconds =       0.23 minutes
+	total time  =        519 seconds =       8.65 minutes
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:13 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:06:46 2020
 
 
          ------------------------------------------------------------
@@ -295,11 +297,11 @@ Total time:
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.756678932716     0.527709800861     1.007825032070
-         H            0.000000000000    -0.756678932716     0.527709800861     1.007825032070
+         O           -0.000000000000     0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.756678932716     0.527709800852     1.007825032230
+         H            0.000000000000    -0.756678932716     0.527709800852     1.007825032230
 
-  Nuclear repulsion =    9.149977923353870
+  Nuclear repulsion =    9.149977959319049
 
   ==> Basis Set <==
 
@@ -319,9 +321,9 @@ Total time:
     wK tasked:                  No
     OpenMP threads:              1
     Integrals threads:           1
-    Memory (MB):              1430
+    Memory [MiB]:             1430
     Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
+    Fitting Condition:       1E-10
 
    => Auxiliary Basis Set <=
 
@@ -364,89 +366,92 @@ Total time:
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            569
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            569
+    Max Points             =            256
+    Max Functions          =            115
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000     0.000000000000    -0.004176370293
-       2        0.000000000000    -0.000079130619     0.002076977094
-       3       -0.000000000000     0.000079130619     0.002076977094
+       1       -0.000000000000     0.000000000000    -0.004176359814
+       2        0.000000000000    -0.000079136087     0.002076971855
+       3       -0.000000000000     0.000079136087     0.002076971855
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:14 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:06:48 2020
 Module time:
-	user time   =       1.08 seconds =       0.02 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       1.93 seconds =       0.03 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 Total time:
-	user time   =     307.36 seconds =       5.12 minutes
-	system time =      12.43 seconds =       0.21 minutes
-	total time  =        326 seconds =       5.43 minutes
+	user time   =     489.00 seconds =       8.15 minutes
+	system time =      13.84 seconds =       0.23 minutes
+	total time  =        521 seconds =       8.68 minutes
 
   Based on options and gradient (rms=1.70E-03), recommend projecting translations and projecting rotations.
 hessian() will perform frequency computation by finite difference of analytic gradients.
 
--------------------------------------------------------------
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
+         ---------------------------------------------------------
 
   Using finite-differences of gradients to determine vibrational frequencies and 
   normal modes.  Resulting frequencies are only valid at stationary points.
-	Generating geometries for use with 3-point formula.
-	Displacement size will be 5.00e-03.
-	Number of atoms is 3.
-	Number of irreps is 4.
-	Number of SALCS is 3.
-	Translations projected? 1. Rotations projected? 1.
-	Index of salcs per irrep:
-	 1 :  0  1 
-	 2 : 
-	 3 : 
-	 4 :  2 
-	Number of SALC's per irrep:
-		 Irrep 1: 2
-		 Irrep 2: 0
-		 Irrep 3: 0
-		 Irrep 4: 1
-	Number of geometries (including reference) is 6.
-	Number of displacements per irrep:
-	  Irrep 1: 4
-	  Irrep 2: 0
-	  Irrep 3: 0
-	  Irrep 4: 1
+    Generating geometries for use with 3-point formula.
+    Displacement size will be 5.00e-03.
+    Number of atoms is 3.
+    Number of irreps is 4.
+    Number of SALCs is 3.
+    Translations projected? 1. Rotations projected? 1.
+    Index of SALCs per irrep:
+     1 :  0  1 
+     2 : 
+     3 : 
+     4 :  2 
+    Number of SALCs per irrep:
+     Irrep 1: 2
+     Irrep 2: 0
+     Irrep 3: 0
+     Irrep 4: 1
+    Number of geometries (including reference) is 6.
+    Number of displacements per irrep:
+      Irrep 1: 4
+      Irrep 2: 0
+      Irrep 3: 0
+      Irrep 4: 1
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
   //    Loading displacement 1 of 6    //
   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:14 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:06:48 2020
 
    => Loading Basis Set <=
 
     Name: CC-PVQZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
 
 
          ---------------------------------------------------------
                                    SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
                               RKS Reference
                         1 Threads,   1907 MiB Core
          ---------------------------------------------------------
@@ -460,15 +465,15 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066722351552    15.994914619560
-         H           -0.000000000000     0.756678932716     0.529466069173     1.007825032070
-         H            0.000000000000    -0.756678932716     0.529466069173     1.007825032070
+         O            0.000000000000     0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.756678932716     0.527709800852     1.007825032230
+         H            0.000000000000    -0.756678932716     0.527709800852     1.007825032230
 
   Running in c2v symmetry.
 
-  Rotational constants: A =     26.49474  B =     14.60690  C =      9.41583 [cm^-1]
-  Rotational constants: A = 794292.36669  B = 437903.86072  C = 282279.46668 [MHz]
-  Nuclear repulsion =    9.138808705811980
+  Rotational constants: A =     26.67139  B =     14.60690  C =      9.43804 [cm^-1]
+  Rotational constants: A = 799588.13122  B = 437903.86399  C = 282945.45227 [MHz]
+  Nuclear repulsion =    9.149977959319049
 
   Charge       = 0
   Multiplicity = 1
@@ -528,26 +533,26 @@ gradient() will perform analytic gradient computation.
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            572
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            569
+    Max Points             =            256
+    Max Functions          =            115
 
    => Loading Basis Set <=
 
     Name: (CC-PVQZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -564,17 +569,19 @@ gradient() will perform analytic gradient computation.
 
   ==> Integral Setup <==
 
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
     J tasked:                   Yes
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               1430
+    Memory [MiB]:              1223
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
+    Fitting Condition:        1E-10
 
    => Auxiliary Basis Set <=
 
@@ -586,7 +593,9 @@ gradient() will perform analytic gradient computation.
     Spherical Harmonics?: true
     Max angular momentum: 5
 
-  Minimum eigenvalue in the overlap matrix is 4.3085372641E-04.
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.2835265055E-04.
   Using Symmetric Orthogonalization.
 
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
@@ -595,15 +604,418 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:   -76.41140190185413   -7.64114e+01   2.67809e-02 
-   @DF-RKS iter   1:   -76.39921405347738    1.21878e-02   7.34759e-03 
-   @DF-RKS iter   2:   -76.28192198877538    1.17292e-01   1.21171e-02 DIIS
-   @DF-RKS iter   3:   -76.46954413558065   -1.87622e-01   1.93925e-04 DIIS
-   @DF-RKS iter   4:   -76.46959077624949   -4.66407e-05   6.01008e-05 DIIS
-   @DF-RKS iter   5:   -76.46959437673152   -3.60048e-06   8.83556e-06 DIIS
-   @DF-RKS iter   6:   -76.46959447998178   -1.03250e-07   3.17154e-07 DIIS
-   @DF-RKS iter   7:   -76.46959448014887   -1.67091e-10   2.59250e-08 DIIS
-   @DF-RKS iter   8:   -76.46959448015025   -1.37845e-12   8.95419e-10 DIIS
+   @DF-RKS iter SAD:   -76.09475931030258   -7.60948e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28721600328122   -1.92457e-01   1.21363e-02 DIIS
+   @DF-RKS iter   2:   -75.95748595567696    3.29730e-01   1.94445e-02 DIIS
+   @DF-RKS iter   3:   -76.46897713143058   -5.11491e-01   6.22836e-04 DIIS
+   @DF-RKS iter   4:   -76.46960451532814   -6.27384e-04   8.12955e-05 DIIS
+   @DF-RKS iter   5:   -76.46961296246396   -8.44714e-06   1.39871e-05 DIIS
+   @DF-RKS iter   6:   -76.46961318245818   -2.19994e-07   7.51498e-07 DIIS
+   @DF-RKS iter   7:   -76.46961318296754   -5.09360e-10   8.30105e-08 DIIS
+   @DF-RKS iter   8:   -76.46961318297902   -1.14824e-11   3.39267e-09 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A1   -19.126079     2A1    -1.014617     1B2    -0.532013  
+       3A1    -0.394547     1B1    -0.317402  
+
+    Virtual:                                                              
+
+       4A1     0.009643     2B2     0.078592     3B2     0.294961  
+       5A1     0.327683     6A1     0.335890     2B1     0.414181  
+       7A1     0.453769     4B2     0.460877     1A2     0.502400  
+       3B1     0.562886     8A1     0.672446     5B2     0.768690  
+       9A1     0.923183     6B2     0.959065     7B2     1.161572  
+      10A1     1.210251     4B1     1.264933     2A2     1.266407  
+      11A1     1.357344    12A1     1.427072     8B2     1.644292  
+       5B1     1.831398    13A1     1.950325     3A2     2.049158  
+       6B1     2.131670     9B2     2.144561    14A1     2.261061  
+      10B2     2.267998     7B1     2.294397     4A2     2.357086  
+      11B2     2.403516    15A1     2.431413    16A1     2.553661  
+       5A2     2.590954     8B1     2.734579    12B2     2.855370  
+      13B2     3.005292    17A1     3.028236    18A1     3.139999  
+      14B2     3.304009    19A1     3.470245     9B1     3.645960  
+       6A2     3.755736    10B1     3.826465    20A1     3.849820  
+      15B2     4.080453    21A1     4.109550    22A1     4.322023  
+      11B1     4.376715    16B2     4.437024     7A2     4.550173  
+      17B2     4.955793    23A1     5.007381    12B1     5.649719  
+      24A1     5.767875     8A2     5.928988    18B2     6.005067  
+       9A2     6.374219    25A1     6.427941    19B2     6.695894  
+      20B2     6.871433    13B1     6.935497    14B1     7.005824  
+      10A2     7.065775    26A1     7.141614    21B2     7.204323  
+      27A1     7.222255    15B1     7.637246    22B2     7.659058  
+      16B1     7.716869    28A1     7.764221    11A2     7.784607  
+      23B2     7.900407    29A1     7.936359    12A2     7.972727  
+      30A1     8.025096    24B2     8.232957    17B1     8.397577  
+      31A1     8.474079    13A2     8.511335    25B2     8.785866  
+      32A1     8.909274    26B2     9.027015    33A1     9.377453  
+      27B2     9.477432    18B1     9.785211    34A1     9.936925  
+      19B1     9.985126    14A2    10.218446    35A1    10.276115  
+      28B2    10.745448    15A2    10.873743    36A1    10.992446  
+      20B1    11.085208    29B2    11.098969    21B1    11.263748  
+      37A1    11.604105    22B1    11.703126    16A2    11.822198  
+      38A1    11.825517    30B2    11.886151    39A1    12.984280  
+      31B2    13.240534    23B1    13.660637    17A2    14.006402  
+      40A1    14.043340    32B2    14.177712    41A1    15.786185  
+      33B2    16.165302    42A1    42.807762  
+
+    Final Occupation by Irrep:
+             A1    A2    B1    B2 
+    DOCC [     3,    0,    1,    1 ]
+
+  @DF-RKS Final Energy:   -76.46961318297902
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              9.1499779593190489
+    One-Electron Energy =                -123.0444326924073977
+    Two-Electron Energy =                  44.9808399617338495
+    DFT Exchange-Correlation Energy =      -7.5559984116245262
+    Empirical Dispersion Energy =           0.0000000000000000
+    VV10 Nonlocal Energy =                  0.0000000000000000
+    Total Energy =                        -76.4696131829790318
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.9891
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:    -0.2357
+
+  Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.7534     Total:     0.7534
+
+  Dipole Moment: [D]
+     X:     0.0000      Y:     0.0000      Z:     1.9148     Total:     1.9148
+
+
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:06:53 2020
+Module time:
+	user time   =       4.58 seconds =       0.08 minutes
+	system time =       0.16 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
+Total time:
+	user time   =     493.59 seconds =       8.23 minutes
+	system time =      14.00 seconds =       0.23 minutes
+	total time  =        526 seconds =       8.77 minutes
+
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:06:53 2020
+
+
+         ------------------------------------------------------------
+                                   SCF GRAD                          
+                          Rob Parrish, Justin Turney,                
+                       Andy Simmonett, and Alex Sokolov              
+         ------------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.000000000000    -0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.756678932716     0.527709800852     1.007825032230
+         H            0.000000000000    -0.756678932716     0.527709800852     1.007825032230
+
+  Nuclear repulsion =    9.149977959319049
+
+  ==> Basis Set <==
+
+  Basis Set: CC-PVQZ
+    Blend: CC-PVQZ
+    Number of shells: 35
+    Number of basis function: 115
+    Number of Cartesian functions: 140
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  ==> DFJKGrad: Density-Fitted SCF Gradients <==
+
+    Gradient:                    1
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    OpenMP threads:              1
+    Integrals threads:           1
+    Memory [MiB]:             1430
+    Schwarz Cutoff:          0E+00
+    Fitting Condition:       1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVQZ AUX)
+    Blend: CC-PVQZ-JKFIT
+    Number of shells: 54
+    Number of basis function: 208
+    Number of Cartesian functions: 274
+    Spherical Harmonics?: true
+    Max angular momentum: 5
+
+  ==> DFT Potential <==
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
+
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            569
+    Max Points             =            256
+    Max Functions          =            115
+
+
+  -Total Gradient:
+     Atom            X                  Y                   Z
+    ------   -----------------  -----------------  -----------------
+       1       -0.000000000000     0.000000000000    -0.004176359934
+       2        0.000000000000    -0.000079136034     0.002076971915
+       3       -0.000000000000     0.000079136034     0.002076971915
+
+
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:06:55 2020
+Module time:
+	user time   =       1.82 seconds =       0.03 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
+Total time:
+	user time   =     495.43 seconds =       8.26 minutes
+	system time =      14.01 seconds =       0.23 minutes
+	total time  =        528 seconds =       8.80 minutes
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //    Loading displacement 2 of 6    //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+gradient() will perform analytic gradient computation.
+
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:06:55 2020
+
+   => Loading Basis Set <=
+
+    Name: CC-PVQZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        1 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.000000000000     0.000000000000    -0.066722351562    15.994914619570
+         H           -0.000000000000     0.756678932716     0.529466069170     1.007825032230
+         H            0.000000000000    -0.756678932716     0.529466069170     1.007825032230
+
+  Running in c2v symmetry.
+
+  Rotational constants: A =     26.49474  B =     14.60690  C =      9.41583 [cm^-1]
+  Rotational constants: A = 794292.37261  B = 437903.86399  C = 282279.46878 [MHz]
+  Nuclear repulsion =    9.138808741690154
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVQZ
+    Blend: CC-PVQZ
+    Number of shells: 35
+    Number of basis function: 115
+    Number of Cartesian functions: 140
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  ==> DFT Potential <==
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
+
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            572
+    Max Points             =            256
+    Max Functions          =            115
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVQZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A1        42      42       0       0       0       0
+     A2        17      17       0       0       0       0
+     B1        23      23       0       0       0       0
+     B2        33      33       0       0       0       0
+   -------------------------------------------------------
+    Total     115     115       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:              1223
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVQZ AUX)
+    Blend: CC-PVQZ-JKFIT
+    Number of shells: 54
+    Number of basis function: 208
+    Number of Cartesian functions: 274
+    Spherical Harmonics?: true
+    Max angular momentum: 5
+
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.3085371881E-04.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter SAD:   -76.09412084869916   -7.60941e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28734581308127   -1.93225e-01   1.21269e-02 DIIS
+   @DF-RKS iter   2:   -75.95642551300033    3.30920e-01   1.94563e-02 DIIS
+   @DF-RKS iter   3:   -76.46895636172813   -5.12531e-01   6.23481e-04 DIIS
+   @DF-RKS iter   4:   -76.46958571229459   -6.29351e-04   8.16964e-05 DIIS
+   @DF-RKS iter   5:   -76.46959425694432   -8.54465e-06   1.40674e-05 DIIS
+   @DF-RKS iter   6:   -76.46959447966080   -2.22716e-07   7.55419e-07 DIIS
+   @DF-RKS iter   7:   -76.46959448017432   -5.13523e-10   8.41439e-08 DIIS
+   @DF-RKS iter   8:   -76.46959448018619   -1.18661e-11   3.42378e-09 DIIS
+  Energy and wave function converged.
+
 
   ==> Post-Iterations <==
 
@@ -644,8 +1056,8 @@ gradient() will perform analytic gradient computation.
       23B2     7.900719    29A1     7.932854    12A2     7.974501  
       30A1     8.025234    24B2     8.229233    17B1     8.394987  
       31A1     8.471072    13A2     8.504697    25B2     8.779725  
-      32A1     8.902110    26B2     9.030498    33A1     9.381156  
-      27B2     9.482479    18B1     9.785328    34A1     9.937277  
+      32A1     8.902110    26B2     9.030498    33A1     9.381155  
+      27B2     9.482478    18B1     9.785328    34A1     9.937277  
       19B1     9.982335    14A2    10.211175    35A1    10.270162  
       28B2    10.741595    15A2    10.870884    36A1    10.989809  
       20B1    11.083769    29B2    11.095385    21B1    11.264397  
@@ -659,20 +1071,19 @@ gradient() will perform analytic gradient computation.
              A1    A2    B1    B2 
     DOCC [     3,    0,    1,    1 ]
 
-  Energy converged.
-
-  @DF-RKS Final Energy:   -76.46959448015025
+  @DF-RKS Final Energy:   -76.46959448018619
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              9.1388087058119805
-    One-Electron Energy =                -123.0242044272735740
-    Two-Electron Energy =                  44.9708813881346998
-    DFT Exchange-Correlation Energy =      -7.5550801468233528
+    Nuclear Repulsion Energy =              9.1388087416901538
+    One-Electron Energy =                -123.0242046561769200
+    Two-Electron Energy =                  44.9708815847419316
+    DFT Exchange-Correlation Energy =      -7.5550801504413529
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -76.4695944801502492
+    Total Energy =                        -76.4695944801861884
 
+Computation Completed
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -692,18 +1103,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     1.9181     Total:     1.9181
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:17 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:00 2020
 Module time:
-	user time   =       2.85 seconds =       0.05 minutes
-	system time =       0.11 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       4.56 seconds =       0.08 minutes
+	system time =       0.18 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =     310.22 seconds =       5.17 minutes
-	system time =      12.54 seconds =       0.21 minutes
-	total time  =        329 seconds =       5.48 minutes
+	user time   =     500.01 seconds =       8.33 minutes
+	system time =      14.19 seconds =       0.24 minutes
+	total time  =        533 seconds =       8.88 minutes
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:17 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:00 2020
 
 
          ------------------------------------------------------------
@@ -721,11 +1132,11 @@ Total time:
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066722351552    15.994914619560
-         H           -0.000000000000     0.756678932716     0.529466069173     1.007825032070
-         H            0.000000000000    -0.756678932716     0.529466069173     1.007825032070
+         O            0.000000000000    -0.000000000000    -0.066722351562    15.994914619570
+         H           -0.000000000000     0.756678932716     0.529466069170     1.007825032230
+         H            0.000000000000    -0.756678932716     0.529466069170     1.007825032230
 
-  Nuclear repulsion =    9.138808705811980
+  Nuclear repulsion =    9.138808741690154
 
   ==> Basis Set <==
 
@@ -745,9 +1156,9 @@ Total time:
     wK tasked:                  No
     OpenMP threads:              1
     Integrals threads:           1
-    Memory (MB):              1430
+    Memory [MiB]:             1430
     Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
+    Fitting Condition:       1E-10
 
    => Auxiliary Basis Set <=
 
@@ -790,59 +1201,59 @@ Total time:
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            572
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            572
+    Max Points             =            256
+    Max Functions          =            115
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000000000000     0.000000000000    -0.005866309250
-       2       -0.000000000000     0.000656488399     0.002922246549
-       3        0.000000000000    -0.000656488399     0.002922246549
+       1       -0.000000000000     0.000000000000    -0.005866299359
+       2       -0.000000000000     0.000656483288     0.002922241603
+       3        0.000000000000    -0.000656483288     0.002922241603
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:18 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:02 2020
 Module time:
-	user time   =       1.09 seconds =       0.02 minutes
-	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       1.86 seconds =       0.03 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 Total time:
-	user time   =     311.31 seconds =       5.19 minutes
-	system time =      12.55 seconds =       0.21 minutes
-	total time  =        330 seconds =       5.50 minutes
+	user time   =     501.87 seconds =       8.36 minutes
+	system time =      14.19 seconds =       0.24 minutes
+	total time  =        535 seconds =       8.92 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-  //    Loading displacement 2 of 6    //
+  //    Loading displacement 3 of 6    //
   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:18 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:02 2020
 
    => Loading Basis Set <=
 
     Name: CC-PVQZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
 
 
          ---------------------------------------------------------
                                    SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
                               RKS Reference
                         1 Threads,   1907 MiB Core
          ---------------------------------------------------------
@@ -856,15 +1267,15 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066279708072    15.994914619560
-         H           -0.000000000000     0.756678932716     0.525953532549     1.007825032070
-         H            0.000000000000    -0.756678932716     0.525953532549     1.007825032070
+         O            0.000000000000     0.000000000000    -0.066279708080    15.994914619570
+         H           -0.000000000000     0.756678932716     0.525953532533     1.007825032230
+         H            0.000000000000    -0.756678932716     0.525953532533     1.007825032230
 
   Running in c2v symmetry.
 
   Rotational constants: A =     26.84981  B =     14.60690  C =      9.46029 [cm^-1]
-  Rotational constants: A = 804937.02323  B = 437903.86072  C = 283612.35510 [MHz]
-  Nuclear repulsion =    9.161152507574110
+  Rotational constants: A = 804937.02927  B = 437903.86399  C = 283612.35722 [MHz]
+  Nuclear repulsion =    9.161152543626358
 
   Charge       = 0
   Multiplicity = 1
@@ -924,26 +1335,26 @@ gradient() will perform analytic gradient computation.
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            570
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            570
+    Max Points             =            256
+    Max Functions          =            115
 
    => Loading Basis Set <=
 
     Name: (CC-PVQZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -960,17 +1371,19 @@ gradient() will perform analytic gradient computation.
 
   ==> Integral Setup <==
 
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
     J tasked:                   Yes
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               1430
+    Memory [MiB]:              1223
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
+    Fitting Condition:        1E-10
 
    => Auxiliary Basis Set <=
 
@@ -982,7 +1395,9 @@ gradient() will perform analytic gradient computation.
     Spherical Harmonics?: true
     Max angular momentum: 5
 
-  Minimum eigenvalue in the overlap matrix is 4.2586770344E-04.
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.2586769592E-04.
   Using Symmetric Orthogonalization.
 
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
@@ -991,15 +1406,17 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:   -76.36578619973007   -7.63658e+01   2.66856e-02 
-   @DF-RKS iter   1:   -76.40653343101177   -4.07472e-02   7.00430e-03 
-   @DF-RKS iter   2:   -76.30233104072198    1.04202e-01   1.14796e-02 DIIS
-   @DF-RKS iter   3:   -76.46958941452266   -1.67258e-01   1.71679e-04 DIIS
-   @DF-RKS iter   4:   -76.46962298281262   -3.35683e-05   5.02794e-05 DIIS
-   @DF-RKS iter   5:   -76.46962548174221   -2.49893e-06   7.50496e-06 DIIS
-   @DF-RKS iter   6:   -76.46962555745620   -7.57140e-08   3.79919e-07 DIIS
-   @DF-RKS iter   7:   -76.46962555769458   -2.38387e-10   2.76197e-08 DIIS
-   @DF-RKS iter   8:   -76.46962555769657   -1.98952e-12   1.54631e-09 DIIS
+   @DF-RKS iter SAD:   -76.09539263250846   -7.60954e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28707777152204   -1.91685e-01   1.21458e-02 DIIS
+   @DF-RKS iter   2:   -75.95852590447782    3.28552e-01   1.94329e-02 DIIS
+   @DF-RKS iter   3:   -76.46899152111898   -5.10466e-01   6.22213e-04 DIIS
+   @DF-RKS iter   4:   -76.46961698861439   -6.25467e-04   8.08989e-05 DIIS
+   @DF-RKS iter   5:   -76.46962533987806   -8.35126e-06   1.39075e-05 DIIS
+   @DF-RKS iter   6:   -76.46962555719060   -2.17313e-07   7.47638e-07 DIIS
+   @DF-RKS iter   7:   -76.46962555769615   -5.05551e-10   8.18936e-08 DIIS
+   @DF-RKS iter   8:   -76.46962555770746   -1.13118e-11   3.36172e-09 DIIS
+  Energy and wave function converged.
+
 
   ==> Post-Iterations <==
 
@@ -1055,20 +1472,19 @@ gradient() will perform analytic gradient computation.
              A1    A2    B1    B2 
     DOCC [     3,    0,    1,    1 ]
 
-  Energy converged.
-
-  @DF-RKS Final Energy:   -76.46962555769657
+  @DF-RKS Final Energy:   -76.46962555770746
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              9.1611525075741103
-    One-Electron Energy =                -123.0646576866183466
-    Two-Electron Energy =                  44.9907964093056449
-    DFT Exchange-Correlation Energy =      -7.5569167879579799
+    Nuclear Repulsion Energy =              9.1611525436263577
+    One-Electron Energy =                -123.0646577507932591
+    Two-Electron Energy =                  44.9907964231507052
+    DFT Exchange-Correlation Energy =      -7.5569167736912704
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -76.4696255576965598
+    Total Energy =                        -76.4696255577074595
 
+Computation Completed
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -1088,18 +1504,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     1.9116     Total:     1.9116
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:21 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:07 2020
 Module time:
-	user time   =       3.00 seconds =       0.05 minutes
+	user time   =       4.56 seconds =       0.08 minutes
 	system time =       0.05 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =     314.33 seconds =       5.24 minutes
-	system time =      12.60 seconds =       0.21 minutes
-	total time  =        333 seconds =       5.55 minutes
+	user time   =     506.43 seconds =       8.44 minutes
+	system time =      14.25 seconds =       0.24 minutes
+	total time  =        540 seconds =       9.00 minutes
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:21 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:07 2020
 
 
          ------------------------------------------------------------
@@ -1117,11 +1533,11 @@ Total time:
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066279708072    15.994914619560
-         H           -0.000000000000     0.756678932716     0.525953532549     1.007825032070
-         H            0.000000000000    -0.756678932716     0.525953532549     1.007825032070
+         O            0.000000000000    -0.000000000000    -0.066279708080    15.994914619570
+         H           -0.000000000000     0.756678932716     0.525953532533     1.007825032230
+         H            0.000000000000    -0.756678932716     0.525953532533     1.007825032230
 
-  Nuclear repulsion =    9.161152507574110
+  Nuclear repulsion =    9.161152543626358
 
   ==> Basis Set <==
 
@@ -1141,9 +1557,9 @@ Total time:
     wK tasked:                  No
     OpenMP threads:              1
     Integrals threads:           1
-    Memory (MB):              1430
+    Memory [MiB]:             1430
     Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
+    Fitting Condition:       1E-10
 
    => Auxiliary Basis Set <=
 
@@ -1186,59 +1602,59 @@ Total time:
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            570
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            570
+    Max Points             =            256
+    Max Functions          =            115
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000     0.000000000000    -0.002480907670
-       2        0.000000000000    -0.000822725198     0.001228960284
-       3       -0.000000000000     0.000822725198     0.001228960284
+       1       -0.000000000000     0.000000000000    -0.002480903869
+       2        0.000000000000    -0.000822728010     0.001228958383
+       3       -0.000000000000     0.000822728010     0.001228958383
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:22 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:08 2020
 Module time:
-	user time   =       1.06 seconds =       0.02 minutes
+	user time   =       1.86 seconds =       0.03 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =     315.39 seconds =       5.26 minutes
-	system time =      12.61 seconds =       0.21 minutes
-	total time  =        334 seconds =       5.57 minutes
+	user time   =     508.29 seconds =       8.47 minutes
+	system time =      14.26 seconds =       0.24 minutes
+	total time  =        541 seconds =       9.02 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-  //    Loading displacement 3 of 6    //
+  //    Loading displacement 4 of 6    //
   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:22 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:08 2020
 
    => Loading Basis Set <=
 
     Name: CC-PVQZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
 
 
          ---------------------------------------------------------
                                    SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
                               RKS Reference
                         1 Threads,   1907 MiB Core
          ---------------------------------------------------------
@@ -1252,15 +1668,15 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.754815286092     0.527709800861     1.007825032070
-         H            0.000000000000    -0.754815286092     0.527709800861     1.007825032070
+         O            0.000000000000     0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.754815286085     0.527709800852     1.007825032230
+         H            0.000000000000    -0.754815286085     0.527709800852     1.007825032230
 
   Running in c2v symmetry.
 
   Rotational constants: A =     26.67139  B =     14.67912  C =      9.46814 [cm^-1]
-  Rotational constants: A = 799588.12524  B = 440068.90837  C = 283847.76102 [MHz]
-  Nuclear repulsion =    9.164262234476729
+  Rotational constants: A = 799588.13122  B = 440068.91166  C = 283847.76314 [MHz]
+  Nuclear repulsion =    9.164262270553129
 
   Charge       = 0
   Multiplicity = 1
@@ -1320,26 +1736,26 @@ gradient() will perform analytic gradient computation.
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            569
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            569
+    Max Points             =            256
+    Max Functions          =            115
 
    => Loading Basis Set <=
 
     Name: (CC-PVQZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -1356,17 +1772,19 @@ gradient() will perform analytic gradient computation.
 
   ==> Integral Setup <==
 
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
     J tasked:                   Yes
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               1430
+    Memory [MiB]:              1223
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
+    Fitting Condition:        1E-10
 
    => Auxiliary Basis Set <=
 
@@ -1378,7 +1796,9 @@ gradient() will perform analytic gradient computation.
     Spherical Harmonics?: true
     Max angular momentum: 5
 
-  Minimum eigenvalue in the overlap matrix is 4.2546709848E-04.
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.2546709096E-04.
   Using Symmetric Orthogonalization.
 
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
@@ -1387,15 +1807,17 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:   -76.42544901121086   -7.64254e+01   2.70058e-02 
-   @DF-RKS iter   1:   -76.39789938971370    2.75496e-02   7.42330e-03 
-   @DF-RKS iter   2:   -76.28046505199839    1.17434e-01   1.21697e-02 DIIS
-   @DF-RKS iter   3:   -76.46954972660541   -1.89085e-01   2.05653e-04 DIIS
-   @DF-RKS iter   4:   -76.46960358576075   -5.38592e-05   6.28881e-05 DIIS
-   @DF-RKS iter   5:   -76.46960758562616   -3.99987e-06   8.71603e-06 DIIS
-   @DF-RKS iter   6:   -76.46960768674973   -1.01124e-07   3.26225e-07 DIIS
-   @DF-RKS iter   7:   -76.46960768693340   -1.83675e-10   2.13369e-08 DIIS
-   @DF-RKS iter   8:   -76.46960768693457   -1.16529e-12   2.22315e-09 DIIS
+   @DF-RKS iter SAD:   -76.09569782132488   -7.60957e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28710387422994   -1.91406e-01   1.21445e-02 DIIS
+   @DF-RKS iter   2:   -75.95866967792139    3.28434e-01   1.94303e-02 DIIS
+   @DF-RKS iter   3:   -76.46897325840260   -5.10304e-01   6.22389e-04 DIIS
+   @DF-RKS iter   4:   -76.46959901653091   -6.25758e-04   8.13700e-05 DIIS
+   @DF-RKS iter   5:   -76.46960746336191   -8.44683e-06   1.40905e-05 DIIS
+   @DF-RKS iter   6:   -76.46960768643329   -2.23071e-07   7.35994e-07 DIIS
+   @DF-RKS iter   7:   -76.46960768692306   -4.89763e-10   8.23780e-08 DIIS
+   @DF-RKS iter   8:   -76.46960768693457   -1.15108e-11   3.37148e-09 DIIS
+  Energy and wave function converged.
+
 
   ==> Post-Iterations <==
 
@@ -1404,7 +1826,7 @@ gradient() will perform analytic gradient computation.
 
     Doubly Occupied:                                                      
 
-       1A1   -19.125918     2A1    -1.015366     1B2    -0.532331  
+       1A1   -19.125918     2A1    -1.015367     1B2    -0.532331  
        3A1    -0.394937     1B1    -0.317556  
 
     Virtual:                                                              
@@ -1451,20 +1873,19 @@ gradient() will perform analytic gradient computation.
              A1    A2    B1    B2 
     DOCC [     3,    0,    1,    1 ]
 
-  Energy converged.
-
   @DF-RKS Final Energy:   -76.46960768693457
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              9.1642622344767286
-    One-Electron Energy =                -123.0693104481589728
-    Two-Electron Energy =                  44.9925672405454762
-    DFT Exchange-Correlation Energy =      -7.5571267137977882
+    Nuclear Repulsion Energy =              9.1642622705531291
+    One-Electron Energy =                -123.0693110205281613
+    Two-Electron Energy =                  44.9925678153215003
+    DFT Exchange-Correlation Energy =      -7.5571267522810377
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
     Total Energy =                        -76.4696076869345660
 
+Computation Completed
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -1484,18 +1905,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     1.9162     Total:     1.9162
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:25 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:13 2020
 Module time:
-	user time   =       2.86 seconds =       0.05 minutes
-	system time =       0.10 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       4.57 seconds =       0.08 minutes
+	system time =       0.11 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =     318.27 seconds =       5.30 minutes
-	system time =      12.71 seconds =       0.21 minutes
-	total time  =        337 seconds =       5.62 minutes
+	user time   =     512.86 seconds =       8.55 minutes
+	system time =      14.37 seconds =       0.24 minutes
+	total time  =        546 seconds =       9.10 minutes
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:25 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:13 2020
 
 
          ------------------------------------------------------------
@@ -1513,11 +1934,11 @@ Total time:
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.754815286092     0.527709800861     1.007825032070
-         H            0.000000000000    -0.754815286092     0.527709800861     1.007825032070
+         O            0.000000000000    -0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.754815286085     0.527709800852     1.007825032230
+         H            0.000000000000    -0.754815286085     0.527709800852     1.007825032230
 
-  Nuclear repulsion =    9.164262234476729
+  Nuclear repulsion =    9.164262270553129
 
   ==> Basis Set <==
 
@@ -1537,9 +1958,9 @@ Total time:
     wK tasked:                  No
     OpenMP threads:              1
     Integrals threads:           1
-    Memory (MB):              1430
+    Memory [MiB]:             1430
     Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
+    Fitting Condition:       1E-10
 
    => Auxiliary Basis Set <=
 
@@ -1582,59 +2003,59 @@ Total time:
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            569
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            569
+    Max Points             =            256
+    Max Functions          =            115
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000     0.000000000000    -0.002772034255
-       2        0.000000000000    -0.001478444123     0.001374973105
-       3       -0.000000000000     0.001478444123     0.001374973105
+       1       -0.000000000000     0.000000000000    -0.002772023883
+       2        0.000000000000    -0.001478449564     0.001374967919
+       3       -0.000000000000     0.001478449564     0.001374967919
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:26 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:15 2020
 Module time:
-	user time   =       1.07 seconds =       0.02 minutes
-	system time =       0.00 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       1.81 seconds =       0.03 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 Total time:
-	user time   =     319.34 seconds =       5.32 minutes
-	system time =      12.71 seconds =       0.21 minutes
-	total time  =        338 seconds =       5.63 minutes
+	user time   =     514.67 seconds =       8.58 minutes
+	system time =      14.39 seconds =       0.24 minutes
+	total time  =        548 seconds =       9.13 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-  //    Loading displacement 4 of 6    //
+  //    Loading displacement 5 of 6    //
   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:26 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:15 2020
 
    => Loading Basis Set <=
 
     Name: CC-PVQZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
 
 
          ---------------------------------------------------------
                                    SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
                               RKS Reference
                         1 Threads,   1907 MiB Core
          ---------------------------------------------------------
@@ -1648,15 +2069,15 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O           -0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.758542579341     0.527709800861     1.007825032070
-         H            0.000000000000    -0.758542579341     0.527709800861     1.007825032070
+         O            0.000000000000     0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.758542579348     0.527709800852     1.007825032230
+         H            0.000000000000    -0.758542579348     0.527709800852     1.007825032230
 
   Running in c2v symmetry.
 
   Rotational constants: A =     26.67139  B =     14.53521  C =      9.40806 [cm^-1]
-  Rotational constants: A = 799588.12524  B = 435754.75124  C = 282046.65380 [MHz]
-  Nuclear repulsion =    9.135726108326615
+  Rotational constants: A = 799588.13122  B = 435754.75448  C = 282046.65590 [MHz]
+  Nuclear repulsion =    9.135726144180952
 
   Charge       = 0
   Multiplicity = 1
@@ -1716,26 +2137,26 @@ gradient() will perform analytic gradient computation.
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            570
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            570
+    Max Points             =            256
+    Max Functions          =            115
 
    => Loading Basis Set <=
 
     Name: (CC-PVQZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -1752,17 +2173,19 @@ gradient() will perform analytic gradient computation.
 
   ==> Integral Setup <==
 
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
     J tasked:                   Yes
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               1430
+    Memory [MiB]:              1223
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
+    Fitting Condition:        1E-10
 
    => Auxiliary Basis Set <=
 
@@ -1774,7 +2197,9 @@ gradient() will perform analytic gradient computation.
     Spherical Harmonics?: true
     Max angular momentum: 5
 
-  Minimum eigenvalue in the overlap matrix is 4.3125387270E-04.
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.3125386510E-04.
   Using Symmetric Orthogonalization.
 
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
@@ -1783,15 +2208,17 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:   -76.42168542923451   -7.64217e+01   2.68315e-02 
-   @DF-RKS iter   1:   -76.39809085220115    2.35946e-02   7.40683e-03 
-   @DF-RKS iter   2:   -76.27995358288459    1.18137e-01   1.21777e-02 DIIS
-   @DF-RKS iter   3:   -76.46954996043954   -1.89596e-01   2.07480e-04 DIIS
-   @DF-RKS iter   4:   -76.46960470510344   -5.47447e-05   6.33323e-05 DIIS
-   @DF-RKS iter   5:   -76.46960876060997   -4.05551e-06   8.75655e-06 DIIS
-   @DF-RKS iter   6:   -76.46960886283657   -1.02227e-07   3.30129e-07 DIIS
-   @DF-RKS iter   7:   -76.46960886302485   -1.88280e-10   2.18218e-08 DIIS
-   @DF-RKS iter   8:   -76.46960886302607   -1.22213e-12   2.21353e-09 DIIS
+   @DF-RKS iter SAD:   -76.09381495545655   -7.60938e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28731554536927   -1.93501e-01   1.21283e-02 DIIS
+   @DF-RKS iter   2:   -75.95627870948786    3.31037e-01   1.94588e-02 DIIS
+   @DF-RKS iter   3:   -76.46897111802632   -5.12692e-01   6.23319e-04 DIIS
+   @DF-RKS iter   4:   -76.46960019692452   -6.29079e-04   8.12277e-05 DIIS
+   @DF-RKS iter   5:   -76.46960864564296   -8.44872e-06   1.38814e-05 DIIS
+   @DF-RKS iter   6:   -76.46960886251807   -2.16875e-07   7.67487e-07 DIIS
+   @DF-RKS iter   7:   -76.46960886304871   -5.30633e-10   8.36483e-08 DIIS
+   @DF-RKS iter   8:   -76.46960886306040   -1.16955e-11   3.41395e-09 DIIS
+  Energy and wave function converged.
+
 
   ==> Post-Iterations <==
 
@@ -1847,20 +2274,19 @@ gradient() will perform analytic gradient computation.
              A1    A2    B1    B2 
     DOCC [     3,    0,    1,    1 ]
 
-  Energy converged.
-
-  @DF-RKS Final Energy:   -76.46960886302607
+  @DF-RKS Final Energy:   -76.46960886306040
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              9.1357261083266152
-    One-Electron Energy =                -123.0195936361497644
-    Two-Electron Energy =                  44.9691310536943050
-    DFT Exchange-Correlation Energy =      -7.5548723888972260
+    Nuclear Repulsion Energy =              9.1357261441809516
+    One-Electron Energy =                -123.0195942026540621
+    Two-Electron Energy =                  44.9691316219164605
+    DFT Exchange-Correlation Energy =      -7.5548724265037492
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -76.4696088630260817
+    Total Energy =                        -76.4696088630604009
 
+Computation Completed
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -1880,18 +2306,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     1.9135     Total:     1.9135
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:30 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:20 2020
 Module time:
-	user time   =       2.83 seconds =       0.05 minutes
-	system time =       0.09 seconds =       0.00 minutes
-	total time  =          4 seconds =       0.07 minutes
+	user time   =       4.55 seconds =       0.08 minutes
+	system time =       0.11 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =     322.19 seconds =       5.37 minutes
-	system time =      12.80 seconds =       0.21 minutes
-	total time  =        342 seconds =       5.70 minutes
+	user time   =     519.23 seconds =       8.65 minutes
+	system time =      14.50 seconds =       0.24 minutes
+	total time  =        553 seconds =       9.22 minutes
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:30 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:20 2020
 
 
          ------------------------------------------------------------
@@ -1909,11 +2335,11 @@ Total time:
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O           -0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.758542579341     0.527709800861     1.007825032070
-         H            0.000000000000    -0.758542579341     0.527709800861     1.007825032070
+         O            0.000000000000    -0.000000000000    -0.066501029821    15.994914619570
+         H           -0.000000000000     0.758542579348     0.527709800852     1.007825032230
+         H            0.000000000000    -0.758542579348     0.527709800852     1.007825032230
 
-  Nuclear repulsion =    9.135726108326615
+  Nuclear repulsion =    9.135726144180952
 
   ==> Basis Set <==
 
@@ -1933,9 +2359,9 @@ Total time:
     wK tasked:                  No
     OpenMP threads:              1
     Integrals threads:           1
-    Memory (MB):              1430
+    Memory [MiB]:             1430
     Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
+    Fitting Condition:       1E-10
 
    => Auxiliary Basis Set <=
 
@@ -1978,59 +2404,59 @@ Total time:
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            570
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            570
+    Max Points             =            256
+    Max Functions          =            115
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000     0.000000000000    -0.005560687173
-       2       -0.000000000000     0.001308684232     0.002768981561
-       3        0.000000000000    -0.001308684232     0.002768981561
+       1       -0.000000000000     0.000000000000    -0.005560676282
+       2       -0.000000000000     0.001308678601     0.002768976115
+       3        0.000000000000    -0.001308678601     0.002768976115
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:31 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:22 2020
 Module time:
-	user time   =       1.07 seconds =       0.02 minutes
+	user time   =       1.94 seconds =       0.03 minutes
 	system time =       0.00 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          2 seconds =       0.03 minutes
 Total time:
-	user time   =     323.27 seconds =       5.39 minutes
-	system time =      12.80 seconds =       0.21 minutes
-	total time  =        343 seconds =       5.72 minutes
+	user time   =     521.17 seconds =       8.69 minutes
+	system time =      14.50 seconds =       0.24 minutes
+	total time  =        555 seconds =       9.25 minutes
 
   //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-  //    Loading displacement 5 of 6    //
+  //    Loading displacement 6 of 6    //
   //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:31 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:22 2020
 
    => Loading Basis Set <=
 
     Name: CC-PVQZ
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
+    atoms 1   entry O          line   339 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
+    atoms 2-3 entry H          line    22 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz.gbs 
 
 
          ---------------------------------------------------------
                                    SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
                               RKS Reference
                         1 Threads,   1907 MiB Core
          ---------------------------------------------------------
@@ -2044,15 +2470,15 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000    -0.000177904137    -0.066501029812    15.994914619560
-         H            0.000000000000     0.758090666591     0.528818418429     1.007825032070
-         H            0.000000000000    -0.755267198842     0.526601183293     1.007825032070
+         O            0.000000000000    -0.000177904137    -0.066501029821    15.994914619570
+         H            0.000000000000     0.758090666596     0.528818418424     1.007825032230
+         H            0.000000000000    -0.755267198836     0.526601183279     1.007825032230
 
   Running in cs symmetry.
 
   Rotational constants: A =     26.67221  B =     14.60657  C =      9.43801 [cm^-1]
-  Rotational constants: A = 799612.70422  B = 437893.83279  C = 282944.34116 [MHz]
-  Nuclear repulsion =    9.150013084795349
+  Rotational constants: A = 799612.71020  B = 437893.83605  C = 282944.34327 [MHz]
+  Nuclear repulsion =    9.150013120760939
 
   Charge       = 0
   Multiplicity = 1
@@ -2112,26 +2538,26 @@ gradient() will perform analytic gradient computation.
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            562
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            562
+    Max Points             =            256
+    Max Functions          =            115
 
    => Loading Basis Set <=
 
     Name: (CC-PVQZ AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 1   entry O          line   253 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /home/sohompaul/anaconda3/envs/senior_research/share/psi4/basis/cc-pvqz-jkfit.gbs 
 
   ==> Pre-Iterations <==
 
@@ -2146,17 +2572,19 @@ gradient() will perform analytic gradient computation.
 
   ==> Integral Setup <==
 
+  DFHelper Memory: AOs need 0.024 GiB; user supplied 1.195 GiB. Using in-core AOs.
+
   ==> MemDFJK: Density-Fitted J/K Matrices <==
 
     J tasked:                   Yes
     K tasked:                   Yes
     wK tasked:                   No
     OpenMP threads:               1
-    Memory (MB):               1430
+    Memory [MiB]:              1223
     Algorithm:                 Core
     Schwarz Cutoff:           1E-12
     Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
+    Fitting Condition:        1E-10
 
    => Auxiliary Basis Set <=
 
@@ -2168,7 +2596,9 @@ gradient() will perform analytic gradient computation.
     Spherical Harmonics?: true
     Max angular momentum: 5
 
-  Minimum eigenvalue in the overlap matrix is 4.2831333855E-04.
+  Cached 100.0% of DFT collocation blocks in 0.202 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 4.2831333099E-04.
   Using Symmetric Orthogonalization.
 
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
@@ -2177,16 +2607,17 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RKS iter   0:   -76.48139041213548   -7.64814e+01   1.93753e-02 
-   @DF-RKS iter   1:   -76.39097266968284    9.04177e-02   5.52522e-03 
-   @DF-RKS iter   2:   -76.26691598442230    1.24057e-01   8.96103e-03 DIIS
-   @DF-RKS iter   3:   -76.46949366365411   -2.02578e-01   1.99551e-04 DIIS
-   @DF-RKS iter   4:   -76.46959910609463   -1.05442e-04   5.42319e-05 DIIS
-   @DF-RKS iter   5:   -76.46960593486011   -6.82877e-06   7.29165e-06 DIIS
-   @DF-RKS iter   6:   -76.46960606512968   -1.30270e-07   1.13209e-06 DIIS
-   @DF-RKS iter   7:   -76.46960606813454   -3.00486e-09   2.19969e-07 DIIS
-   @DF-RKS iter   8:   -76.46960606827047   -1.35927e-10   2.39622e-08 DIIS
-   @DF-RKS iter   9:   -76.46960606827196   -1.49214e-12   1.96681e-09 DIIS
+   @DF-RKS iter SAD:   -76.09475443369713   -7.60948e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.28720418100791   -1.92450e-01   8.65100e-03 DIIS
+   @DF-RKS iter   2:   -75.95746070474490    3.29743e-01   1.38604e-02 DIIS
+   @DF-RKS iter   3:   -76.46896993934629   -5.11509e-01   4.43987e-04 DIIS
+   @DF-RKS iter   4:   -76.46959739822798   -6.27459e-04   5.79549e-05 DIIS
+   @DF-RKS iter   5:   -76.46960584768009   -8.44945e-06   9.97199e-06 DIIS
+   @DF-RKS iter   6:   -76.46960606776750   -2.20087e-07   5.36439e-07 DIIS
+   @DF-RKS iter   7:   -76.46960606827810   -5.10596e-10   6.00643e-08 DIIS
+   @DF-RKS iter   8:   -76.46960606829012   -1.20224e-11   6.51509e-09 DIIS
+  Energy and wave function converged.
+
 
   ==> Post-Iterations <==
 
@@ -2204,12 +2635,12 @@ gradient() will perform analytic gradient computation.
        8Ap     0.327684     9Ap     0.335906     2App    0.414179  
       10Ap     0.453769    11Ap     0.460881     3App    0.502401  
        4App    0.562886    12Ap     0.672445    13Ap     0.768690  
-      14Ap     0.923151    15Ap     0.959099    16Ap     1.161572  
+      14Ap     0.923151    15Ap     0.959100    16Ap     1.161572  
       17Ap     1.210255     5App    1.264890     6App    1.266446  
       18Ap     1.357342    19Ap     1.427074    20Ap     1.644295  
        7App    1.831396    21Ap     1.950326     8App    2.049158  
        9App    2.131669    22Ap     2.144561    23Ap     2.261053  
-      24Ap     2.267995    10App    2.294398    11App    2.357085  
+      24Ap     2.267995    10App    2.294398    11App    2.357086  
       25Ap     2.403464    26Ap     2.431463    27Ap     2.553670  
       12App    2.590959    13App    2.734572    28Ap     2.855362  
       29Ap     3.005220    30Ap     3.028249    31Ap     3.140013  
@@ -2226,7 +2657,7 @@ gradient() will perform analytic gradient computation.
       26App    7.716817    50Ap     7.764242    27App    7.784683  
       51Ap     7.900381    52Ap     7.936510    28App    7.972723  
       53Ap     8.025098    54Ap     8.232935    29App    8.397255  
-      55Ap     8.474086    30App    8.511648    56Ap     8.785772  
+      55Ap     8.474086    30App    8.511648    56Ap     8.785773  
       57Ap     8.909399    58Ap     9.027009    59Ap     9.376386  
       60Ap     9.478521    31App    9.785185    61Ap     9.936925  
       32App    9.985165    33App   10.218481    62Ap    10.276043  
@@ -2242,20 +2673,19 @@ gradient() will perform analytic gradient computation.
              Ap   App 
     DOCC [     4,    1 ]
 
-  Energy converged.
-
-  @DF-RKS Final Energy:   -76.46960606827196
+  @DF-RKS Final Energy:   -76.46960606829012
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              9.1500130847953489
-    One-Electron Energy =                -123.0444815064957282
-    Two-Electron Energy =                  44.9808637467017647
-    DFT Exchange-Correlation Energy =      -7.5560013932733474
+    Nuclear Repulsion Energy =              9.1500131207609385
+    One-Electron Energy =                -123.0444816629809139
+    Two-Electron Energy =                  44.9808638613192286
+    DFT Exchange-Correlation Energy =      -7.5560013873893688
     Empirical Dispersion Energy =           0.0000000000000000
     VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -76.4696060682719718
+    Total Energy =                        -76.4696060682901333
 
+Computation Completed
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
@@ -2275,18 +2705,18 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0028      Z:     1.9148     Total:     1.9148
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:34 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:27 2020
 Module time:
-	user time   =       3.03 seconds =       0.05 minutes
-	system time =       0.17 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       4.64 seconds =       0.08 minutes
+	system time =       0.19 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
 Total time:
-	user time   =     326.31 seconds =       5.44 minutes
-	system time =      12.97 seconds =       0.22 minutes
-	total time  =        346 seconds =       5.77 minutes
+	user time   =     525.81 seconds =       8.76 minutes
+	system time =      14.69 seconds =       0.24 minutes
+	total time  =        560 seconds =       9.33 minutes
 
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:34 2019
+*** tstart() called on DESKTOP-UC4IJ0G
+*** at Tue May 12 16:07:27 2020
 
 
          ------------------------------------------------------------
@@ -2304,11 +2734,11 @@ Total time:
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000    -0.000177904137    -0.066501029812    15.994914619560
-         H            0.000000000000     0.758090666591     0.528818418429     1.007825032070
-         H            0.000000000000    -0.755267198842     0.526601183293     1.007825032070
+         O            0.000000000000    -0.000177904137    -0.066501029821    15.994914619570
+         H            0.000000000000     0.758090666596     0.528818418424     1.007825032230
+         H            0.000000000000    -0.755267198836     0.526601183279     1.007825032230
 
-  Nuclear repulsion =    9.150013084795349
+  Nuclear repulsion =    9.150013120760939
 
   ==> Basis Set <==
 
@@ -2328,9 +2758,9 @@ Total time:
     wK tasked:                  No
     OpenMP threads:              1
     Integrals threads:           1
-    Memory (MB):              1430
+    Memory [MiB]:             1430
     Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
+    Fitting Condition:       1E-10
 
    => Auxiliary Basis Set <=
 
@@ -2373,443 +2803,50 @@ Total time:
 
    => Molecular Quadrature <=
 
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
 
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            562
-    Max Points          =            256
-    Max Functions       =            115
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          67060
+    Total Blocks           =            562
+    Max Points             =            256
+    Max Functions          =            115
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000000000000    -0.003066612756    -0.004159747390
-       2        0.000000000000     0.001442885155     0.003267225608
-       3        0.000000000000     0.001620896223     0.000870245931
+       1        0.000000000000    -0.003066651962    -0.004159748117
+       2        0.000000000000     0.001442904460     0.003267246728
+       3        0.000000000000     0.001620916124     0.000870225538
 
 
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:35 2019
+*** tstop() called on DESKTOP-UC4IJ0G at Tue May 12 16:07:29 2020
 Module time:
-	user time   =       1.08 seconds =       0.02 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       1.87 seconds =       0.03 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 Total time:
-	user time   =     327.39 seconds =       5.46 minutes
-	system time =      12.99 seconds =       0.22 minutes
-	total time  =        347 seconds =       5.78 minutes
+	user time   =     527.68 seconds =       8.79 minutes
+	system time =      14.72 seconds =       0.25 minutes
+	total time  =        562 seconds =       9.37 minutes
 
-  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-  //    Loading displacement 6 of 6    //
-  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
-gradient() will perform analytic gradient computation.
-
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:35 2019
-
-   => Loading Basis Set <=
-
-    Name: CC-PVQZ
-    Role: ORBITAL
-    Keyword: BASIS
-    atoms 1   entry O          line   339 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-    atoms 2-3 entry H          line    22 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz.gbs 
-
-
+         ----------------------------------------------------------
+                                   FINDIF
+                     R. A. King and Jonathon Misiewicz
          ---------------------------------------------------------
-                                   SCF
-            by Justin Turney, Rob Parrish, Andy Simmonett
-                             and Daniel Smith
-                              RKS Reference
-                        1 Threads,   1907 MiB Core
-         ---------------------------------------------------------
-
-  ==> Geometry <==
-
-    Molecular point group: c2v
-    Full point group: C2v
-
-    Geometry (in Angstrom), charge = 0, multiplicity = 1:
-
-       Center              X                  Y                   Z               Mass       
-    ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.756678932716     0.527709800861     1.007825032070
-         H            0.000000000000    -0.756678932716     0.527709800861     1.007825032070
-
-  Running in c2v symmetry.
-
-  Rotational constants: A =     26.67139  B =     14.60690  C =      9.43804 [cm^-1]
-  Rotational constants: A = 799588.12524  B = 437903.86072  C = 282945.45015 [MHz]
-  Nuclear repulsion =    9.149977923353870
-
-  Charge       = 0
-  Multiplicity = 1
-  Electrons    = 10
-  Nalpha       = 5
-  Nbeta        = 5
-
-  ==> Algorithm <==
-
-  SCF Algorithm Type is DF.
-  DIIS enabled.
-  MOM disabled.
-  Fractional occupation disabled.
-  Guess Type is SAD.
-  Energy threshold   = 1.00e-08
-  Density threshold  = 1.00e-08
-  Integral threshold = 0.00e+00
-
-  ==> Primary Basis <==
-
-  Basis Set: CC-PVQZ
-    Blend: CC-PVQZ
-    Number of shells: 35
-    Number of basis function: 115
-    Number of Cartesian functions: 140
-    Spherical Harmonics?: true
-    Max angular momentum: 4
-
-  ==> DFT Potential <==
-
-   => Composite Functional: B3LYP <= 
-
-    B3LYP Hyb-GGA Exchange-Correlation Functional
-
-    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
-
-    Deriv               =              1
-    GGA                 =           TRUE
-    Meta                =          FALSE
-
-    Exchange Hybrid     =           TRUE
-    MP2 Hybrid          =          FALSE
-
-   => Exchange Functionals <=
-
-    0.0800   Slater exchange
-    0.7200         Becke 88
-
-   => Exact (HF) Exchange <=
-
-    0.2000               HF 
-
-   => Correlation Functionals <=
-
-    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
-    0.8100   Lee, Yang & Parr
-
-   => Molecular Quadrature <=
-
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
-
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            569
-    Max Points          =            256
-    Max Functions       =            115
-
-   => Loading Basis Set <=
-
-    Name: (CC-PVQZ AUX)
-    Role: JKFIT
-    Keyword: DF_BASIS_SCF
-    atoms 1   entry O          line   253 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-    atoms 2-3 entry H          line    51 file /home/sohompaul/psi4conda/share/psi4/basis/cc-pvqz-jkfit.gbs 
-
-  ==> Pre-Iterations <==
-
-   -------------------------------------------------------
-    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
-   -------------------------------------------------------
-     A1        42      42       0       0       0       0
-     A2        17      17       0       0       0       0
-     B1        23      23       0       0       0       0
-     B2        33      33       0       0       0       0
-   -------------------------------------------------------
-    Total     115     115       5       5       5       0
-   -------------------------------------------------------
-
-  ==> Integral Setup <==
-
-  ==> MemDFJK: Density-Fitted J/K Matrices <==
-
-    J tasked:                   Yes
-    K tasked:                   Yes
-    wK tasked:                   No
-    OpenMP threads:               1
-    Memory (MB):               1430
-    Algorithm:                 Core
-    Schwarz Cutoff:           1E-12
-    Mask sparsity (%):       0.0000
-    Fitting Condition:        1E-12
-
-   => Auxiliary Basis Set <=
-
-  Basis Set: (CC-PVQZ AUX)
-    Blend: CC-PVQZ-JKFIT
-    Number of shells: 54
-    Number of basis function: 208
-    Number of Cartesian functions: 274
-    Spherical Harmonics?: true
-    Max angular momentum: 5
-
-  Minimum eigenvalue in the overlap matrix is 4.2835265811E-04.
-  Using Symmetric Orthogonalization.
-
-  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
-
-  ==> Iterations <==
-
-                           Total Energy        Delta E     RMS |[F,P]|
-
-   @DF-RKS iter   0:   -76.48630819332027   -7.64863e+01   2.71881e-02 
-   @DF-RKS iter   1:   -76.39057021558608    9.57380e-02   7.78377e-03 
-   @DF-RKS iter   2:   -76.26362459929388    1.26946e-01   1.26695e-02 DIIS
-   @DF-RKS iter   3:   -76.46952344370361   -2.05899e-01   2.52060e-04 DIIS
-   @DF-RKS iter   4:   -76.46960811372853   -8.46700e-05   6.78644e-05 DIIS
-   @DF-RKS iter   5:   -76.46961307663896   -4.96291e-06   8.64967e-06 DIIS
-   @DF-RKS iter   6:   -76.46961318269500   -1.06056e-07   4.43935e-07 DIIS
-   @DF-RKS iter   7:   -76.46961318296840   -2.73403e-10   6.73435e-08 DIIS
-   @DF-RKS iter   8:   -76.46961318297454   -6.13909e-12   3.56785e-09 DIIS
-
-  ==> Post-Iterations <==
-
-    Orbital Energies [Eh]
-    ---------------------
-
-    Doubly Occupied:                                                      
-
-       1A1   -19.126079     2A1    -1.014617     1B2    -0.532013  
-       3A1    -0.394547     1B1    -0.317402  
-
-    Virtual:                                                              
-
-       4A1     0.009643     2B2     0.078592     3B2     0.294961  
-       5A1     0.327683     6A1     0.335890     2B1     0.414181  
-       7A1     0.453769     4B2     0.460877     1A2     0.502400  
-       3B1     0.562886     8A1     0.672446     5B2     0.768690  
-       9A1     0.923183     6B2     0.959065     7B2     1.161572  
-      10A1     1.210251     4B1     1.264933     2A2     1.266407  
-      11A1     1.357344    12A1     1.427072     8B2     1.644292  
-       5B1     1.831398    13A1     1.950325     3A2     2.049158  
-       6B1     2.131670     9B2     2.144561    14A1     2.261061  
-      10B2     2.267998     7B1     2.294397     4A2     2.357086  
-      11B2     2.403516    15A1     2.431413    16A1     2.553661  
-       5A2     2.590954     8B1     2.734579    12B2     2.855370  
-      13B2     3.005292    17A1     3.028236    18A1     3.139999  
-      14B2     3.304009    19A1     3.470245     9B1     3.645960  
-       6A2     3.755736    10B1     3.826465    20A1     3.849820  
-      15B2     4.080453    21A1     4.109550    22A1     4.322023  
-      11B1     4.376715    16B2     4.437024     7A2     4.550173  
-      17B2     4.955793    23A1     5.007381    12B1     5.649719  
-      24A1     5.767875     8A2     5.928988    18B2     6.005067  
-       9A2     6.374219    25A1     6.427941    19B2     6.695894  
-      20B2     6.871433    13B1     6.935497    14B1     7.005824  
-      10A2     7.065775    26A1     7.141614    21B2     7.204323  
-      27A1     7.222255    15B1     7.637246    22B2     7.659058  
-      16B1     7.716869    28A1     7.764221    11A2     7.784607  
-      23B2     7.900407    29A1     7.936359    12A2     7.972727  
-      30A1     8.025096    24B2     8.232957    17B1     8.397577  
-      31A1     8.474079    13A2     8.511335    25B2     8.785866  
-      32A1     8.909274    26B2     9.027015    33A1     9.377453  
-      27B2     9.477432    18B1     9.785211    34A1     9.936925  
-      19B1     9.985125    14A2    10.218446    35A1    10.276115  
-      28B2    10.745448    15A2    10.873743    36A1    10.992446  
-      20B1    11.085208    29B2    11.098969    21B1    11.263748  
-      37A1    11.604105    22B1    11.703126    16A2    11.822198  
-      38A1    11.825517    30B2    11.886151    39A1    12.984280  
-      31B2    13.240534    23B1    13.660637    17A2    14.006402  
-      40A1    14.043340    32B2    14.177712    41A1    15.786185  
-      33B2    16.165302    42A1    42.807762  
-
-    Final Occupation by Irrep:
-             A1    A2    B1    B2 
-    DOCC [     3,    0,    1,    1 ]
-
-  Energy converged.
-
-  @DF-RKS Final Energy:   -76.46961318297454
-
-   => Energetics <=
-
-    Nuclear Repulsion Energy =              9.1499779233538696
-    One-Electron Energy =                -123.0444319208140911
-    Two-Electron Energy =                  44.9808391767716387
-    DFT Exchange-Correlation Energy =      -7.5559983622859663
-    Empirical Dispersion Energy =           0.0000000000000000
-    VV10 Nonlocal Energy =                  0.0000000000000000
-    Total Energy =                        -76.4696131829745411
-
-
-
-Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
-
-Properties computed using the SCF density matrix
-
-  Nuclear Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:     0.9891
-
-  Electronic Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:    -0.2357
-
-  Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:     0.7534     Total:     0.7534
-
-  Dipole Moment: [D]
-     X:     0.0000      Y:     0.0000      Z:     1.9148     Total:     1.9148
-
-
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:38 2019
-Module time:
-	user time   =       2.87 seconds =       0.05 minutes
-	system time =       0.12 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
-Total time:
-	user time   =     330.28 seconds =       5.50 minutes
-	system time =      13.11 seconds =       0.22 minutes
-	total time  =        350 seconds =       5.83 minutes
-
-*** tstart() called on LAPTOP-UD8U1GLI
-*** at Sun Sep 29 19:19:38 2019
-
-
-         ------------------------------------------------------------
-                                   SCF GRAD                          
-                          Rob Parrish, Justin Turney,                
-                       Andy Simmonett, and Alex Sokolov              
-         ------------------------------------------------------------
-
-  ==> Geometry <==
-
-    Molecular point group: c2v
-    Full point group: C2v
-
-    Geometry (in Angstrom), charge = 0, multiplicity = 1:
-
-       Center              X                  Y                   Z               Mass       
-    ------------   -----------------  -----------------  -----------------  -----------------
-         O            0.000000000000     0.000000000000    -0.066501029812    15.994914619560
-         H           -0.000000000000     0.756678932716     0.527709800861     1.007825032070
-         H            0.000000000000    -0.756678932716     0.527709800861     1.007825032070
-
-  Nuclear repulsion =    9.149977923353870
-
-  ==> Basis Set <==
-
-  Basis Set: CC-PVQZ
-    Blend: CC-PVQZ
-    Number of shells: 35
-    Number of basis function: 115
-    Number of Cartesian functions: 140
-    Spherical Harmonics?: true
-    Max angular momentum: 4
-
-  ==> DFJKGrad: Density-Fitted SCF Gradients <==
-
-    Gradient:                    1
-    J tasked:                  Yes
-    K tasked:                  Yes
-    wK tasked:                  No
-    OpenMP threads:              1
-    Integrals threads:           1
-    Memory (MB):              1430
-    Schwarz Cutoff:          0E+00
-    Fitting Condition:       1E-12
-
-   => Auxiliary Basis Set <=
-
-  Basis Set: (CC-PVQZ AUX)
-    Blend: CC-PVQZ-JKFIT
-    Number of shells: 54
-    Number of basis function: 208
-    Number of Cartesian functions: 274
-    Spherical Harmonics?: true
-    Max angular momentum: 5
-
-  ==> DFT Potential <==
-
-   => Composite Functional: B3LYP <= 
-
-    B3LYP Hyb-GGA Exchange-Correlation Functional
-
-    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994)
-
-    Deriv               =              1
-    GGA                 =           TRUE
-    Meta                =          FALSE
-
-    Exchange Hybrid     =           TRUE
-    MP2 Hybrid          =          FALSE
-
-   => Exchange Functionals <=
-
-    0.0800   Slater exchange
-    0.7200         Becke 88
-
-   => Exact (HF) Exchange <=
-
-    0.2000               HF 
-
-   => Correlation Functionals <=
-
-    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
-    0.8100   Lee, Yang & Parr
-
-   => Molecular Quadrature <=
-
-    Radial Scheme       =       TREUTLER
-    Pruning Scheme      =           FLAT
-    Nuclear Scheme      =       TREUTLER
-
-    BS radius alpha     =              1
-    Pruning alpha       =              1
-    Radial Points       =             75
-    Spherical Points    =            302
-    Total Points        =          67060
-    Total Blocks        =            569
-    Max Points          =            256
-    Max Functions       =            115
-
-
-  -Total Gradient:
-     Atom            X                  Y                   Z
-    ------   -----------------  -----------------  -----------------
-       1       -0.000000000000     0.000000000000    -0.004176363499
-       2        0.000000000000    -0.000079133186     0.002076973697
-       3       -0.000000000000     0.000079133186     0.002076973697
-
-
-*** tstop() called on LAPTOP-UD8U1GLI at Sun Sep 29 19:19:39 2019
-Module time:
-	user time   =       1.06 seconds =       0.02 minutes
-	system time =       0.00 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
-Total time:
-	user time   =     331.34 seconds =       5.52 minutes
-	system time =      13.11 seconds =       0.22 minutes
-	total time  =        351 seconds =       5.85 minutes
-
--------------------------------------------------------------
 
   Computing second-derivative from gradients using projected, 
-  symmetry-adapted, cartesian coordinates (fd_freq_1).
+  symmetry-adapted, cartesian coordinates.
 
   6 gradients passed in, including the reference geometry.
   Generating complete list of displacements from unique ones.
 
-	Operation 2 takes plus displacements of irrep B2 to minus ones.
+    Operation 2 takes plus displacements of irrep B2 to minus ones.
 
 -------------------------------------------------------------
 
@@ -2822,59 +2859,59 @@ Total time:
   mass-weighted Hessian:           Symmetric? True   Hermitian? True   Lin Dep Dim?  6 (0)
   pre-proj  low-frequency mode:    0.0000i [cm^-1]
   pre-proj  low-frequency mode:    0.0000i [cm^-1]
-  pre-proj  low-frequency mode:    0.0000i [cm^-1]
   pre-proj  low-frequency mode:    0.0000  [cm^-1]
   pre-proj  low-frequency mode:    0.0000  [cm^-1]
   pre-proj  low-frequency mode:    0.0000  [cm^-1]
-  pre-proj  all modes:['0.0001i' '0.0000i' '0.0000i' '0.0000' '0.0000' '0.0000' '1650.6853'
- '3786.6289' '3877.7301']
+  pre-proj  low-frequency mode:    0.0000  [cm^-1]
+  pre-proj  all modes:['0.0000i' '0.0000i' '0.0000' '0.0000' '0.0000' '0.0000' '1650.7175'
+ '3786.6131' '3877.7580']
   projected mass-weighted Hessian: Symmetric? True   Hermitian? True   Lin Dep Dim?  6 (6)
   post-proj low-frequency mode:    0.0001i [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0001i [cm^-1] (TR)
   post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
-  post-proj low-frequency mode:    0.0000  [cm^-1] (TR)
+  post-proj low-frequency mode:    0.0000i [cm^-1] (TR)
   post-proj low-frequency mode:    0.0001  [cm^-1] (TR)
   post-proj low-frequency mode:    0.0001  [cm^-1] (TR)
-  post-proj low-frequency mode:    0.0001  [cm^-1] (TR)
-  post-proj  all modes:['0.0001i' '0.0000i' '0.0000' '0.0001' '0.0001' '0.0001' '1650.6853'
- '3786.6289' '3877.7301']
+  post-proj  all modes:['0.0001i' '0.0001i' '0.0000i' '0.0000i' '0.0001' '0.0001' '1650.7175'
+ '3786.6131' '3877.7580']
 
   Vibration                       7                   8                   9           
-  Freq [cm^-1]                1650.6853           3786.6289           3877.7301       
+  Freq [cm^-1]                1650.7175           3786.6131           3877.7580       
   Irrep                           A1                  A1                  B2          
   Reduced mass [u]              1.0826              1.0452              1.0811        
-  Force const [mDyne/A]         1.7380              8.8302              9.5777        
+  Force const [mDyne/A]         1.7381              8.8301              9.5778        
   Turning point v=0 [a0]        0.2596              0.1744              0.1695        
   RMS dev v=0 [a0 u^1/2]        0.1910              0.1261              0.1246        
-  Char temp [K]               2374.9650           5448.1075           5579.1817       
+  Char temp [K]               2375.0149           5448.0932           5579.2304       
   ----------------------------------------------------------------------------------
-      1   O                0.00 -0.00 -0.07   -0.00 -0.00 -0.05   -0.00 -0.07  0.00   
-      2   H               -0.00 -0.43  0.56    0.00  0.58  0.40    0.00  0.55  0.44   
-      3   H                0.00  0.43  0.56    0.00 -0.58  0.40    0.00  0.55 -0.44   
+      1   O                0.00 -0.00 -0.07   -0.00  0.00 -0.05    0.00 -0.07 -0.00   
+      2   H               -0.00 -0.43  0.56   -0.00  0.58  0.40   -0.00  0.55  0.44   
+      3   H               -0.00  0.43  0.56   -0.00 -0.58  0.40   -0.00  0.55 -0.44   
 
   ==> Thermochemistry Components <==
 
   Entropy, S
     Electronic S            0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K] (multiplicity = 1)
-    Translational S        34.608 [cal/(mol K)]      144.801 [J/(mol K)]       0.05515186 [mEh/K] (mol. weight = 18.0106 [u], P = 101325.00 [Pa])
-    Rotational S           10.483 [cal/(mol K)]       43.859 [J/(mol K)]       0.01670497 [mEh/K] (symmetry no. = 2)
+    Translational S        34.608 [cal/(mol K)]      144.801 [J/(mol K)]       0.05515177 [mEh/K] (mol. weight = 18.0106 [u], P = 101325.00 [Pa])
+    Rotational S           10.483 [cal/(mol K)]       43.859 [J/(mol K)]       0.01670494 [mEh/K] (symmetry no. = 2)
     Vibrational S           0.006 [cal/(mol K)]        0.026 [J/(mol K)]       0.00000986 [mEh/K]
-  Total S                  45.097 [cal/(mol K)]      188.686 [J/(mol K)]       0.07186669 [mEh/K]
+  Total S                  45.097 [cal/(mol K)]      188.686 [J/(mol K)]       0.07186657 [mEh/K]
   Correction S              0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
 
   Constant volume heat capacity, Cv
     Electronic Cv           0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
     Translational Cv        2.981 [cal/(mol K)]       12.472 [J/(mol K)]       0.00475022 [mEh/K]
     Rotational Cv           2.981 [cal/(mol K)]       12.472 [J/(mol K)]       0.00475022 [mEh/K]
-    Vibrational Cv          0.044 [cal/(mol K)]        0.183 [J/(mol K)]       0.00006983 [mEh/K]
-  Total Cv                  6.005 [cal/(mol K)]       25.127 [J/(mol K)]       0.00957028 [mEh/K]
+    Vibrational Cv          0.044 [cal/(mol K)]        0.183 [J/(mol K)]       0.00006982 [mEh/K]
+  Total Cv                  6.005 [cal/(mol K)]       25.127 [J/(mol K)]       0.00957025 [mEh/K]
   Correction Cv             0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
 
   Constant pressure heat capacity, Cp
     Electronic Cp           0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
-    Translational Cp        4.968 [cal/(mol K)]       20.786 [J/(mol K)]       0.00791704 [mEh/K]
+    Translational Cp        4.968 [cal/(mol K)]       20.786 [J/(mol K)]       0.00791703 [mEh/K]
     Rotational Cp           2.981 [cal/(mol K)]       12.472 [J/(mol K)]       0.00475022 [mEh/K]
-    Vibrational Cp          0.044 [cal/(mol K)]        0.183 [J/(mol K)]       0.00006983 [mEh/K]
-  Total Cp                  7.993 [cal/(mol K)]       33.441 [J/(mol K)]       0.01273709 [mEh/K]
+    Vibrational Cp          0.044 [cal/(mol K)]        0.183 [J/(mol K)]       0.00006982 [mEh/K]
+  Total Cp                  7.993 [cal/(mol K)]       33.441 [J/(mol K)]       0.01273706 [mEh/K]
   Correction Cp             0.000 [cal/(mol K)]        0.000 [J/(mol K)]       0.00000000 [mEh/K]
 
   ==> Thermochemistry Energy Analysis <==
@@ -2886,30 +2923,30 @@ Total time:
     Electronic ZPE          0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
     Translational ZPE       0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
     Rotational ZPE          0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
-    Vibrational ZPE        13.317 [kcal/mol]       55.716 [kJ/mol]       0.02122123 [Eh]        4657.521 [cm^-1]
-  Correction ZPE           13.317 [kcal/mol]       55.716 [kJ/mol]       0.02122123 [Eh]        4657.521 [cm^-1]
-  Total ZPE, Electronic energy at 0 [K]                                -76.44839196 [Eh]
+    Vibrational ZPE        13.317 [kcal/mol]       55.717 [kJ/mol]       0.02122133 [Eh]        4657.544 [cm^-1]
+  Correction ZPE           13.317 [kcal/mol]       55.717 [kJ/mol]       0.02122133 [Eh]        4657.544 [cm^-1]
+  Total ZPE, Electronic energy at 0 [K]                                -76.44839185 [Eh]
 
   Thermal Energy, E (includes ZPE)
     Electronic E            0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
     Translational E         0.889 [kcal/mol]        3.718 [kJ/mol]       0.00141628 [Eh]
     Rotational E            0.889 [kcal/mol]        3.718 [kJ/mol]       0.00141628 [Eh]
-    Vibrational E          13.318 [kcal/mol]       55.723 [kJ/mol]       0.02122384 [Eh]
-  Correction E             15.096 [kcal/mol]       63.160 [kJ/mol]       0.02405640 [Eh]
-  Total E, Electronic energy at  298.15 [K]                            -76.44555679 [Eh]
+    Vibrational E          13.318 [kcal/mol]       55.723 [kJ/mol]       0.02122395 [Eh]
+  Correction E             15.096 [kcal/mol]       63.160 [kJ/mol]       0.02405650 [Eh]
+  Total E, Electronic energy at  298.15 [K]                            -76.44555668 [Eh]
 
   Enthalpy, H_trans = E_trans + k_B * T
     Electronic H            0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
     Translational H         1.481 [kcal/mol]        6.197 [kJ/mol]       0.00236046 [Eh]
     Rotational H            0.889 [kcal/mol]        3.718 [kJ/mol]       0.00141628 [Eh]
-    Vibrational H          13.318 [kcal/mol]       55.723 [kJ/mol]       0.02122384 [Eh]
-  Correction H             15.688 [kcal/mol]       65.639 [kJ/mol]       0.02500058 [Eh]
-  Total H, Enthalpy at  298.15 [K]                                     -76.44461260 [Eh]
+    Vibrational H          13.318 [kcal/mol]       55.723 [kJ/mol]       0.02122395 [Eh]
+  Correction H             15.688 [kcal/mol]       65.639 [kJ/mol]       0.02500068 [Eh]
+  Total H, Enthalpy at  298.15 [K]                                     -76.44461250 [Eh]
 
   Gibbs free energy, G = H - T * S
     Electronic G            0.000 [kcal/mol]        0.000 [kJ/mol]       0.00000000 [Eh]
-    Translational G        -8.837 [kcal/mol]      -36.975 [kJ/mol]      -0.01408306 [Eh]
-    Rotational G           -2.237 [kcal/mol]       -9.358 [kJ/mol]      -0.00356431 [Eh]
-    Vibrational G          13.316 [kcal/mol]       55.715 [kJ/mol]       0.02122090 [Eh]
-  Correction G              2.242 [kcal/mol]        9.382 [kJ/mol]       0.00357353 [Eh]
-  Total G, Free enthalpy at  298.15 [K]                                -76.46603965 [Eh]
+    Translational G        -8.837 [kcal/mol]      -36.975 [kJ/mol]      -0.01408304 [Eh]
+    Rotational G           -2.237 [kcal/mol]       -9.358 [kJ/mol]      -0.00356430 [Eh]
+    Vibrational G          13.316 [kcal/mol]       55.716 [kJ/mol]       0.02122101 [Eh]
+  Correction G              2.243 [kcal/mol]        9.383 [kJ/mol]       0.00357366 [Eh]
+  Total G, Free enthalpy at  298.15 [K]                                -76.46603952 [Eh]
