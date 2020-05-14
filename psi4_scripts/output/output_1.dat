@@ -1,5 +1,7 @@
 
   Memory set to   1.863 GiB by Python driver.
+<<<<<<< HEAD
+=======
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on DESKTOP-UC4IJ0G
@@ -8647,3 +8649,4 @@ Total time:
     Vibrational G          27.779 [kcal/mol]      116.229 [kJ/mol]       0.04426929 [Eh]
   Correction G             15.442 [kcal/mol]       64.608 [kJ/mol]       0.02460794 [Eh]
   Total G, Free enthalpy at  298.15 [K]                                -40.51685226 [Eh]
+>>>>>>> ebb20ce10901343aa82596554b6317ab872af4b6
