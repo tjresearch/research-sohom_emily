@@ -20,8 +20,6 @@ from spektral.utils import label_to_one_hot
 
 from sklearn.preprocessing import StandardScaler
 
-print("finished imports")
-
 # In[2]:
 
 
@@ -38,7 +36,6 @@ A_all, X_all, E_all, y_all = qm9.load_data(return_type='numpy',
                            ef_keys='type',
                            self_loops=True,
                            amount=None) # chnage this to None to load entire dataset
-print("finished reading SDF")
 
 # Preprocessing
 X_uniq = np.unique(X_all)
@@ -270,10 +267,4 @@ if __name__ == '__main__':
 
 if __name__ == '__main__':
     print(predict_property('A', 1, clusters, N=N, F=F, S=S))
-
-
-# In[ ]:
-
-
-
 

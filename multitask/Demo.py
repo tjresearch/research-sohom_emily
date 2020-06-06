@@ -5,7 +5,7 @@
 
 
 # get_ipython().run_line_magic('run', 'QM9GNN2_Multitask.ipynb')
-import QM9GNN2_Multitask
+from QM9GNN2_Multitask import *
 print("finished importing QM9GNN2_Multitask")
 
 # In[ ]:
