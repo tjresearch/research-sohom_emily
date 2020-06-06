@@ -243,8 +243,14 @@ if __name__ == '__main__':
   for cluster in clusters:
     print(f'training {cluster}')
     model = build_hard_sharing_model(N=N, F=F, S=S, num_tasks=len(cluster))
+
+    # model.summary()
+    # print(X_train.shape, A_train.shape, E_train.shape)
+    # print(y_train[cluster].values[0])
+
+    y_train_cluster = np.hsplit(y_train[cluster].values, len(cluster))
     model.fit(x=[X_train, A_train, E_train], 
-              y=y_train[cluster].values,
+              y=y_train_cluster,
               batch_size=batch_size,
               validation_split=0.1,
               epochs=25)
@@ -257,8 +263,9 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     for cluster in clusters:
       model, _ = load_hard_sharing_model(N=N, F=F, S=S, tasks=clusters[0])
+      y_test_cluster = np.hsplit(y_test[cluster].values, len(cluster))
       model_loss = model.evaluate(x=[X_test, A_test, E_test],
-                                    y=y_test[cluster].values)
+                                    y=y_test_cluster)
       print(f"Test loss: {model_loss}")
 
 
