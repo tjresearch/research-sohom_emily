@@ -1,5 +1,6 @@
 .vs/
 .vscode/
+qm9_data/
 **/.ipynb_checkpoints
 **/timer.dat
 **/psi.*.clean
