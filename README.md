@@ -14,4 +14,7 @@ Our project seeks to combine multitask learning with graph convolutional network
 We are learning from the QM9 dataset, which has chemical properties for 134k organic molecules with up to 9 heavy atoms (CONF). More information about this dataset and download instructions can be found at http://www.quantum-machine.org/datasets/. Note that graphical representations of the molecules come bundled with Spektral, but the true geometries are necessary for density-functional computation with Psi4.
 
 **Build and Run Instructions**
-Unfortunately, we do not yet have a complete shipped product. However, all of our files are interactive Python notetbooks and may be downloaded and run in Jupyter Notebook or Google Colab.
+All of our files are interactive Python notetbooks and may be downloaded and run in Jupyter Notebook or Google Colab.
+
+**Paper**
+Our final writeup is included as `final_paper.pdf` above.
